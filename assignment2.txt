@@ -1,0 +1,24 @@
+We have decided to take temperature readings from a station in Sibiu, a quite big city in Romania because we are 2 Romanians in the team and Sibiu is quite close to the hometown of one of our team members: Nicolae who is from Brasov. 
+We have chosen this weather station also because it has measurements sice 1880 which should be enough data to find how the weather has changed during the last 100 years. 
+
+As we can see in our visualisations, it is hard to understand how the weather has evolved during the last 100 years and I think this is not much because of the visualisations themselves, but mostly because of the data we have used to visualise.
+To obtain an improvement I would, first of all, make some statistical analysis on how the weather changed in time. For example we could keep calculating the mean of temperature during the whole year but also calculate some variance or standard deviation
+to see how much has the weather changed during those years. By having this information, I think we could see if the weather became more unstable in the recent year, something expected due to the global warming. I think we could still use the plot as in our first visualisation
+since it is certainly one of the best methods to see how a variable evolves in time and by plotting different statistical analysis maybe we can somehow find what big changes happened to the weather for the past 100 years.
+Secondly, I would also cosider data from other weather stations and then provide a way to visualise how the weather has changed in different regions of a country, or a continent. I think for this we could calculate how much has the 
+mean temperature of a year changed during the last 100 years and obtain a single value, positive if the average temperature has increased and negative otherwise. By taking these values, I think it could be very useful to make a heatmap like this http://icmconsulting.com/media/uploads/Geothermal_heat_map_US.png
+and color the regions surrounding each weather station with a color that corresponds to the values we obtained. By having such a visualisation, we can see if the weather became warmer of colder in some regions, or if in some regions the average temperature has increased faster than in other regions. I think this would
+also provide useful information on how weather in regions with different geographical aspects evolve in time. For example, Sibiu is a town located in an area surrounded by mountanis and many forests that have a big impact on keeping the temperature quite constant and provide protection from important winds. Maybe in regions from south of Romania 
+where the land is more plain and with few forests the average temperature has increased faster and that would be visible in the type of heatmap that I am suggesting. An issue for making such visualisation is that not all weather stations provide consistent data since 1880 as the station from Sibiu but I think there are certanly ways to deal with this issue.
+
+
+maybe make a heatmap of this type http://icmconsulting.com/media/uploads/Geothermal_heat_map_US.png. I would take those measurements from different weather stations, the map of a continent of a country, calculate
+how has the mean temperature changed in time and the plot that difference with a specific color. By doing like this, we can see if in some regions the weather has become a lot warmer than in other regions  
+
+
+
+ and even if your visualisations seem to be well done, I think 
+
+
+I think mostly because the weather has a very slow evolution in time and a lot more data is needed to observe the changes. 
+I would first of all start by reading data from different weather stations in different regions and do some statistical analysis of how the weather has evolved. For example, 

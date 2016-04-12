@@ -1,0 +1,5613 @@
+Departure,Nationality,Destination,Year
+Nederland,Dutch,Batavia,1847
+Batavia,Dutch,Brouwershaven,1848
+CÁDIZ,Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,CÁDIZ,1777
+LIMA,Spanish,ESPAÑA (CÁDIZ?),1778
+EL CALLAO,Spanish,CADIZ,1778
+EL CALLAO,Spanish,CÁDIZ,1778
+EL CALLAO,Spanish,CÁDIZ,1778
+EL CALLAO (LIMA),Spanish,CÁDIZ,1778
+CALLAO,Spanish,CÁDIZ,1778
+EL CALLAO,Spanish,CÁDIZ,1778
+CALLAO,Spanish,CÁDIZ,1778
+EL CALLAO DE LIMA,Spanish,BAHÍA DE CÁDIZ,1778
+CÁDIZ,Spanish,LISBOA-FERROL,1786
+CADIZ,Spanish,MONTEVIDEO,1789
+BARCELONA,Spanish,MARAÑÓN,1848
+MARAÑÓN,Spanish,BARCELONA,1848
+BARCELONA,Spanish,VERACRUZ,1849
+Batavia,Dutch,Nederland,1827
+Cork ,British,Carlisle Bay Barbados,1807
+Road Torn Tortola,British,The Downs,1809
+Boston,British,Plymouth,1774
+New York,British,Plymouth,1776
+Jersey,British,Nova Scotia,1777
+St Johns,British,cruising off Grand Banks,1777
+St Johns, Newfoundland,British,Spithead,1777
+Spithead,British,Spithead (via Fyal),1800
+St Johns Newfoundland,British,Lisbon,1795
+St Pierre Bay Martinico,British,St Johns Newfoundland,1795
+Spithead,British,Table Bay,1798
+Table Bay,British,Port Louis, Mauritius,1799
+St Marys, Madagascar,British,Table Bay,1800
+Simons Bay,British,Chatham,1801
+Vlissingen,Dutch,Noord Amerika,1846
+New York,Dutch,The Netherlands,1846
+New York,Dutch,The Netherlands,1848
+Curacao,Dutch,St. Eustacius,1848
+St. Eustacius,Dutch,La Guyara,1849
+Curaçao,Dutch,Suriname,1849
+Suriname,Dutch,Curaçao,1850
+Curaçao,Dutch,Nederland,1852
+Nieuwediep,Dutch,Kaap de Goede Hoop,1815
+Kaap de Goede Hoop,Dutch,Batavia,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1816
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1817
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Coastal East India,Dutch,Coastal East India,1818
+Batavia,Dutch,Diego Garcia,1819
+Nieuwediep,Dutch,Batavia,1842
+Batavia,Dutch,Nieuwediep,1843
+Nieuwediep,Dutch,Batavia,1844
+Banjoewangie,Dutch,Nieuwediep,1845
+Nieuwediep,Dutch,Batavia,1846
+Batavia,Dutch,Nieuwediep,1846
+Nieuwediep,Dutch,Batavia,1847
+Batavia,Dutch,Nieuwediep,1847
+Nieuwediep,Dutch,Batavia,1848
+Batavia,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Batavia,1850
+Batavia,Dutch,Nieuwediep,1850
+Nieuwediep,Dutch,Batavia,1851
+Batavia,Dutch,Nieuwediep,1851
+Middelburg,Dutch,Ceylon,1767
+Cape Agullas,British,Mohilla Island,1762
+Mohilla Island,British,Bombay,1762
+Bengal,British,Cape Town,1768
+Java Head,British,St Helena,1750
+St Helena,British,Plymouth,1750
+Texel,Dutch,Batavia,1677
+Ramekens,Dutch,Guinea,1750
+Eppee,Dutch,Nederland,1751
+Amsterdam,Dutch,Spitsbergen,1769
+Spitsbergen,Dutch,Amsterdam,1769
+Amsterdam,Dutch,Spitsbergen,1770
+Spitsbergen,Dutch,Amsterdam,1770
+Hellevoetsluis,Dutch,Boston,1814
+Boston,Dutch,Texel,1814
+Nederland,Dutch,Siera Leone,1816
+Siera Leone,Dutch,Liberia,1816
+Liberia,Dutch,Fort Axim,1816
+St George d'Elmina,Dutch,Suriname,1817
+Suriname,Dutch,Curacao,1817
+Curacao,Dutch,Nederland,1817
+Hellevoetsluis,Dutch,Rio de Janeiro,1818
+Rio de Janeiro,Dutch,Batavia,1819
+Hellevoetsluis,Dutch,Bahia de Todos los Santos,1833
+Bahia de Todos los Santos,Dutch,Batavia,1834
+Batavia,Dutch,Soerabaja,1834
+Soerabaja,Dutch,Ambon,1834
+Ambon,Dutch,Ternatten,1834
+Ternatten,Dutch,Banda,1834
+Banda,Dutch,Ambon,1834
+Ambon,Dutch,Soerabaja,1834
+Soerabaja,Dutch,Batavia,1834
+Batavia,Dutch,Kruisjende (bij Fanara),1834
+Straat van Banka,Dutch,Batavia,1835
+Batavia,Dutch,Nederland,1838
+Ceylon,Dutch,Texel,1753
+Texel,Dutch,Java,1755
+Java,Dutch,Colombo,1755
+Colombo,Dutch,Batavia,1756
+Batavia,Dutch,Ziam,1756
+Ziam,Dutch,Malakka,1756
+Malakka,Dutch,Punto Gale,1757
+Punto Gale,Dutch,Colombo,1757
+Lisbon,British,Spithead,1772
+Lisbon,British,Spithead,1773
+Basse Terre Roads,British,Spithead,1797
+Spithead,British,Carlisle Bay, Barbados,1798
+Port Royal,British,Nore,1800
+Spithead,British,Mocha,1798
+Bombay,British,Kedgeree,1800
+Saugor Road,British,Goa,1802
+Saugor Road,British,Madras,1804
+Croque, Newfoundland,British,Fercera, near St Michaels ,1771
+Croque, Newfoundland,British,Fercera, near St Michaels,1771
+Plymouth,British,Newfoundland,1773
+St Johns, Newfoundland,British,Lisbon,1773
+Spithead,British,St Johns, Newfoundland,1774
+St Johns, Newfoundland,British,Cadiz,1774
+Cadiz,British,Plymouth,1774
+Plymouth,British,St Johns, Newfoundland,1775
+St Johns, Newfoundland,British,UK,1775
+Lisbon,British,Plymouth,1776
+Lisbon,British,Plymouth,1776
+Brouwershaven,Dutch,Batavia,1849
+Maneter,Dutch,Semarang,1849
+Semarang,Dutch,Batavia,1849
+Panaroekan,Dutch,Brouwershaven,1850
+Brouwershaven,Dutch,Hartlepool,1850
+Hartlepool,Dutch,China,1850
+Hong Kong,Dutch,Batavia,1851
+Batavia,Dutch,Brouwershaven,1851
+Teneriffe,British,Madagascar,1761
+Madagascar,British,Nagapatan,1761
+Diego Rays (Rodriques),British,Table Bay,1761
+Table Bay,British,St Helena,1762
+St Helena,British,UK,1762
+Cape Francois Harbour, Hispanola,British,Spithead,1791
+Downs,British,Madras,1791
+Java Head,British,Downs,1791
+Java Head,British,St Helena,1795
+Simons Bay,British,Madras,1796
+Lombock (Nr Bali),British,Portsmouth,1797
+Texel,Dutch,St Salvador,1833
+St Salvador,Dutch,Batavia,1833
+Batavia,Dutch,Nieuwediep,1834
+Nederland,Dutch,Suriname,1837
+Suriname,Dutch,The Netherlands,1839
+Batavia,Dutch,Texel,1775
+Rotterdam,Dutch,Madeira,1777
+Madeira,Dutch,Texel,1777
+Texel,Dutch,Lissabon,1778
+Lissabon,Dutch,Madeira,1778
+Madeira,Dutch,St Eustatius,1778
+St Eustatius,Dutch,Texel,1778
+Portsmouth,British,Halifax,1791
+Halifax,British,Barbados,1793
+Havanna,British,Liverpool,1794
+Cape St Vincent,British,Barbados,1805
+Barbados,British,Gibraltar,1805
+Spithead,British,Funchal,1806
+Funchal,British,St Jago,1806
+St Jago,British,Azores,1806
+Spithead,British,Funchal,1806
+Funchal,British,Barbados,1806
+Barbados,British,Newfoundland,1806
+Rotterdam,Dutch,Porte Praay,1767
+Porte Praay,Dutch,St Paulo,1768
+St Paulo,Dutch,Maxim,1768
+St George d'Elmina,Dutch,Suriname,1768
+Suriname,Dutch,St Jacobsbaai,1768
+St Jacobsbaai,Dutch,St Eustatius,1768
+St Eustatius,Dutch,Texel,1769
+Texel,Dutch,Lissabon,1791
+Lissabon,Dutch,Baai Fals,1792
+Baai Fals,Dutch,Straat Sunda,1793
+Nederland,Dutch,Batavia,1849
+Spithead,British,Barbados,1796
+Port Royal Jamaica,British,Plymouth,1798
+Cork,British,Barbados,1801
+Port Royal Jamaica,British,Spithead,1801
+Nederland,Dutch,Batavia,1849
+Batavia,Dutch,Nieuwediep,1849
+Nederland,Dutch,Kaap de Goede Hoop,1850
+Kaap de Goede Hoop,Dutch,Batavia,1850
+Batavia,Dutch,Nederland,1850
+Spithead,British,Martinico,1798
+Brest,French,Fort Royal,1775
+Caribean,French,Brest,1776
+Coastal,French,Coastal,1776
+Spithead,British,Carlise Bay (Barbados),1797
+Basse Terre Road, St Kitts,British,Spithead,1801
+Nieuwediep,Dutch,Guinee,1838
+Guinee,Dutch,Nieuwediep,1838
+Nieuwediep,Dutch,Suriname,1839
+Suriname,Dutch,Barbados,1840
+Suriname,Dutch,Nederland,1841
+Nieuwediep,Dutch,Liverpool,1853
+Liverpool,Dutch,Port Philip,1853
+Port Philip,Dutch,Batavia,1853
+Soerabaija,Dutch,Nieuwediep,1854
+Unknown,Dutch,Paramaribo,1826
+Curacao,Dutch,Rio de Janeiro,1827
+Rio de Janeiro,Dutch,Rio de la Plata,1827
+Rio de Janeiro,Dutch,Vlissingen,1827
+Nederland,Dutch,Batavia,1842
+Batavia,Dutch,Nieuwediep,1842
+Nieuwediep,Dutch,Batavia,1845
+Batavia,Dutch,Nieuwediep,1845
+Texel,Dutch,Porto Praijo,1815
+Porto Praijo,Dutch,Allerheiligen Baaij,1815
+Allerheiligen Baaij,Dutch,Tafelbaai,1816
+Tafelbaai,Dutch,Batavia,1816
+Soerabaya,Dutch,Algoa Baai,1817
+Algoa Baai,Dutch,Nederland,1818
+London,Dutch,New York,1853
+New York,Dutch,Curacao,1853
+Curacao,Dutch,The Netherlands,1853
+Isle of Bec (Canada),British,Cadiz,1793
+St Kitts,British,Halifax,1795
+St Johns,British,Lisbon,1795
+Nederland,Dutch,Batavia,1836
+Batavia,Dutch,Rotterdam,1836
+Nederland,Dutch,Java,1844
+Tjilatjap,Dutch,Nederland,1844
+Nederland,Dutch,Rio de la Plata,1845
+Buenos Aires,Dutch,Antwerpen,1845
+Nieuwediep,Dutch,Suriname,1852
+Suriname,Dutch,Nieuwediep,1852
+Nieuwediep,Dutch,Suriname,1853
+Suriname,Dutch,Nieuwediep,1853
+Spithead,British,St John's Harbour Newfoundland,1770
+St John's Harbour Newfoundland,British,Spithead,1770
+Rotterdam,Dutch,Batavia,1828
+Batavia,Dutch,Rotterdam,1829
+Rotterdam,Dutch,Batavia,1829
+Batavia,Dutch,Rotterdam,1830
+Rotterdam,Dutch,Batavia,1830
+Batavia,Dutch,Rotterdam,1831
+Bali,Dutch,Rotterdam,1833
+Rotterdam,Dutch,Batavia,1832
+Bali,Dutch,Rotterdam,1832
+Rotterdam,Dutch,Batavia,1833
+Bali,Dutch,Rotterdam,1834
+Rotterdam,Dutch,Batavia,1834
+Batavia,Dutch,Nederland,1835
+Rotterdam,Dutch,Batavia,1836
+Batavia,Dutch,Nederland,1836
+Nederland,Dutch,St George d'Elmina,1837
+St George d'Elmina,Dutch,Batavia,1837
+Soerabaija,Dutch,Nederland,1838
+Nederland,Dutch,St George d'Elmina,1840
+St George d'Elmina,Dutch,Batavia,1840
+Java,Dutch,Nederland,1841
+Nederland,Dutch,St George d'Elmina,1844
+St George d'Elmina,Dutch,Batavia,1845
+Java,Dutch,Brouwershaven,1845
+Lisbon,British,Spithead,1780
+Texel,Dutch,Fontiaal,1752
+Fontiaal,Dutch,Curacao,1752
+Curacao,Dutch,Texel,1753
+Hellevoetsluis,Dutch,Suriname,1780
+Fort Amsterdam,Dutch,Hellevoetsluis,1780
+Hellevoetsluis,Dutch,St Eustacius,1780
+St Eustacius,Dutch,Rotterdam,1783
+Hellevoetsluis,Dutch,Demerary,1785
+Demerary,Dutch,Nederland,1785
+Soerabaya,Dutch,Lissabon,1804
+Texel,Dutch,Rio de Janeiro,1821
+Rio de Janeiro,Dutch,Batavia,1821
+Batavia,Dutch,Kaapstad,1823
+Kaapstad,Dutch,Nederland,1824
+Medemblik,Dutch,New York,1825
+New York,Dutch,Tafelbaai,1825
+Tafelbaai,Dutch,Batavia,1825
+Curaçao,Dutch,Suriname,1853
+Torbay,British,Madeira,1776
+Madeira,British,Porta Praya,1776
+Porta Praya,British,Ascension,1776
+Ascension,British,St Helena,1776
+St Helena,British,UK,1776
+Madeira,British,Cape of Good Hope,1762
+Cape of Good Hope,British,Madras,1762
+Manilla,British,Mallacca,1763
+Malacca,British,Achin Road,1763
+Achin Road,British,Madras,1763
+Calcutta ,British,Batavia,1764
+Batavia,British,Canton,1765
+Wampoa,British,Malacca,1765
+Pulo Perra,British,Madras,1766
+Madras,British,Port Louis,1766
+Port Louis,British,St Augustine,1766
+St Augustine,British,Cape of Good Hope,1766
+Cape of Good Hope,British,St Helena,1767
+St Helena,British,UK,1767
+Basse Terre,British,Antigua,1775
+Basse Terre,British,Spithead,1776
+Spithead,British,Goree,1782
+St Thomas,British,Barbados,1782
+Antigua,British,Plymouth,1784
+Spithead,British,St Helena,1794
+St Helena,British,Downs,1794
+Nederland,Dutch,Batavia,1840
+Nederland,Dutch,Batavia,1841
+Nederland,Dutch,Kaapstad,1841
+Kaapstad,Dutch,Batavia,1841
+Batavia,Dutch,Nieuwediep,1843
+Batavia,Dutch,Nederland,1843
+Nederland,Dutch,Rio de Janeiro,1846
+Rio de Janeiro,Dutch,Batavia,1847
+Rio de Janeiro,Dutch,Batavia,1847
+Batavia,Dutch,Padang,1847
+Padang,Dutch,Batavia,1848
+Batavia,Dutch,Straat Sapoedie,1849
+Batavia,Dutch,The Netherlands,1850
+Nederland,Dutch,Lerwick,1846
+Lerwick,Dutch,Hellevoetsluis,1846
+Hellevoetsluis,Dutch,Rio de Janeiro,1846
+Rio de Janeiro,Dutch,Batavia,1847
+Charles Town (Charleston),British,Lisbon,1751
+Lisbon,British,Woolwich,1751
+Spithead,British,New York,1753
+New York,British,St Mary's sound, England,1753
+Plymouth, GB,British,St Johns Harbour, Newfoundland,1754
+St John's Harbour (Newfoundland),British,Lisbon,1754
+Lisbon,British,Spithead,1754
+St Hellens Road (England),British,Halifax (Nova Scotia),1755
+Halifax,British,Plymouth,1755
+Lisbon,British,Spithead,1756
+Carrick Road,British,Charles Town,1757
+Charles Town (Charleston),British,Deptford,1757
+Spithead,British,Louisbourg,1758
+Louisbourg,British,Antigua,1759
+Antigua,British,Portsmouth,1761
+Torbay,British,Hampton Road,1762
+Plymouth,British,Teneriffe,1774
+Teneriffe,British,Plymouth,1774
+Newport Rhode Island,British,Portsmouth,1777
+Spithead,British,Madeira,1778
+Madeira,British,Simon's Bay,1778
+Simons Bay,British,Bombay,1778
+Madras,British,Madagascar,1780
+Madagascar,British,Table Bay,1780
+Table Bay,British,St Helena,1780
+Spithead,British,Sumatra,1785
+Java,British,Spithead,1786
+Dunnose,British,Bombay,1788
+Whampoa,British,Blackwall,1789
+Plymouth,British,Cape Coast,1756
+Cape Coast,British,Princes Island,1756
+Princes  ,British,Barbados,1757
+Spithead,British,Hampton Road Virginia,1761
+Virginia,British,Portsmouth,1761
+Madeira,British,St Helena,1762
+St Helena,British,Downs UK,1762
+Cadiz,British,Spithead,1750
+Plymouth,British,Madeira,1751
+Port Praya,British,Sierra Leone,1751
+Cork ,British,Charlestown,1780
+Madras,British,Spithead,1792
+Nederland,Dutch,Elmina,1802
+St George d'Elmina,Dutch,Nieuwe Diep,1802
+Nederland,Dutch,Suriname,1851
+Suriname,Dutch,Curacao,1851
+Curacao,Dutch,Hellevoetsluis,1851
+Pensicola Florida,British,The Downs, UK,1778
+Spithead,British,Santa Cruz, Tenerife,1779
+Gravesend,British,Java,1785
+Java Head,British,Gravesend,1786
+Nederland,Dutch,New York,1815
+New York,Dutch,Schiedam,1815
+Canton,British,Deptford,1751
+Texel,Dutch,Batavia,1819
+Batavia,Dutch,Antwerpen,1820
+Antwerpen,Dutch,Batavia,1821
+Batavia,Dutch,Antwerpen,1821
+Spithead,British,Gibraltar,1759
+Yarmouth,British,Barbados,1777
+English Bay, Antigua,British,Antigua,1778
+Barbados (Cruising),British,Carlise Bay Barbados,1779
+Antigua,British,Barbados,1779
+Barbados,British,Downs UK,1779
+Kedgeree,British,St Helena,1801
+Texel,Dutch,Batavia,1836
+Java,Dutch,Texel,1836
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Spithead,British,cruise in Western Approaches,1760
+Nederland,Dutch,Batavia,1851
+Batavia,Dutch,Nederland,1852
+Nederland,Dutch,Batavia,1852
+Batavia,Dutch,Nieuwediep,1853
+Nederland,Dutch,Batavia,1853
+Batavia,Dutch,Nederland,1854
+CADIZ,Spanish,RIO DE JANEIRO,1765
+RIO DE JANEIRO,Spanish,MANILA,1765
+MANILA,Spanish,CADIZ,1767
+MANILA,Spanish,ISLA DE LA ASCENSION,1767
+Cape Clear,British,Searching for an island,1751
+Portsmouth,British,Madeira,1751
+Madeira,British,Accraw,1752
+Accraw,British,UK,1752
+Kinsale (Eire),British,Madeira,1752
+Madeira,British,River Gambia,1752
+River Gambia,British,River Serralione,1752
+River Serralione,British,Cape Mount,1752
+Cape Mount,British,Cape Moniferado,1752
+Cape Moniferado,British,Crew Setra,1752
+Crew Setra,British,Dixcove,1752
+Accraw,British,St Thomas,1752
+St Thomas,British,Barbados,1753
+Antigua,British,Lizard,1755
+Dixcove,British,Accraw,1752
+Bombay,British,Diego Ray,1761
+Diego Ray,British,Mauritius,1761
+Mauritius,British,Madras,1761
+Colombo (Sri Lanka),British,Princes Island (Java),1761
+Mew Bay -Java,British,Bombay,1762
+Cape Comerin,British,St Helena,1764
+St Helena,British,Ascension,1764
+Ascension,British,Spithead,1764
+Nieuwediep,Dutch,Batavia,1845
+Batavia,Dutch,Vlissingen,1853
+Rotterdam,Dutch,Batavia,1829
+Soerabaya,Dutch,Rotterdam,1830
+Rotterdam,Dutch,Batavia,1832
+Batavia,Dutch,Rotterdam,1832
+Rotterdam,Dutch,Batavia,1833
+Padang,Dutch,Helvoetsluis,1833
+Rotterdam,Dutch,Batavia,1834
+Batavia,Dutch,Rotterdam,1835
+Rotterdam,Dutch,Batavia,1835
+Batavia,Dutch,Helvoetsluis,1835
+Rotterdam,Dutch,Batavia,1836
+Batavia,Dutch,Helvoetsluis,1836
+Rotterdam,Dutch,Batavia,1837
+Batavia,Dutch,Rotterdam,1837
+Rotterdam,Dutch,Batavia,1838
+Batavia,Dutch,Rotterdam,1839
+Rotterdam,Dutch,Batavia,1839
+Batavia,Dutch,Rotterdam,1840
+Nederland,Dutch,Batavia,1846
+Texel,Dutch,Kaap de Goede Hoop via O. Indie,1802
+Kaap de Goede Hoop via O. Indie,Dutch,Batavia,1803
+Batavia,Dutch,Port Louis,1803
+Port Louis,Dutch,Tafelbaai,1804
+Tafelbaai,Dutch,Simonsbaai,1804
+Plymouth,British,Madeira,1758
+Madeira,British,Hampton Road Virginia,1758
+Fort William,British,Halifax,1758
+Halifax,British,Port Royal, Jamaica,1758
+UK,British,Dominica,1763
+UK,British,Halifax,1767
+Halifax,British,Barbados,1768
+Barbados,British,Halifax,1768
+Halifax,British,Antigua,1771
+Spithead,British,Carlisle Bay,1796
+Tortola,British,Spithead,1798
+Lagos Bay,British,Gibraltar via Antigua,1805
+Plymouth,British,Barbados,1806
+Spithead,British,Carlisle Bay Barbados,1807
+Plymouth,British,Plymouth (cruising),1777
+Plymouth,British,Madeira,1777
+Porto Praya,British,Portsmouth,1777
+Torbay,British,Plymouth (cruising western approaches),1778
+Madeira,British,St Helena,1778
+St Helena,British,Ascension,1778
+Ascension,British,Plymouth,1778
+Madras,British,Madagascar,1780
+Hellevoetsluis,Dutch,Grand Canarien,1783
+Grand Canarien,Dutch,Demerary,1784
+Hellevoetsluis,Dutch,Grand Canarien,1784
+Hellevoetsluis,Dutch,Baai Falso,1789
+Baai Falso,Dutch,Batavia,1789
+Batavia,Dutch,Tafelbaai,1792
+Tafelbaai,Dutch,Hellevoetsluis,1792
+London,British,Rio de Janeiro,1792
+Rio de Janeiro,British,Port Jackson,1792
+Port Jackson,British,Prince of Wales Island,1793
+Lombock (nr Bali),British,St Helena,1794
+Deptford,British,Madras,1795
+Sajor Road,British,St Helena,1796
+Texel,Dutch,Kaap de Goede Hoop,1796
+Downs,British,Madras,1797
+Timor,British,Downs,1798
+Rotterdam,Dutch,Batavia,1825
+Batavia,Dutch,Texel,1830
+Nieuwediep,Dutch,Batavia,1839
+Nieuwediep,Dutch,Batavia,1839
+Nieuwediep,Dutch,Batavia,1839
+Batavia,Dutch,Nieuwediep,1842
+Batavia,Dutch,Nieuwediep,1842
+Batavia,Dutch,Nieuwediep,1842
+Java Head,British,Downs,1789
+Waterford,British,Barbados,1796
+Spithead,British,Barbados,1792
+St Johns Antigua,British,Woodmans Bay Dominica,1793
+St Christophers (Basse Terre),British,Carlise Bay Barbados,1793
+Basse Terre,British,Halifax,1794
+Halifax,British,Basse Terre,1794
+St john's Antigua,British,Spithead,1795
+Lizard,British,Madeira,1750
+Madeira,British,Senegal,1750
+Senegal,British,Lisbon,1750
+Cadiz,British,Spithead,1751
+Charleston,British,Plymouth,1758
+Port Royal,British,Spithead,1792
+Falmouth,British,Barbados,1793
+Prince Ruperts Bay,British,Falmouth UK,1794
+Yarmouth,British,Madeira,1766
+Senegal,British,Lisbon,1766
+Lisbon,British,Kinsale,1766
+Spithead,British,Cadiz,1768
+Lisbon,British,Kinsale,1768
+Amsterdam,Dutch,Funchal,1771
+Funchal,Dutch,Porto Praija,1771
+Porto Praija,Dutch,Rio Sester,1771
+Rio Sester,Dutch,St George d'Elmina,1771
+St George d'Elminar,Dutch,Suriname,1771
+West Indies,Dutch,Nederland,1772
+Amsterdam,Dutch,Suriname,1772
+Suriname,Dutch,Nieuwediep,1773
+St Eustatius,British,Spithead,1787
+Nederland,Dutch,Rio de Janeiro,1835
+Rio de Janeiro,Dutch,Java,1835
+Java,Dutch,Tafelbaai,1838
+Tafelbaai,Dutch,Plymouth,1839
+Plymouth,Dutch,Vlissingen,1839
+Plymouth,Dutch,Rio de Janeiro,1840
+Rio de Janeiro,Dutch,Batavia,1840
+Batavia,Dutch,Vlissingen,1842
+Nederland,Dutch,Rio de Janeiro,1844
+Rio de Janeiro,Dutch,Java,1844
+Batavia,Dutch,Riouw,1844
+Riouw,Dutch,Padang,1844
+Padang,Dutch,Batavia,1846
+Banjoewangie,Dutch,Texel,1847
+Banjoewangie,Dutch,Texel,1847
+Nederland,Dutch,Rio de Janeiro,1848
+Rio de Janeiro,Dutch,Batavia,1848
+Vlissingen,Dutch,Columbo,1771
+Rotterdam,Dutch,Colombo,1760
+Colombo,Dutch,Batavia,1761
+Spithead,British,cruising Bay Biscay,1762
+Madeira,British,Hampton Road,1770
+Hampton Road,British,Hailfax,1770
+Kaap de Goede Hoop,Dutch,Nederland,1773
+Martinique,British,Plymouth,1794
+Texel,Dutch,Kaap de Goede Hoop,1796
+Rotterdam,Dutch,Curaçao,1782
+Java Head,British,Downs,1787
+Spithead,British,All Saints Bay,1783
+Downs,British,Madras,1802
+Texel,Dutch,Kaap de Goede Hoop,1787
+Falmouth,Dutch,Java,1844
+Falmouth,Dutch,Java,1849
+Batavia,Dutch,Nederland,1851
+Cape Francois Harbour,British,Spithead,1792
+Vlissingen,Dutch,Hampton,1802
+Hampton,Dutch,Texel,1802
+Portsmouth,British,Madras,1771
+Madras,British,Tillicherry,1772
+Madras,British,Spithead,1775
+Rotterdam,Dutch,Batavia,1848
+Batavia,Dutch,Rotterdam,1848
+Nederland,Dutch,Java,1849
+Java,Dutch,Nederland,1849
+Batavia,Dutch,Singels,1850
+Rotterdam,Dutch,Batavia,1850
+Batavia,Dutch,Nederland,1850
+Batavia,Dutch,Nederland,1851
+Porto Praya,British,Spithead,1784
+Princess Island (nr St Thomas),British,Barbados,1794
+Plymouth,British,Gibraltar,1768
+Gibraltar,British,Plymouth,1768
+Table Bay,British,Madras,1779
+Gravesend,British,Wampoe,1785
+Wampoe,British,UK,1786
+UK,British,Madras,1787
+Madras,British,Downs,1788
+Downs,British,Madras,1789
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1770
+LA HABANA,Spanish,LA CORUÑA,1772
+LA CORUÑA,Spanish,LA HABANA,1772
+LA HABANA,Spanish,LA CORUÑA,1772
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1778
+LA CORUÑA,Spanish,LA HABANA,1778
+LA HABANA,Spanish,LA CORUÑA,1779
+LA CORUÑA,Spanish,LA HABANA,1779
+La Coruña,Spanish,Montevideo,1780
+Montevideo,Spanish,La Coruña,1781
+LA CORUÑA,Spanish,LA HABANA,1786
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1786
+LA CORUÑA,Spanish,LA HABANA,1787
+LA HABANA,Spanish,LA CORUÑA,1787
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1788
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1790
+LA HABANA,Spanish,LA CORUÑA,1790
+LA CORUÑA,Spanish,LA HABANA,1793
+LA HABANA,Spanish,LA CORUÑA,1793
+LA CORUÑA,Spanish,LA HABANA,1796
+LA HABANA,Spanish,LA CORUÑA,1797
+La Coruña,Spanish,Montevideo,1797
+La Coruña,Spanish,Montevideo,1797
+Montevideo,Spanish,La Coruña,1798
+Montevideo,Spanish,La Coruña,1798
+BARCELONA,Spanish,CARTAGENA,1847
+BARCELONA,Spanish,CARTAGENA,1847
+Port Louis,Dutch,Hellevoetsluis,1819
+Portsmouth,British,Madras,1803
+Sauger Roads ,British,Downs,1804
+Spithead,British,Port Royal,1799
+Spithead,British,Table Bay,1798
+Table Bay,British,Nore,1800
+Spithead,British,Barbados,1803
+Spithead,British,Barbados,1801
+Falmouth,British,Table Bay,1807
+Table Bay,British,Lobos Island (River Plate),1807
+River Plate,British,Table Bay,1807
+Table Bay,British,Spithead,1807
+Hellevoetsluis,Dutch,Batavia,1790
+Cork,British,Trincomalee via Funchal,1803
+Jamaica,British,Spithead,1773
+Plymouth,British,Cape,1796
+Mangalore,British,River Shannon,1799
+Downs UK,British,Bengal,1820
+Java Head,British,Downs via St Helena,1821
+Plymouth,British,Bombay,1822
+Sunda Strait,British,Downs,1823
+Cowes Road,British,Bombay,1824
+Java Head,British,Gravesend,1825
+Hellevoetsluis,Dutch,Funchal,1768
+Funchal,Dutch,Funchal,1769
+Funchal,Dutch,Cadix,1769
+Cadix,Dutch,Porto Praya,1769
+Porto Praya,Dutch,Kaap Monte / Kaap Misurado,1769
+Kaap Monte / Kaap Misurado,Dutch,Kaap La Hou,1769
+St George d'Elmina,Dutch,Kaap Noord,1769
+Kaap Noord,Dutch,Fort Amsterdam,1770
+Fort Amsterdam,Dutch,St. Eustatius,1770
+St. Eustatius,Dutch,Curacao,1770
+Curacao,Dutch,Hellevoetsluis,1770
+Hellevoetsluis,Dutch,Paramaribo,1779
+Paramaribo,Dutch,Hellevoetsluis,1779
+Hellevoetsluis,Dutch,Portugal,1780
+Lisbon,Dutch,Algiers,1780
+Algiers,Dutch,Livorno,1780
+Livorno,Dutch,Toulon,1780
+Toulon,Dutch,Marseille,1780
+Marseille,Dutch,Allicanten,1780
+Allicanten,Dutch,Lissabon,1780
+Texel,Dutch,Kaap de Goede Hoop,1796
+Nederland,Dutch,Marseille,1836
+Marseille,Dutch,Gibraltar,1836
+Gibraltar,Dutch,Texel,1836
+Nederland,Dutch,Batavia,1836
+Nederland,Dutch,Batavia,1836
+Batavia,Dutch,Hellevoetsluis,1839
+Batavia,Dutch,Hellevoetsluis,1839
+Rotterdam,Dutch,Batavia,1838
+Batavia,Dutch,Rotterdam,1839
+Rotterdam,Dutch,Batavia,1839
+Batavia,Dutch,Rotterdam,1840
+Nieuwediep,Dutch,Batavia,1840
+Batavia,Dutch,Nieuwediep,1841
+Nieuwediep,Dutch,Batavia,1843
+Banjouwangie,Dutch,Nieuwediep,1844
+Halifax,British,Antigua,1783
+Antigua,British,Spithead,1783
+Rotterdam,Dutch,Batavia,1841
+Spithead,British,Cape of Good Hope,1793
+Cape of Good Hope,British,Rodriguez,1794
+Rodriguez,British,Mauritius,1794
+Mauritius,British,Trincomale,1794
+Trincomale,British,Rodriguez,1794
+Rodriguez,British,Mauritius,1794
+Mauritius,British,Trincomale,1794
+Madras,British,Trincomale,1795
+Madras,British,Pulo Pinang,1795
+Hellevoetsluis,Dutch,Azoren,1783
+Azoren,Dutch,Hellevoetsluis,1783
+Hellevoetsluis,Dutch,Porto Crajo,1786
+Porto Crajo,Dutch,Simonsbaai,1786
+Simonsbaai,Dutch,Ceylon,1786
+Ceylon,Dutch,Baai van Punto,1786
+Baai van Punto,Dutch,Batavia,1786
+Batavia,Dutch,Ceylon,1788
+Ceylon,Dutch,Kaap de Goede Hoop,1788
+Kaap de Goede Hoop,Dutch,Hellevoetsluis,1789
+Hellevoetsluis,Dutch,Suriname,1793
+Suriname,Dutch,Curacao,1793
+Downs,British,Penang via St Helena,1815
+Java Head,British,Downs via St Helena,1816
+Nederland,Dutch,Batavia,1845
+Batavia,Dutch,Texel,1848
+Spithead,British,Carlisle Bay,1795
+Plymouth,British,Anjengo,1760
+Nagapatam,British,Rodriquez,1761
+Rodriquez,British,Table Bay,1761
+Corvo,British,Madras,1762
+Cochine,British,Cape of Good Hope,1764
+Table Bay,British,Plymouth,1764
+Madeira,British,Antigua,1772
+Antigua,British,Spithead,1775
+Spithead,British,Nantasket,1775
+Boston,British,Halifax,1776
+Halifax,British,Boston,1776
+Spithead,British,Gibraltar,1755
+Spithead,British,Senegal,1759
+Accra,British,Barbados,1760
+Basse Terre,British,UK,1760
+Gulf of Maine,British,UK,1761
+Spithead,British,Hampton Road Virginia,1761
+Halifax,British,New York,1762
+New York,British,West Indies,1762
+Spithead,British,Barbados,1803
+Tortola Roads, St Thomas,British,Spithead,1803
+Jamaica ,British,Downs,1807
+Amsterdam,Dutch,Liverpool,1853
+Liverpool,Dutch,Batavia,1853
+Soerabaija,Dutch,Nieuwediep,1854
+Rotterdam,Dutch,Batavia,1842
+Batavia,Dutch,Rotterdam,1843
+Suriname,Dutch,Texel,1755
+Nieuwediep,Dutch,Batavia,1843
+Tjilatjap,Dutch,Nieuwediep,1843
+UK,British,Dellago Bay,1762
+Dellago Bay,British,Bombay,1762
+Tellicherry,British,St Helena,1763
+St Helena,British,UK,1763
+UK,British,Joanna,1765
+Joanna,British,Madras,1765
+Anjengo,British,UK,1766
+Dover,British,Madras,1767
+Java Head ,British,St Helena,1769
+Madeira,British,Madras,1769
+St Helena,British,UK,1770
+England,British,Bombay,1771
+Calcutta,British,London,1772
+Gravesend,British,Madras,1752
+Vizagapatnam,British,Cape Negrais Burma,1753
+Negrais Burma,British,Madras,1754
+Madras,British,Batavia,1754
+Bengal,British,Spithead,1755
+Spithead,British,Madeira,1757
+Bona Vista,British,St Helena,1757
+St Helena,British,Ferdinando Loronho,1757
+Ferdinando Loronho,British,UK,1757
+UK,British,Madeira,1758
+Madeira,British,St Helena,1758
+St Helena,British,Ferdinando Loronho,1758
+Ferdinando Loronho,British,UK,1758
+Plymouth,British,Bay of Biscay (cruising),1759
+Plymouth,British,Madeira,1760
+Madeira,British,St Helena,1760
+St Helena,British,UK,1760
+Downs UK,British,Sundu Strait via St Helena,1816
+St Johns, NF,British,Fayal, Azores,1801
+Plymouth,British,Table Bay,1802
+Lagos Bay,British,Gibraltor via Antigua,1805
+New York,American,Batavia,1808
+Montevideo,British,Valpariso,1820
+Galapagos,British,Panama,1822
+Panama,British,Acapulco,1822
+Acapulco,British,St Blas,1822
+St Blas,British,Rio de Janeiro,1822
+Mayo Cape Verde Islands,British,Spithead,1807
+Spithead,British,Maldonado,1807
+Mayo Cape Verde Islands,British,Spithead,1808
+Texel,Dutch,Padang,1853
+Nederland,Dutch,Batavia,1831
+Rotterdam,Dutch,Batavia,1853
+Spithead,British,Madeira,1775
+Funchall Road,British,Teneriffe,1775
+Teneriffe,British,St Augustins Bay, Madagascar,1775
+St Augustins Bay, Madagascar,British,Madras,1775
+Surat,British,Mocha (Mokha),1776
+Gulf of Aden,British,Bombay,1776
+Cochin,British,Gulf of Aden,1780
+Gulf of Aden,British,Bombay,1780
+Spithead,British,Simons Bay,1796
+Simons Bay,British,Table Bay,1796
+Table Bay,British,Bombay,1797
+Table Bay ,British,Spithead,1798
+Port Royal,British,Plymouth,1802
+Torbay,British,Cork,1781
+Torbay,British,St Johns Newfoundland,1782
+Lizard,British,St Jago,1753
+St Jago,British,Sierra Lion,1753
+Cape Serra Lion,British,Dixcove,1753
+Dixcove,British,Barbados,1754
+Jamaica,British,UK,1754
+Kingsale,British,Gibraltar,1757
+Cork,British,Barbados,1761
+St Martins,British,Plymouth,1762
+UK,British,Gibraltar,1762
+Lizard,British,Madeira,1764
+Madeira,British,Antigua,1764
+Havana,British,Halifax,1765
+Halifax,British,Portsmouth,1765
+Bombay,British,Cape of Good Hope,1791
+Cape of Good Hope,British,Spithead,1792
+Spithead,British,Tenerife,1772
+Tenerife,British,Charles Town,1772
+Charles Town,British,New York,1772
+Rhode Island,British,Virginia,1773
+Crany Island,British,Brunswick,1774
+Downs,British,Calcutta,1814
+Plymouth,British,Penang (via Funchal),1804
+Plymouth,British,St Augustines,1754
+Plymouth,British,St Augustines,1754
+St Augustines,British,Fort St Georges,1754
+Fort St Georges,British,Trinconomalle,1755
+Madras,British,Bombay,1758
+Madras,British,Bombay,1758
+Bombay,British,Nagapatram,1759
+Madras,British,Bombay,1759
+Torbay,British,Bombay, via False Bay,1811
+Nederland,Dutch,Suriname,1827
+Suriname,Dutch,Curacao,1827
+Curacao,Dutch,Hellevoetsluis,1827
+Hellevoetsluis,Dutch,Suriname,1828
+Suriname,Dutch,St. Eustacius,1828
+St. Eustacius,Dutch,Curacao,1828
+Curacao,Dutch,Hellevoetsluis,1828
+Hellevoetsluis,Dutch,Paramaribo,1829
+Nederland,Dutch,Ivoorkust,1840
+Nederland,Dutch,Ivoorkust,1840
+El Mina,Dutch,Parimaribo,1840
+El Mina,Dutch,Parimaribo,1840
+Parimaribo,Dutch,Curacao,1840
+Parimaribo,Dutch,Curacao,1840
+Curacao,Dutch,Paramaribo,1840
+Paramaribo,Dutch,Curacao,1840
+Curacao,Dutch,Paramaribo,1840
+Paramaribo,Dutch,Curacao,1840
+Curacao,Dutch,Hellevoetsluis,1842
+Curacao,Dutch,Hellevoetsluis,1842
+Port Royal, Jamaica,British,Halifax,1821
+Halifax,British,St Michaels,1821
+St Michaels,British,Plymouth,1821
+Plymouth,British,Sierra Leone,1822
+Annabona,British,Sierra Leone,1823
+LA HABANA,Spanish,SAN AGUSTIN DE LA FLORIDA,1742
+MANILA,Spanish,NORTE DE NUEVA ESPAÑA,1773
+MONTEVIDEO,Spanish,ISLA DEL PRINCIPE (GUINEA),1778
+MONTEVIDEO,Spanish,CADIZ,1778
+UNKNOWN,Spanish,CADIZ,1779
+MONTEVIDEO,Spanish,SANBORONBOM - MONTEVIDEO,1805
+MONTEVIDEO,Spanish,BUENOS AIRES,1805
+BUENOS AIRES,Spanish,MONTEVIDEO,1805
+CALLAO,Spanish,CADIZ,1778
+CALLAO,Spanish,CÁDIZ,1778
+CÁDIZ,Spanish,LISBOA-FERROL,1786
+UNKNOWN,Spanish,AZORES,1779
+MANILA,Spanish,ESTRECHO SAN BERNARDINO,1828
+VALDIVIA (CHILE),Spanish,CONCEPCIÓN (CHILE),1769
+CONCEPCIÓN (CHILE),Spanish,CALLAO (LIMA-PERÚ),1769
+MONTEVIDEO,Spanish,CÁDIZ,1772
+MONTEVIDEO,Spanish,CÁDIZ,1778
+I. DEL CUERVO,Spanish,PUERTO DE SANTA MARÍA,1778
+CÁDIZ,Spanish,ISLA DE SANTA CATALINA (SANTA CATARINA-BRASIL?),1776
+MONTEVIDEO,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,CÁDIZ, LLEGANDO ANTES HASTA LAS AZORES,1779
+CÁDIZ,Spanish,CÁDIZ?,1790
+CÁDIZ?,Spanish,DESCONOCIDO,1789
+SANTA CATALINA,Spanish,SANTA CATALINA,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+SANTA CATALINA,Spanish,SANTA CATALINA,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+DESCONOCIDO,Spanish,EL CALLAO,1776
+EL CALLAO,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,CÁDIZ,1778
+LA CORUÑA,Spanish,PUERTO DE BRESTE,1779
+PUERTO DE BRESTE,Spanish,LA CORUÑA,1780
+LA CORUÑA,Spanish,CÁDIZ,1780
+CÁDIZ,Spanish,CÁDIZ,1780
+FILIPINAS,Spanish,FILIPINAS,1835
+CÁDIZ,Spanish,CABO SAN VICENTE Y SANTA MARÍA Y VUELTA,1758
+CÁDIZ,Spanish,CÁDIZ,1759
+EL CALLAO,Spanish,CÁDIZ,1778
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,CÁDIZ,1779
+VERACRUZ,Spanish,LA HABANA,1773
+LA HABANA,Spanish,CÁDIZ,1774
+Funchal,British,Barbados,1796
+Falmouth,British,Madeira,1797
+Sierra Leone,British,UK,1798
+Cape Delgada - East Africa,British,Gulf of Aden via Table Bay,1799
+Amboyna,British,Bombay,1802
+Bombay,British,Plymouth,1802
+Soerabaya,Dutch,Tafelbaai,1822
+Tafelbaai,Dutch,Texel,1822
+Cape,British,Cork,1796
+Spithead,British,Carlisle Bay,1798
+St Kitts,British,Nore,1801
+Amsterdam,Dutch,Texel,1815
+Texel,Dutch,Plymouth,1815
+Texel,Dutch,Batavia,1815
+Guernsey,British,Madeira,1773
+Madeira,British,Antigua,1773
+Antigua,British,Spithead,1775
+Plymouth,British,St Johns, Newfoundland,1776
+St Johns, Newfoundland,British,Lisbon,1776
+Lisbon,British,Spithead,1776
+Basse Terre,British,Downs,1778
+Spithead,British,Barbados,1779
+Near Madeira,British,Antigua,1805
+Antigua,British,Gibraltar,1805
+Port Praya,British,St Michaels, Azores,1806
+St Michaels, Azores,British,Barbados,1806
+Barbados,British,Plymouth UK,1806
+Plymouth,British,Bermuda,1806
+Bermuda,British,Spithead,1807
+Barnpool, Plymouth,British,Madras,1802
+Amboyna,British,Trincomalee,1803
+Equator,British,Rio,1782
+Rio,British,Johanna,1782
+Johanna,British,Bombay,1782
+Nederland,Dutch,Batavia,1820
+Batavia,Dutch,Nederland,1820
+Texel,Dutch,Kaap de Goede Hoop,1821
+Kaap de Goede Hoop,Dutch,Batavia,1821
+Batavia,Dutch,Antwerpen,1821
+Nederland,Dutch,Batavia,1821
+Nederland,Dutch,Batavia,1821
+Nederland,Dutch,Batavia,1821
+Nederland,Dutch,Batavia,1821
+Funchal,British,Salvador, Brazil,1805
+UNKNOWN,British,Salvador, Brazil,1806
+Saldanha Bay,British,St Helena,1781
+St Helena,British,Trinidada,1781
+Trinidada,British,Lisbon,1781
+Spithead,British,St Lucia,1782
+Antigua,British,Spithead,1783
+Jamaica ,British,Spithead,1792
+Spithead,British,Barbados,1799
+Jamaica ,British,Scilly Isles,1806
+Nederland,Dutch,Batavia,1835
+Batavia,Dutch,Texel,1838
+Duins,Hamburg,Kaap de Goede Hoop,1797
+Spithead,British,Jamaica,1772
+La Coruña,Spanish,Montevideo,1774
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1777
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1778
+Montevideo,Spanish,La Coruña,1778
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1779
+La Coruña,Spanish,Montevideo,1784
+Montevideo,Spanish,La Coruña,1784
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1786
+Falmouth,British,Madras,1793
+Spithead,British,Bombay,1799
+Princes Island,British,Table Bay,1800
+Simon's Bay,British,Rio de Janeiro,1800
+Montevideo,British,Table Bay,1801
+Table Bay,British,Rodriguez,1801
+Fort Dauphin,British,Simon's Bay,1801
+Nieuwediep,Dutch,Batavia,1847
+Batavia,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Java,1849
+Banjoewangie,Dutch,Nieuwediep,1850
+Amsterdam,Dutch,London,1853
+London,Dutch,Port Jackson,1853
+London,Dutch,Australie,1853
+Port Jackson,Dutch,Soerabaya,1854
+Batavia,Dutch,Nieuwediep,1854
+Ferro,British,St Augustins Bay,1752
+St Augustins Bay,British,Bombay,1752
+Tillicherry,British,Mocha,1753
+Mocha,British,Bombay,1753
+Bombay,British,Beachy Head,1754
+Nederland,Dutch,Elmina,1818
+St George d'Elmina,Dutch,Suriname,1819
+Paramaribo,Dutch,Curacao,1819
+Curacao,Dutch,Hellevoetsluis,1820
+Nederland,Dutch,Batavia,1822
+Batavia,Dutch,Nederland,1826
+Amsterdam,Dutch,Curacao,1754
+Amsterdam,Dutch,Curacao,1755
+Curacao,Dutch,Nederland,1755
+Texel,Dutch,Parimaribo,1763
+Parimaribo,Dutch,Curacao,1764
+Curacao,Dutch,Texel,1764
+Texel,Dutch,Kaap de Goede Hoop,1796
+Hellevoetsluis,Dutch,Port Mahon,1829
+Port Mahon,Dutch,La Valetta,1829
+La Valetta,Dutch,Smirna,1829
+Smirna,Dutch,Malta,1829
+Malta,Dutch,Port Mahon,1829
+Hellevoetsluis,Dutch,Hellevoetsluis,1829
+Hellevoetsluis,Dutch,Duins,1829
+Duins,Dutch,Port Mahon,1829
+Port Mahon,Dutch,Malta,1829
+Malta,Dutch,Smyrna,1830
+Smyrna,Dutch,Malta,1830
+Malta,Dutch,Port Mahon,1830
+Port Mahon,Dutch,Hellevoetsluis,1830
+Hellevoetsluis,Dutch,Minorca,1830
+Minorca,Dutch,Malta,1830
+Malta,Dutch,Port Mahon,1830
+Port Mahon,Dutch,Hellevoetsluis,1830
+Hellevoetsluis,Dutch,Malaga,1830
+Malaga,Dutch,Hellevoetsluis,1831
+Hellevoetsluis,Dutch,Parimaribo,1831
+Parimaribo,Dutch,Curacao,1831
+Curacao,Dutch,Hellevoetsluis,1831
+Hellevoetsluis,Dutch,Parimaribo,1832
+Parimaribo,Dutch,Curacao,1832
+Curacao,Dutch,Hellevoetsluis,1832
+Hellevoetsluis,Dutch,Parimaribo,1833
+Parimaribo,Dutch,Curacao,1833
+Curacao,Dutch,Hellevoetsluis,1833
+Hellevoetsluis,Dutch,Paramaribo,1834
+Paramaribo,Dutch,Curacao,1834
+Curacao,Dutch,Hellevoetsluis,1834
+Hellevoetsluis,Dutch,Curacao,1836
+Curacao,Dutch,Paramaribo,1836
+Paramaribo,Dutch,Hellevoetsluis,1836
+Hellevoetsluis,Dutch,Paramaribo,1837
+Paramaribo,Dutch,Curacao,1837
+Curacao,Dutch,Hellevoetsluis,1837
+Hellevoetsluis,Dutch,Paramaribo,1838
+Paramaribo,Dutch,Curacao,1838
+Curacao,Dutch,Hellevoetsluis,1838
+Hellevoetsluis,Dutch,Paramaribo,1838
+Paramaribo,Dutch,Hellevoetsluis,1839
+Nederland,Dutch,Paramaribo,1841
+Paramaribo,Dutch,Curacao,1841
+Curacao,Dutch,Nieuwediep,1841
+Nieuwediep,Dutch,Paramaribo,1841
+Paramaribo,Dutch,Hellevoetsluis,1842
+Nederland,Dutch,Paramaribo,1842
+Paramaribo,Dutch,Curacao,1842
+Curacao,Dutch,Hellevoetsluis,1842
+Hellevoetsluis,Dutch,Paramaribo,1843
+Paramaribo,Dutch,Hellevoetsluis,1843
+Nederland,Dutch,Paramaribo,1843
+Paramaribo,Dutch,The Netherlands,1843
+Nederland,Dutch,Suriname,1844
+Suriname,Dutch,Vlissingen,1844
+Nederland,Dutch,Suriname,1845
+Suriname,Dutch,The Netherlands,1845
+Nederland,Dutch,Cadiz,1847
+Cadiz,Dutch,Parimaribo,1847
+Parimaribo,Dutch,Curacao,1847
+Curacao,Dutch,Nederland,1847
+Nederland,Dutch,Suriname,1848
+Suriname,Dutch,Curacao,1848
+Curacao,Dutch,Nederland,1848
+Hellevoetsluis,Dutch,St Eustatius,1759
+St Eustatius,Dutch,Curacao,1759
+Curacao,Dutch,Hellevoetsluis,1759
+Nederland,Dutch,Plymouth,1760
+Plymouth,Dutch,Malaga,1760
+Malaga,Dutch,Cartagena,1760
+Cartagena,Dutch,Cadiz,1761
+Cadiz,Dutch,Hellevoetsluis,1761
+Dordrecht,Dutch,Batavia,1834
+Batavia,Dutch,Nagasaki,1834
+Nagasaki,Dutch,Batavia,1834
+Batavia,Dutch,Oudjong Pancer,1835
+Oudjong Pancer,Dutch,Samaras,1835
+Samaras,Dutch,Batavia,1835
+Batavia,Dutch,Dordrecht,1835
+Motherbank,British,Madras,1801
+Madras,British,Downs UK via St Helena,1803
+Portsmouth,British,Bengal via St Helena,1806
+Madas,British,Downs via Table Bay and St Helena,1807
+Portsmouth,British,Bombay via Madeira and Johanna,1809
+Point De Galle,British,Downs via St Helena,1810
+Madras,British,St Helena via Table Bay,1812
+Anjengo,British,Cape of Good Hope,1750
+Cape of Good Hope,British,St Helena,1750
+St Helena,British,UK,1750
+Spithead ,British,Nevis,1756
+Florida Keys,British,Downs (England),1760
+Kaap de Goede Hoop,Dutch,Amsterdam,1794
+Hartlepool,Dutch,Batavia,1853
+Batavia,Dutch,Rotterdam,1853
+Dover,Dutch,Caap Monte,1755
+Golf van Guinee,Dutch,Suriname,1756
+Suriname,Dutch,Middelburg,1756
+Ramekens,Dutch,Guinea,1760
+Zanteme,Dutch,Nederland,1761
+Nieuwediep,Dutch,Batavia,1841
+Batavia,Dutch,Nieuwediep,1842
+Nieuwediep,Dutch,Batavia,1842
+Tjilatjap,Dutch,Nieuwediep,1843
+Nieuwediep,Dutch,Batavia,1847
+Batavia,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Batavia,1848
+Tjilatjap,Dutch,Nieuwediep,1849
+Nieuwediep,Dutch,Batavia,1851
+Batavia,Dutch,Nieuwediep,1852
+Martinique,British,Plymouth,1795
+Spithead,British,Barbados,1798
+Jamaica,British,Downs UK,1799
+Madeira,British,Barbados,1763
+Torbay,British,Madeira,1768
+Madeira,British,Antigua,1768
+Charlestown,British,Port Royal, Jamaica,1769
+Port Royal, Jamaica,British,Spithead,1771
+Cork (western approaches),British,Plymouth,1793
+Spithead,British,cruising western approaches,1757
+Spithead,British,Halifax,1758
+Louisbourg,British,Spithead,1758
+Spithead,British,St Johns (Antigua),1760
+Spithead,British,Fort St David,1751
+Kedgeree,British,Northfleet,1752
+Kegerree,British,Northfleet,1752
+Kedgeree,British,Northfleet,1752
+Falmouth ,British,Bengal,1818
+Plymouth,British,Halifax,1755
+Plymouth,British,cruising the western approaches,1756
+Plymouth,British,Ferrol Harbour - cruising the western approaches,1757
+Ferrol Harbour  ,British,Spithead,1757
+St Helens,British,cruising western approaches,1757
+St Helens,British,La Rochelle,1757
+La Rochelle,British,Spithead,1757
+Dunnoze,British,Plymouth - cruising western approaches,1758
+Ushant,British,Southsea,1758
+Ushant,British,Spithead - cruising Bay Biscay,1758
+Cork,British,Goree,1758
+Senegal Road,British,Spithead,1759
+CÁDIZ,Spanish,COSTA FIRME DE LA AMÉRICA,1815
+SAN BLAS,Spanish,REALEJO,1794
+EL FERROL,Spanish,MONTEVIDEO,1767
+EL FERROL,Spanish,MONTEVIDEO (PRIMERO VAN A STA. CATALINA, BRASIL),1767
+STA CATALINA (BRASIL),Spanish,MONTEVIDEO,1767
+MONTEVIDEO,Spanish,ISLAS MALVINAS,1768
+MALVINAS,Spanish,CONCEPCIÓN (CHILE),1768
+CONCEPCIÓN (CHILE),Spanish,EL CALLAO (PERÚ),1768
+LA CORUÑA,Spanish,LA HABANA,1779
+LA HABANA,Spanish,SANTANDER,1781
+La Coruña,Spanish,Montevideo,1785
+Montevideo,Spanish,La Coruña,1786
+Montevideo,Spanish,La Coruña,1787
+La Coruña,Spanish,Montevideo,1788
+Montevideo,Spanish,La Coruña,1788
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1789
+La Coruña,Spanish,Montevideo,1790
+Montevideo,Spanish,La Coruña,1790
+La Coruña,Spanish,Montevideo,1793
+Montevideo,Spanish,La Coruña,1793
+LA CORUÑA,Spanish,MONTEVIDEO,1799
+CÁDIZ,Spanish,SANTA CATALINA (BRASIL),1776
+MONTEVIDEO,Spanish,CÁDIZ,1778
+LA HABANA,Spanish,CÁDIZ,1794
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1768
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1768
+LA CORUÑA,Spanish,LA HABANA,1769
+LA CORUÑA,Spanish,LA HABANA,1769
+LA HABANA,Spanish,LA CORUÑA,1769
+LA CORUÑA,Spanish,LA HABANA,1770
+LA HABANA,Spanish,LA CORUÑA,1770
+LA CORUÑA,Spanish,LA HABANA,1770
+LA HABANA,Spanish,LA CORUÑA,1771
+LA CORUÑA,Spanish,LA HABANA,1771
+LA HABANA,Spanish,LA CORUÑA,1771
+LA CORUÑA,Spanish,LA HABANA,1772
+LA HABANA,Spanish,LA CORUÑA,1772
+LA CORUÑA,Spanish,LA HABANA,1772
+LA HABANA,Spanish,LA CORUÑA,1772
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1774
+LA CORUÑA,Spanish,LA HABANA,1774
+LA HABANA,Spanish,LA CORUÑA,1774
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1793
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1789
+LA CORUÑA,Spanish,LA HABANA,1797
+LA HABANA,Spanish,LA CORUÑA,1797
+LA HABANA,Spanish,LA CORUÑA,1769
+LA HABANA,Spanish,CÁDIZ,1794
+BAHÍA DE CÁDIZ,Spanish,BAHÍA DE CÁDIZ,1779
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1768
+LA CORUÑA,Spanish,LA HABANA,1778
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1778
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1779
+LA HABANA,Spanish,LA CORUÑA,1779
+LA CORUÑA,Spanish,LA HABANA,1794
+LA HABANA,Spanish,LA CORUÑA,1794
+LA HABANA,Spanish,CAMARIÑAS,1795
+LA CORUÑA,Spanish,LA HABANA,1796
+LA HABANA,Spanish,LA CORUÑA,1796
+CAMPECHE,Spanish,LA HABANA,1768
+LA HABANA,Spanish,CAMPECHE,1768
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1774
+LA HABANA,Spanish,LA CORUÑA,1774
+LA CORUÑA,Spanish,LA HABANA,1774
+LA HABANA,Spanish,LA CORUÑA,1774
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1784
+LA HABANA,Spanish,LA CORUÑA,1784
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1787
+LA CORUÑA,Spanish,LA HABANA,1787
+LA HABANA,Spanish,LA CORUÑA,1787
+LA CORUÑA,Spanish,LA HABANA,1790
+LA HABANA,Spanish,LA CORUÑA,1790
+CÁDIZ,Spanish,MONTEVIDEO,1776
+CÁDIZ,Spanish,MONTEVIDEO,1776
+MONTEVIDEO,Spanish,CÁDIZ,1778
+CÁDIZ,Spanish,MONTEVIDEO,NaN
+CÁDIZ,Spanish,MONTEVIDEO,1792
+CÁDIZ,Spanish,MONTEVIDEO Y RÍO DE LA PLATA,1792
+PUERTO DE MONTEVIDEO,Spanish,CÁDIZ,1792
+CÁDIZ,Spanish,MONTEVIDEO,1793
+CÁDIZ,Spanish,MONTEVIDEO,1793
+MONTEVIDEO,Spanish,LA HABANA,1793
+MONTEVIDEO,Spanish,LA HABANA,1793
+MONTEVIDEO.,Spanish,LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+LA HABANA,Spanish,CÁDIZ,1794
+LA CORUÑA,Spanish,LA HABANA,1783
+LA HABANA,Spanish,LA CORUÑA,1784
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1786
+LA CORUÑA,Spanish,LA HABANA,1786
+LA CORUÑA,Spanish,LA HABANA,1787
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1773
+LA CORUÑA,Spanish,LA HABANA,1793
+ALICANTE,Spanish,ALIC.?,1781
+ALICANTE,Spanish,ALICANTE?,1781
+CÁDIZ,Spanish,SANTA CATALINA,1777
+CÁDIZ,Spanish,YA VEREMOS,1777
+SANTA CATALINA,Spanish,CÁDIZ,1778
+LA CORUÑA,Spanish,LA HABANA,1770
+LA HABANA,Spanish,LA CORUÑA,1770
+LA CORUÑA,Spanish,LA HABANA,1772
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1776
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1777
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1778
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1783
+LA HABANA,Spanish,LA CORUÑA,1783
+LA CORUÑA,Spanish,LA HABANA,1788
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1789
+LA HABANA,Spanish,LA CORUÑA,1789
+LA CORUÑA,Spanish,LA HABANA,1790
+LA HABANA,Spanish,LA CORUÑA,1790
+LA CORUÑA,Spanish,LA HABANA,1791
+LA HABANA,Spanish,LA CORUÑA,1791
+LA CORUÑA,Spanish,LA HABANA,1789
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1777
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1784
+LA HABANA,Spanish,LA CORUÑA,1784
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1786
+LA CORUÑA,Spanish,LA HABANA,1787
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1788
+LA HABANA,Spanish,LA CORUÑA,1788
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1789
+La Coruña,Spanish,Montevideo,1794
+Montevideo,Spanish,La Coruña,1795
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1777
+LA HABANA,Spanish,LA CORUÑA,1778
+LA HABANA,Spanish,LA CORUÑA,1787
+ALGECIRAS,Spanish,CÁDIZ,1782
+CADIZ,Spanish,MANILA,1828
+CADIZ,Spanish,CAVITE,1830
+CÁDIZ,Spanish,CAVITE,1830
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1767
+LA CORUÑA,Spanish,LA HABANA,1767
+LA HABANA,Spanish,LA CORUÑA,1768
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1769
+LA CORUÑA,Spanish,LA HABANA,1769
+LA HABANA,Spanish,LA CORUÑA,1769
+LA CORUÑA,Spanish,LA HABANA,1769
+LA HABANA,Spanish,LA CORUÑA,1770
+LA CORUÑA,Spanish,LA HABANA,1770
+LA HABANA,Spanish,LA CORUÑA,1770
+LA CORUÑA,Spanish,LA HABANA,1771
+LA HABANA,Spanish,LA CORUÑA,1771
+LA CORUÑA,Spanish,LA HABANA,1772
+LA HABANA,Spanish,LA CORUÑA,1772
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1773
+LA HABANA,Spanish,LA CORUÑA,1773
+LA CORUÑA,Spanish,LA HABANA,1774
+LA HABANA,Spanish,LA CORUÑA,1774
+LA CORUÑA,Spanish,LA HABANA,1774
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1777
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1777
+LA CORUÑA,Spanish,LA HABANA,1779
+LA HABANA,Spanish,LA CORUÑA,1779
+LA CORUÑA,Spanish,LA HABANA,1781
+LA HABANA,Spanish,CADIZ,1781
+CADIZ,Spanish,LA HABANA,1781
+LA HABANA,Spanish,LA CORUÑA,1782
+LA CORUÑA,Spanish,LA HABANA,1787
+LA HABANA,Spanish,LA CORUÑA,1787
+CÁDIZ,Spanish,MONTEVIDEO,1769
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1777
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1787
+LA CORUÑA,Spanish,LA HABANA,1788
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1788
+LA HABANA,Spanish,LA CORUÑA,1788
+LA CORUÑA,Spanish,LA HABANA,1792
+LA HABANA,Spanish,LA CORUÑA,1792
+CADIZ,Spanish,CONCEPCION DE CHILE,1796
+Spithead,British,Madeira,1779
+Madeira,British,Goree,1779
+Maderia,British,Goree,1779
+Table Bay,British,Spithead,1785
+Portsmouth,British,Rio de Janeiro,1803
+Rio de Janeiro,British,Diamond Harbour, Bengal,1803
+Plymouth,British,Rio de Janeiro,1806
+Rio de Janeiro,British,Colombo, Ceylon,1806
+Bombay,British,Downs,1807
+Portsmouth,British,Diamond Harbour, Bengal,1808
+Saugor  Roads,British,Downs,1809
+Downs,British,China,1790
+Java Head,British,Long Reach,1791
+Downs,British,Bengal,1792
+Cox's Island (Bengal),British,Downs,1793
+Portsmouth,British,Benkuleu,1786
+Java Head,British,Downs UK,1787
+Downs UK,British,Java Head,1789
+Java Head,British,Downs UK,1790
+Madras,British,UK,1765
+Gravesend,British,St Helena,1767
+Pisang (sumatra),British,Cape of Good Hope,1768
+UK,British,Benkulen,1769
+Java Head,British,Downs,1771
+Texel,Dutch,Tafelbaaij,1802
+Tafelbaaij,Dutch,Batavia,1802
+Batavia,Dutch,Tafelbaaij,1802
+Tafelbaaij,Dutch,Plymouth,1803
+Willemsoord,Dutch,Parimaribo,1833
+Parimaribo,Dutch,Curacao,1833
+Parimaribo,Dutch,St Eustatius,1834
+Curacao,Dutch,Parimaribo,1834
+Parimaribo,Dutch,Curacao,1834
+Curacao,Dutch,Parimaribo,1834
+Parimaribo,Dutch,St Eustatius,1834
+St Eustatius,Dutch,Parimaribo,1834
+Parimaribo,Dutch,Curacao,1835
+Curacao,Dutch,Parimaribo,1835
+St Eustatius,Dutch,Parimaribo,1835
+Parimaribo,Dutch,Curacao,1835
+Curacao,Dutch,Parimaribo,1836
+Parimaribo,Dutch,Curacao,1836
+St Eustatius,Dutch,Curacao,1837
+Curacao,Dutch,St Eustatius,1837
+St Eustatius,Dutch,Parimaribo,1837
+Parimaribo,Dutch,Hellevoetsluis,1837
+Texel,Dutch,Curacao,1822
+Curacao,Dutch,Porto Rico,1823
+Porto Rico,Dutch,St Eustatius,1823
+St Eustatius,Dutch,Curacao,1823
+St Eustatius,Dutch,Curacao,1824
+Cartagena?,Dutch,Curacao,1825
+Curacao,Dutch,St Eustatius,1826
+Curacao,Dutch,Texel,1826
+Ramekens,Dutch,Guinea,1761
+Elmina,Dutch,Suriname,1762
+Suriname,Dutch,Nederland,1762
+Middelburg,Dutch,Guinea,1763
+Ivoorkust,Dutch,Suriname,1764
+Suriname,Dutch,Curacao,1765
+Curacao,Dutch,Middelburg,1765
+Texel,Dutch,Parimaribo,1790
+Demmerarij,Dutch,St Eustatius,1790
+St Eustatius,Dutch,Texel,1791
+Texel,Dutch,Lerwich,1793
+Lerwich,Dutch,Texel,1793
+Texel,Dutch,Lissabon,1793
+Lissabon,Dutch,West Africa,1794
+Elmina,Dutch,Paramaribo,1794
+Nederland,Dutch,Batavia,1838
+Batavia,Dutch,Nieuwediep,1839
+Amsterdam,Dutch,Sourabaya,1840
+Port Royal,British,Leith,1781
+La Coruña,Spanish,Montevideo,1768
+La Coruña,Spanish,Montevideo,1769
+La Coruña,Spanish,Montevideo,1770
+Montevideo,Spanish,La Coruña,1770
+La Coruña,Spanish,Montevideo,1771
+Montevideo,Spanish,La Coruña,1772
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1777
+La Coruña,Spanish,Montevideo,1779
+Montevideo,Spanish,La Coruña,1780
+La Coruña,Spanish,Montevideo,1768
+Montevideo,Spanish,La Coruña,1768
+La Coruña,Spanish,Montevideo,1770
+Montevideo,Spanish,La Coruña,1771
+La Coruña,Spanish,Montevideo,1772
+Montevideo,Spanish,La Coruña,1772
+La Coruña,Spanish,Montevideo,1773
+Montevideo,Spanish,La Coruña,1773
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1774
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1786
+Montevideo,Spanish,La Coruña,1786
+La Coruña,Spanish,Montevideo,1796
+Montevideo,Spanish,La Coruña,1796
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1780
+Montevideo,Spanish,La Coruña,1780
+La Coruña,Spanish,Montevideo,1795
+Montevideo,Spanish,La Coruña,1796
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1778
+Madeira,British,Spithead,1812
+Nederland,Dutch,St George d'Elmina,1837
+St George d'Elmina,Dutch,Batavia,1838
+Batavia,Dutch,Rotterdam,1838
+Batavia,Dutch,Den Helder,1841
+Port Royal Jamaica,British,Plymouth,1790
+Nieuwediep,Dutch,Suriname,1850
+Suriname,Dutch,Nieuwediep,1850
+Rotterdam,Dutch,Batavia,1841
+Batavia,Dutch,Soerabaya,1841
+Soerabaya,Dutch,Bezoeki,1841
+Bezoeki,Dutch,Panaroekan,1841
+Panaroekan,Dutch,Batavia,1841
+Batavia,Dutch,Rotterdam,1841
+Table Bay,British,Lisbon,1750
+Lisbon,British,UK,1750
+Cadiz,British,Spithead,1771
+Deptford,British,Madeira,1768
+Madeira,British,Rio de Janeiro,1768
+Rio de Janeiro,British,Tierra del Fuego,1769
+Tierra del Fuego,British,Tahiti,1769
+Tahiti,British,New Zealand,1769
+Java,British,Cape of Good Hope,1771
+Cape of Good Hope,British,UK,1771
+Monserrat,British,Downs,1784
+Nieuwediep,Dutch,Akijab,1847
+Akijab,Dutch,Nieuwediep,1848
+Downs,British,Madras,1785
+Hellevoetsluis,Dutch,Port Jackson,1852
+Port Jackson,Dutch,Batavia,1853
+Batavia,Dutch,Hellevoetsluis,1853
+Nederland,Dutch,Batavia,1847
+Motherbank,British,Madras,1803
+Madras,British,Plymouth via St Helena,1804
+Cork,British,Penang via Funchal and Table Bay,1805
+Vlissingen,Dutch,Paramaribo,1815
+Paramaribo,Dutch,Vlissingen,1816
+Paramaribo,Dutch,Vlissingen,1816
+Vlissingen,Dutch,Curacao,1817
+West Indie,Dutch,Vlissingen,1819
+Vlissingen,Dutch,San Salvador,1822
+San Salvador,Dutch,Tafelbaai,1822
+Tafelbaai,Dutch,Batavia,1823
+Oost Indie,Dutch,Nederland,1826
+Port Royal, Jamaica,British,Spithead,1789
+Plymouth,British,Jamaica,1792
+Havannah,British,Spithead,1795
+Nederland,Dutch,St George d'Elmina,1842
+St George d'Elmina,Dutch,Batavia,1842
+Batavia,Dutch,Brouwershaven,1842
+Batavia,Dutch,Brouwershaven,1852
+Porthmouth,Dutch,Batavia,1853
+Batavia,Dutch,Brouwershaven,1853
+Cork,British,Madeira,1805
+Madeira,British,Azores,1805
+Azores,British,Cork,1805
+Guernsey,British,Jamaica,1786
+Fayal,British,Antigua,1775
+Torbay,British,Gibraltar,1793
+Gibraltar,British,Barbados,1793
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,GIBRALTAR,1779
+Spithead,British,Cape Coast,1788
+St Thomas,British,Barbados,1789
+Barbados,British,Spithead,1789
+Spithead,British,Apolonia (Africa),1789
+St Thomas,British,Spithead,1790
+Spithead,British,Siera Leone,1799
+Cork,British,Carlise Bay Barbados,1803
+Jamaica,British,Cork,1805
+Porto Praya,British,Axim Fort (Coast of Guinea),1753
+Winnebah,British,Barbadoes,1753
+Plymouth,British,Fayal,1753
+Fayal,British,Porto Praya,1753
+Plymouth, Monserrat,British,Spithead,1786
+Cowes Rd,British,Barbadoes,1791
+Kinsale,British,Carolina,1757
+St Martins,British,Plymouth,1758
+Spithead,British,Fernando Noronha,1759
+Fernando Noronha,British,Spithead,1759
+Spithead,British,Halifax,1760
+New York,British,Basse Terre,1761
+Spithead,British,Funchal Road,1759
+Funchal Road,British,Augustine Bay, Madagascar,1759
+Augustine Bay, Madagascar,British,Calicut,1759
+Tillecherry Road,British,Madras,1760
+Pondicherry,British,Rodriquez,1761
+Antwerpen,Dutch,Rio de Janeiro,1818
+Rio de Janeiro,Dutch,Antwerpen,1818
+Antwerpen,Dutch,Rio de Janeiro,1818
+Rio de Janeiro,Dutch,Antwerpen,1818
+UK,British,St. Johns, Newfoundland,1766
+Newfoundland,British,St Pauls island,1766
+St Johns Newfoundland,British,Fort St Julian, Lisbon,1767
+Spithead,British,Madeira,1768
+Madeira,British,Porta Praya,1768
+Porta Praya,British,Falkland Islands,1768
+Port Egmont,British,Bretts Harbour,1769
+Bretts Harbour,British,Port Egmont,1769
+Port Egmont,British,cruising,1769
+Port Egmont,British,Port Desire,1770
+Port Desire,British,Port Egmont,1770
+Port Egmont,British,Fayal,1770
+Fayal,British,Spithead,1770
+Spithead,British,Carlisle Bay,1795
+Jamaica,British,Spithead,1772
+Spithead,British,Santa Cruz,1773
+Santa Cruz,British,Jamaica,1773
+Hamoaze,British,Madeira,1791
+Madeira,British,Jamaica,1791
+Port Royal,British,Spithead,1792
+Port Royal,British,Spithead,1786
+Indische zee,Dutch,Simonsbaai,1819
+Simonsbaai,Dutch,Mountsbaai,1819
+Mountsbaai,Dutch,Plymouth,1819
+London,British,Port Desire,1764
+Point Posession,British,Gratiosa,1765
+Madeira,British,Rio de Janeiro,1766
+Rio de Janeiro,British,Port Egmont, Falkland Islands,1766
+Port Egmont, Falkland Islands,British,Deptford,1767
+Madeira,British,Port Praya,1767
+Port Praya,British,Port Egmont, Falkland Islands,1767
+Port Egmont,British,Spithead,1768
+Porto Praya,British,Port Egmont, Falkland Islands,1768
+Madeira,British,Porto Praya,1769
+Porto Praya,British,Port Egmont, Falkland Islands,1769
+Port Egmont, Falkland Islands,British,UK,1770
+Nederland,Dutch,Batavia,1840
+Nederland,Dutch,Batavia,1845
+Batavia,Dutch,Soerabaija,1845
+Soerabaija,Dutch,Nederland,1845
+Nederland,Dutch,Java,1847
+Plymouth,British,Madeira,1767
+Madeira,British,Charlestown,1767
+Charlestown,British,New York,1768
+New York,British,Louisbourg,1768
+Halifax,British,Charlestown,1768
+Charlestown,British,Halifax,1769
+Halifax,British,New York,1769
+Charleston,British,Nantucket,1770
+Halifax,British,Nantucket,1770
+Charlestown,British,Norfolk Virginia,1771
+Hampton Road Virginia,British,Boston,1771
+Boston,British,Spithead,1771
+Nantusket,British,New York,1771
+Kedgeree,British,Madras,1797
+Java Head,British,Trincomale,1798
+Trincomale,British,Bombay,1803
+Rotterdam,Dutch,Spitsbergen,1785
+Spitsbergen,Dutch,Rotterdam,1785
+Rotterdam,Dutch,Spitsbergen,1786
+Iceland,Dutch,Bergen,1786
+Narvick,Dutch,Rotterdam,1787
+Rotterdam,Dutch,Spitsbergen,1788
+Spitsbergen,Dutch,Noordzee,1788
+Rotterdam,Dutch,Spitsbergen,1789
+Spitsbergen,Dutch,Rotterdam,1789
+Rotterdam,Dutch,Spitsbergen,1790
+Spitsbergen,Dutch,Rotterdam,1790
+Rotterdam,Dutch,Spitsbergen,1791
+Spitsbergen,Dutch,Rotterdam,1791
+Rotterdam,Dutch,Spitsbergen,1792
+Spitsbergen,Dutch,Rotterdam,1792
+Gothenburg,Swedish,Canton,1748
+Canton,Swedish,Gothenburg,1749
+Dordrecht,Dutch,Spitsbergen, Edinburgh,1798
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,PUERTO RESERVADO,1776
+Lizard,British,Azores and back,1793
+Cork,British,Barbados,1793
+Spithead,British,Jamaica,1801
+Jamaica,British,Spithead,1803
+Portsmouth,British,Gibraltar,1823
+Gibraltar,British,Barbados,1823
+Spithead,British,Table Bay,1798
+Nederland,Dutch,Curaçao,1852
+Curaçao,Dutch,Willemsoord,1852
+Nederland,Dutch,Tanger,1852
+Tanger,Dutch,Teneriffe,1852
+Teneriffe,Dutch,Tafelbaai,1852
+Tafelbaai,Dutch,Batavia,1853
+Kaap de Goede Hoop,Dutch,Europa,1797
+Middelburg,Dutch,kust van Guinea en Suriname,1783
+Middelburg,Dutch,kust van Guinea en Suriname,1784
+Middelburg,Dutch,kust van Guinea en Suriname,1784
+Middelburg,Dutch,kust van Guinea en Suriname,1785
+Motherwell,British,Madras,1782
+Motherwell,British,Madras,1783
+Java Head,British,UK,1784
+Java Head,British,UK,1784
+Java Head,British,UK,1789
+Downs,British,Bombay,1788
+Downs,British,Bombay,1789
+Downs,British,Bombay,1789
+Java Head,British,Downs,1790
+Downs,British,Malacca,1828
+Downs,British,Malacca,1828
+Java Head,British,Downs,1829
+Plymouth,British,Calcutta,1800
+Plymouth,British,Calcutta,1801
+St Helena,British,Portsmouth,1802
+Motherbank,British,St Helena,1803
+St Helena,British,Cape,1806
+Cape,British,St Helena,1806
+St Helena,British,Bueno Aires,1806
+Bueno Aires,British,Cape,1806
+Table Bay,British,London,1807
+Cadiz,British,Spithead,1767
+Boston,British,Antigua,1771
+Bombay,British,Table Bay,1784
+Table Bay,British,St Helena,1784
+St Helena,British,Spithead,1784
+Nederland,Dutch,Suriname,1838
+Hellevoetsluis,Dutch,Suriname,1841
+Nederland,Dutch,Suriname,1841
+Paramaribo,Dutch,Hellevoetsluis,1844
+Nevis,British,Start Point,1752
+Spithead,British,Jamaica,1759
+Cape Florida,British,Spithead,1763
+Spithead,British,Halifax,1766
+Halifax,British,Spithead,1767
+Portsmouth ,British,Lisbon,1771
+Lisbon,British,Boston,1772
+Boston,British,Hampton road Virginia,1772
+Plymouth,British,Plymouth,1814
+Plymouth,British,Falmouth,1815
+Plymouth,British,Madras,1778
+Bali,British,St Helena,1779
+Downs,British,Sumbava (E Bali),1780
+Benkulen,British,St Helena,1781
+Portsmouth,British,Prince of Wales Island,1809
+Portsmouth,British,Prince of Wales Island,1810
+Portsmouth, via St Helena,British,Benkuleu,1814
+Java Head via St Helena,British,Downs UK,1815
+Crooked Island (Bahamas),British,Spithead,1752
+Cape Coast,British,Barbados,1753
+Port Royal,British,Portsmouth,1753
+Kaap de Goede Hoop,Dutch,Batavia,1787
+Vlissingen,Dutch,Kaap de Goede Hoop,1790
+Spithead,British,Barbados,1801
+Jamaica,British,Spithead,1801
+Lizard,British,Fyall Bay (Azores),1754
+Fyall Bay (Azores),British,Gambia River,1754
+Gambia River,British,Cape Coast,1755
+Annabona,British,Barbados,1755
+Cuba,British,England,1755
+St Johns    (Newfoundland),British,Lisbon,1757
+Lisbon,British,Spithead,1757
+Plymouth,British,St Johns ,1758
+St Johns,British,Cadiz,1758
+Cadiz,British,Spithead,1758
+Torbay UK,British,St Johns,1759
+St Johns,British,Lisbon,1759
+Lisbon,British,Start,1760
+Helvoetsluis,Dutch,Monrovia,1854
+Kust van Guinea,Dutch,Pampus,1854
+Batavia,Dutch,Rammekens,1790
+Batavia,Dutch,Rammekens,1791
+Rammekens,Dutch,Ceylon,1788
+Cork,British,Halifax,1757
+Spithead,British,Funchal Roads,1758
+Funchal Roads,British,St Jago (Sao Tiago),1758
+St Jago (Sao Tiago),British,St. Augustine Madagascar,1758
+Augustine Bay, Madagascar,British,Bombay,1758
+St Augustine's Bay, Madagascar,British,Bombay,1758
+Bombay,British,Rodriques (Diego Ray),1761
+Rodriques (Diego Ray),British,Madras,1761
+Madras,British,Trincomalee,1762
+Madras,British,Pulo Timoan,1762
+Pulo Timoan ,British,Manilla,1762
+Trincomalee,British,Tabe Bay,1763
+Cape of Good Hope ,British,UK,1764
+Spithead,British,Madeira,1784
+St Thomas (Sao Tome),British,Spithead,1784
+St Pierre Martinque,British,Spithead,1796
+Plymouth,British,Barbados,1797
+Spithead,British,Fenshall Road (Antigua),1755
+Fenshall Road Madeira,British,Antigua,1755
+Start,British,New York,1778
+Middelburg,Dutch,Kaap Tagarijn,1751
+Middelburg,Dutch,Rio Berbice,1751
+Rio Berbice,Dutch,Middelburg,1752
+Middelburg,Dutch,West Africa,1752
+West Africa,Dutch,Middelburg,1754
+Sandy Point (New York),British,UK,1751
+Sandy Point (New York),British,UK,1751
+Port Antoio Jamaica,British,The Downs,1800
+Spithead,British,Johanna,1805
+Canton River, China,British,St Helena,1750
+Portland,British,Bardados,1759
+Plymouth,British,York Harbour, Newfoundland,1769
+Cadiz,British,Spithead,1769
+Plymouth,British,Madeira,1770
+Cape,British,Cape of Good Hope,1789
+Spithead ,British,St John's Newfoundland,1767
+St John's Newfoundland,British,Spithead ,1767
+Spithead ,British,St John's Newfoundland,1768
+Gothenburg,Swedish,Macao,1750
+Macao,Swedish,Gothenburg,1752
+PUERTO DE PAITA,Spanish,PUERTO DE MACAO,1783
+PUERTO PAITA,Spanish,PUERTO DE MACAO,1783
+BAHÍA DE CÁDIZ,Spanish,LEVANTE Y TORREVIEJA Y VUELTA,1825
+LEVANTE,Spanish,ALICANTE,1826
+Texel,Dutch,West-Indie,1754
+West-Indie,Dutch,Texel,1754
+Nederland,Dutch,St Eustasius,1756
+Texel,Dutch,West-Indie,1759
+West-Indie,Dutch,Texel,1759
+Rammekens,Dutch,West-Afrika,1764
+West-Afrika,Dutch,Bramspunt,1765
+Bramspunt,Dutch,Middelburg,1766
+Middelburg,Dutch,Angola,1769
+Malimba,Dutch,Bramspunt,1770
+Bramspunt,Dutch,Middelburg,1770
+Rammekens,Dutch,West Africa,1775
+West Africa,Dutch,Suriname,1776
+Suriname,Dutch,St Eustatius,1776
+St Eustatius,Dutch,Middelburg,1776
+Rammekens,Dutch,West Africa,1777
+Elmina,Dutch,Suriname,1778
+Elmina,Dutch,Suriname,1778
+Suriname,Dutch,Middelburg,1778
+Nederland,Dutch,Kaap de Goede Hoop,1844
+Kaap de Goede Hoop,Dutch,Batavia,1844
+Batavia,Dutch,St Helena,1849
+St Helena,Dutch,Hellevoetsluis,1849
+Hellevoetsluis,Dutch,Suriname,1850
+Suriname,Dutch,Curacao,1850
+Curacao,Dutch,Hellevoetsluis,1850
+Hellevoetsluis,Dutch,Rio de Janeiro,1851
+Rio de Janeiro,Dutch,Batavia,1851
+St Helens,British,Funchal Road,1756
+Funchal Road,British,St Helena,1756
+St Helena,British,Lops Head Ireland,1756
+Spithead ,British,Cork,1757
+Cork,British,New York,1758
+Texel,American,New York,1807
+Torbay,British,Madeira,1780
+Madeira,British,St Helena,1780
+Madeira,British,St Helena,1781
+Spithead,British,Madras,1804
+Spithead,British,Madras,1804
+Spithead,British,Madras,1807
+Texel,Dutch,Porto Praya,1789
+Porto Prayo,Dutch,Baaij Falso,1789
+Baaij Falso,Dutch,Simonsbaaij,1789
+Simonsbaaij,Dutch,Punto Gale,1789
+Trincomale,Dutch,Palliacatte,1790
+Palliacatte,Dutch,Malakka,1790
+Batavia,Dutch,Port Louis,1792
+Port Louis,Dutch,Baaij van Algoa,1792
+Baaij van Algoa,Dutch,Caap de Goede Hoop,1792
+Caap de Goede Hoop,Dutch,St Helena,1793
+St Helena,Dutch,Texel,1793
+Canaria,Dutch,Porte Praijo,1796
+Porte Praijo,Dutch,Schapeneiland,1796
+Saldanne baaij,Dutch,Tafelbaaij,1796
+Schapeneiland,Dutch,Saldanne baaij,1796
+Schapeneiland,Dutch,Schapeneiland,1796
+Texel,Dutch,Canaria,1796
+Table Bay,British,Plymouth,1796
+Batavia,Dutch,Europa,1810
+Spithead,British,Carlisle Bay,1796
+'t Nieuwe Diep,Dutch,Batavia,1841
+New York,British,Start Point,1750
+Island of Bourbon,British,St Helena,1753
+St Helena,British,Blackwall UK,1754
+Spithead,British,St Helena,1795
+Nederland,Dutch,Rio de Janeiro,1832
+Nederland,Dutch,Rio de Janeiro,1831
+Rio de Janeiro,Dutch,Batavia,1832
+Rio de Janeiro,Dutch,Batavia,1832
+Rio de Janeiro,Dutch,Batavia,1832
+Batavia,Dutch,St Helena,1836
+Batavia,Dutch,St Helena,1836
+St Helena,Dutch,Hellevoetsluis,1836
+St Helena,Dutch,Hellevoetsluis,1836
+Rotterdam,Dutch,Batavia,1838
+Batavia,Dutch,Rotterdam,1839
+Nieuwediep,Dutch,Batavia,1834
+Batavia,Dutch,Nieuwediep,1834
+Amsterdam,Dutch,Batavia,1835
+Batavia,Dutch,Amsterdam,1835
+Amsterdam,Dutch,Batavia,1836
+Batavia,Dutch,Amsterdam,1836
+Batavia,Dutch,Amsterdam,1837
+Nieuwediep,Dutch,Batavia,1839
+Tjilatjap,Dutch,Nieuwediep,1839
+Kaap de Goede Hoop,Dutch,Vlissingen,1750
+Kaap de Goede Hoop,Dutch,Vlissingen,1750
+Batavia,Dutch,Nagepatnam,1755
+Bengal,Dutch,Rammekens,1756
+Nagepatnam,Dutch,Bellesoor,1755
+River Plate,British,Table Bay,1807
+near Equator,British,Madras,1794
+Trincomalee,British,Madras,1794
+Madras,British,UK,1798
+Madras,British,UK,1798
+Cape Lopez,British,Antigua,1776
+Spithead,British,Surinam,1801
+West Indies,British,Coastal,1801
+Gibraltar,British,Downs,1761
+Plymouth,British,New York,1766
+New York,British,Halifax,1766
+Halifax,British,Portsmouth,1766
+Newport Rhode Island,British,Antigua,1775
+Spithead,British,Murrays Anchorage, Bermuda,1798
+Murrays Anchorage, Bermuda,British,New Providence Bahamas,1798
+Halifax,British,Nassau, Bahamas,1799
+Cork,British,Carlisle Bay, Barbados,1800
+Nieuwediep,Dutch,Suriname,1831
+Paramaribo,Dutch,St Eustatius,1832
+St Martin,Dutch,Curacao,1832
+Curacao,Dutch,Paramaribo,1832
+Paramaribo,Dutch,Curacao,1833
+Curacao,Dutch,St Domingo,1833
+St Domingo,Dutch,Nieuwediep,1833
+Vlissingen,Dutch,Santa Cruz,1837
+Vlissingen,Dutch,Santa Cruz,1837
+Santa Cruz,Dutch,Tafelbaai,1837
+Santa Cruz,Dutch,Tafelbaai,1837
+Tafelbaai,Dutch,Batavia,1838
+Tafelbaai,Dutch,Batavia,1838
+Batavia,Dutch,Sourabaya,1838
+Batavia,Dutch,Sourabaya,1838
+Sourabaya,Dutch,Sourabaya,1838
+Sourabaya,Dutch,Timor,1838
+Timor,Dutch,Banda,1838
+Banda,Dutch,Amboina,1838
+Amboina,Dutch,Ternate,1838
+Ternate,Dutch,Menado,1838
+Menado,Dutch,Macasser,1838
+Macasser,Dutch,Batavia,1838
+Batavia,Dutch,Padang,1838
+Padang,Dutch,Tapanolie,1839
+Tapanolie,Dutch,Baros,1839
+Baroes,Dutch,Padang,1839
+Padang,Dutch,Tapanolie,1839
+Tapanolie,Dutch,Baroes,1839
+Baroes,Dutch,Sinkel,1839
+Batavia,Dutch,St Helena,1840
+St Helena,Dutch,Texel,1840
+Schiedam,Dutch,Spitsbergen,1788
+Spitsbergen,Dutch,Schiedam,1788
+Schiedam,Dutch,Spitsbergen,1789
+Spitsbergen,Dutch,Schiedam,1789
+Schiedam,Dutch,Spitsbergen,1790
+Spitsbergen,Dutch,Schiedam,1790
+Schiedam,Dutch,Spitsbergen,1791
+Spitsbergen,Dutch,Schiedam,1791
+Schiedam,Dutch,Spitsbergen,1792
+Spitsbergen,Dutch,Schiedam,1792
+Schiedam,Dutch,Spitsbergen,1793
+Simons Bay,British,St Helena,1798
+St Helena,British,Simons Bay,1798
+St Helena,British,Table Bay,1798
+St Augustine,British,Simons Bay,1799
+Charles Town (Charleston USA),British,Lizard,1752
+Charles Town (Charleston USA),British,Lizard,1753
+Portsmouth,British,Cape Henry,1755
+Halifax,British,Spithead,1756
+Torbay,British,St Kitts,1757
+Barbados,British,Spithead,1780
+Spithead,British,New York,1781
+Spithead,British,Barbados,1799
+Plymouth,British,Boston,1750
+Cape Sambrough,British,Woolwich,1752
+Westray Head,British,Iceland (Coastal),1761
+Annabona,British,UK,1768
+Gambia ,British,UK,1769
+St Thomas,British,UK,1770
+Port Royal Jamaica,British,Plymouth,1804
+Spithead,British,Carlise Bay via Funchal,1804
+Port Royal Jamaica,British,Plymouth,1804
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Westray Head,British,Iceland (Coastal),1761
+Cape Lougan,British,Carlise Bay,1750
+Cape Lougan,British,Carlisle Bay,1750
+Havana (Cuba),British,Spithead,1750
+The Island of Barra (Shetlands),British,Brissel,1756
+Brissel,British,Orkney,1756
+Louisborough (Halifax),British,Hammoze UK,1757
+Louisborough (Halifax),British,Hammoze UK,1757
+Start point UK,British,Halifax,1758
+Cape Ray (Newfoundland),British,Spithead,1760
+Batavia,Dutch,Simonsbaai,1851
+Simonsbaai,Dutch,Hellevoetsluis,1851
+LA CORUÑA,Spanish,LA HABANA,1792
+LA HABANA,Spanish,LA CORUÑA,1792
+LA CORUÑA,Spanish,LA HABANA,1794
+LA HABANA,Spanish,LA CORUÑA,1794
+LA CORUÑA,Spanish,LA HABANA,1796
+LA HABANA,Spanish,LA CORUÑA,1796
+The Downs,British,Morandava (Madagascar),1750
+Morandava (Madagascar),British,Gombroon,1750
+Anjengo,British,St Helena,1751
+Table Bay,British,St Helena,1796
+St Helena,British,Table Bay,1796
+Cape of Good Hope,British,River Plate,1797
+River Plate,British,Cape of Good Hope,1797
+Table Bay,British,Trincomalee,1799
+Benkulen,British,Table Bay,1801
+Table Bay,British,Deptford,1802
+Brest,French,St. Domingue,1784
+West Indies,French,Brest,1786
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1785
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1786
+West Indies,French,Coastal,1787
+West Indies,French,Coastal,1787
+West Indies,French,Coastal,1787
+West Indies,French,Coastal,1787
+West Indies,French,Coastal,1787
+West Indies,French,Coastal,1787
+Marseilles,French,Capetown,1837
+Capetown,French,Mauritius,1837
+Mauritius,French,Mahe,1837
+Mahe,French,Trincomalee,1837
+Rotterdam,Dutch,Batavia,1835
+Batavia,Dutch,Papenberg,1835
+Papenberg,Dutch,Batavia,1835
+Batavia,Dutch,St Helena,1836
+St Helena,Dutch,Rotterdam,1836
+Rotterdam,Dutch,Batavia,1839
+Batavia,Dutch,Rotterdam,1839
+Rotterdam,Dutch,Batavia,1840
+Batavia,Dutch,St Helena,1840
+St Helena,Dutch,Helvoetsluis,1840
+La Coruña,Spanish,Montevideo,1773
+Montevideo,Spanish,La Coruña,1774
+La Coruña,Spanish,Montevideo,1774
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1777
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1779
+La Coruña,Spanish,Montevideo,1786
+Montevideo,Spanish,La Coruña,1786
+La Coruña,Spanish,Montevideo,1787
+La Coruña,Spanish,Montevideo,1788
+La Coruña,Spanish,Montevideo,1788
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1789
+La Coruña,Spanish,Montevideo,1794
+Montevideo,Spanish,La Coruña,1794
+Java Head,British,St Helena,1812
+St Helena,British,Downs,1812
+Java Head,British,Spithead,1814
+Downs,British,Bombay,1815
+Java Head,British,St Helena,1816
+St Helena,British,Downs,1816
+Downs,British,Bombay,1819
+Java Head,British,St Helena,1820
+St Helena,British,Downs,1820
+Downs,British,Bombay,1821
+Crakatoa,British,St Helena,1822
+St Helena,British,Downs,1822
+Downs,British,Bombay,1823
+Java Head,British,St Helena,1823
+St Helena,British,Blackwall,1824
+Downs,British,Bombay,1825
+Java Head,British,St Helena,1825
+St Helena,British,Downs,1826
+Downs,British,Madras,1827
+Java Head ,British,St Helena,1828
+St Helena,British,Downs,1828
+Downs,British,Saugor Roads,1829
+Spithead,British,Barbados,1793
+Madras,British,Table Bay,1774
+Table Bay,British,St Helena,1774
+St Helena,British,UK,1775
+Bembridge,British,Carlisle Bay,1794
+Cape of Florida,British,Downs,1796
+Portsmouth,British,St Helena,1797
+Spithead,British,Maccao,1798
+Malacca,British,Cannanore,1799
+Table Bay,British,Spithead,1802
+Madeira,British,Antigua,1783
+Plymouth ,British,Madeira,1783
+Nederland,Dutch,Bilbao,1815
+Bilbao,Dutch,Roxent,1815
+Roxent,Dutch,Soincij Baai,1815
+Soincij Baai,Dutch,West Indie,1815
+Nederland,Dutch,Suriname,1815
+Suriname,Dutch,Barbados,1816
+Barbados,Dutch,Nederland,1816
+Nederland,Dutch,Middellandse zee,1816
+Nieuwediep,Dutch,St Cruz,1818
+St Cruz,Dutch,Tristan d'Acunha,1818
+Tristan d'Acunha,Dutch,Batavia,1819
+Batavia,Dutch,Kaap de Goede Hoop,1821
+Kaap de Goede Hoop,Dutch,Texel,1821
+Texel,Dutch,Cayenne,1796
+Cayenne,Dutch,Bergen (Norway),1799
+Plymouth,Dutch,Santa Cruz,1815
+Santa Cruz,Dutch,Simonsbaai,1815
+Simonsbaai,Dutch,Meeuwebaai,1816
+Meeuwebaai,Dutch,Batavia,1816
+The Nore,British,Quebec,1776
+Quebec,British,Spithead,1776
+Madras,British,cruising towards Rodriquez,1783
+Plymouth,British,St Helena,1796
+St Helena,British,Downs,1796
+Downs,British,St Helena,1798
+St Helena,British,Downs,1798
+CADIZ,Spanish,MELILLA,1847
+Londen,Dutch,Hobarttown,1853
+Nederland,Dutch,Simonsbaai,1852
+Kaap de Goede Hoop,Dutch,Batavia,1852
+Batavia,Dutch,Brouwershaven,1852
+Texel,Dutch,Rio de Janeiro,1838
+Rio de Janeiro,Dutch,Batavia,1839
+Batavia,Dutch,Texel,1839
+Texel,Dutch,Batavia,1840
+Batavia,Dutch,Texel,1840
+Texel,Dutch,Batavia,1841
+Batavia,Dutch,Texel,1841
+Nederland,Dutch,Fort Axim,1839
+Fort Axim,Dutch,St George d'Elmina,1839
+St George d'Elmina,Dutch,Batavia,1839
+Batavia,Dutch,St Helena,1839
+St Helena,Dutch,Hellevoetsluis,1840
+Nederland,Dutch,St George d'Elmina,1841
+St George d'Elmina,Dutch,Batavia,1841
+Tjilatjap,Dutch,Nederland,1842
+London,Dutch,Melbourne,1853
+Melbourne,Dutch,Batavia,1853
+Batavia,Dutch,Nederland,1853
+Torbay,British,East end of Barbados (then Carlisle Bay),1750
+Carlisle Bay, Barbados,British,Torbay,1750
+Portsmouth,British,Madeira,1753
+Nederland,Dutch,Batavia,1852
+Soerabaja,Dutch,Nederland,1853
+London,Dutch,Sydney,1853
+Batavia,Dutch,Nieuwediep,1821
+Jamaica,British,Sandy Hook,1781
+Antigua,British,Spithead,1782
+Teneriffe,British,St Christopher,1783
+Plymouth Sound,British,Maderia Road,1752
+Maderia Road,British,Chebuto,1752
+Spectacle Island (Boston),British,Sheerness,1753
+Plymouth,British,Madeira,1754
+Crooked Island (Bahamas),British,Spithead,1755
+Plymouth,British,Madeira,1768
+Monserrat,British,Spithead,1771
+Rotterdam,Dutch,St Christoffel,1778
+St Christoffel,Dutch,Suriname,1778
+Suriname,Dutch,St Eustacius,1778
+St Eustacius,Dutch,Texel,1779
+Hellevoetsluis,Dutch,St Eustacius,1780
+St Eustacius,Dutch,Hellevoetsluis,1780
+Nederland,Dutch,Middellandse zee,1844
+Middellandse Zee,Dutch,Nederland,1844
+Middellandse zee,Dutch,Nederland,1844
+Nederland,Dutch,Rio de Janeiro,1845
+Rio de Janeiro,Dutch,Batavia,1845
+Batavia,Dutch,Nederland,1846
+Nieuwediep,Dutch,Batavia,1852
+Batavia,Dutch,Nieuwediep,1852
+Amsterdam,Dutch,Liverpool,1853
+Liverpool,Dutch,Batavia,1853
+Batavia,Dutch,Amsterdam,1854
+Batavia,Dutch,Nieuw Diep,1826
+Nieuwediep,Dutch,Batavia,1839
+Banjoewangie,Dutch,Nieuwediep,1840
+Nieuwediep,Dutch,Padang,1840
+Banjoewangie,Dutch,Nieuwediep,1841
+Batavia,Dutch,Hellevoetsluis,1756
+Nederland,Dutch,Hampton,1802
+Hampton,Dutch,Nederland,1802
+Rotterdam,Dutch,Batavia,1839
+Batavia,Dutch,Hellevoetsluis,1839
+Middelburg,Dutch,Suriname,1766
+Texel,Dutch,Kaap de Goede Hoop,1774
+Vlissingen,Dutch,Batavia,1783
+Batavia,Dutch,Straat Banka,1784
+Straat Banka,Dutch,Malakka,1784
+Straat Sunda,Dutch,Ceylon,1785
+Galle (Ceylon),Dutch,Mauritius,1786
+Mauritius,Dutch,Kaap de Goede Hoop,1786
+Kaap de Goede Hoop,Dutch,St Helena,1786
+St Helena,Dutch,Nederland,1786
+St Helena,British,Trinidada,1781
+Trinidada,British,River Plate,1781
+River Plate,British,Trinidada,1781
+Trinidada,British,Fernando de Noronha,1781
+Fernando de Noronha,British,Spithead,1782
+Spithead,British,Simons Bay,1796
+Mauritius,British,Table Bay,1796
+Table Bay,British,St Helena,1797
+St Helena,British,Table Bay,1797
+Table Bay,British,Mauritius,1799
+St Augustine,British,Simons Bay,1799
+Table Bay ,British,Mauritius,1800
+Madagascar,British,Simons Bay,1800
+Table Bay,British,Rio de la Plata,1801
+Rio de la Plata,British,Simons Bay,1801
+Table Bay,British,Portsmouth,1803
+Hellevoetsluis,Dutch,Cayenne,1782
+Curacao,Dutch,Nederland,1782
+Hellevoetsluis,Dutch,Suriname,1783
+Curacao,Dutch,Hellevoetsluis,1783
+Rotterdam,Dutch,Suriname,1783
+Suriname,Dutch,Rotterdam,1784
+Rotterdam,Dutch,Bordeaux,1784
+Bordeaux,Dutch,Rotterdam,1785
+Rotterdam,Dutch,Suriname,1785
+Suriname,Dutch,Vlissingen,1786
+Vlissingen,Dutch,Guyana,1786
+Suriname,Dutch,Vlissingen,1786
+Rotterdam,Dutch,Suriname,1794
+Suriname,Dutch,Bergen (Norway),1799
+Hellevoetsluis,Dutch,West-Indie,1781
+Helvoetsluis,Dutch,Curacao,1802
+Helvoetsluis,Dutch,Curacao,1802
+Spithead,British,Madeira,1770
+Madeira,British,Barbados,1770
+Kinsale Road,British,Madeira,1754
+Madeira,British,Madagasgar,1754
+Madagasgar,British,Madras,1754
+Madras,British,Bombay,1754
+Bombay,British,Madras,1754
+Madras ,British,Calcutta,1756
+Madras ,British,Ballisore (Baleshwar) Road,1756
+Java Head,British,UK,1785
+Downs,British,Batavia (via St Helena),1785
+Batavia,British,UK,1787
+Gravesend,British,York Factory,1789
+York Factory,British,Gravesend,1789
+Calcutta,British,Spithead,1757
+Nederland,Dutch,Suriname,1828
+Suriname,Dutch,St Eustacius,1828
+St Eustacius,Dutch,St Maarten,1828
+St Eustatius,Dutch,Curacao,1828
+Curacao,Dutch,Truxillo,1828
+Truxillo,Dutch,Havana,1828
+Havana,Dutch,Truxillo,1828
+Truxillo,Dutch,Curaçao,1828
+Curacao,Dutch,St Eustatius,1829
+St Eustatius,Dutch,Curacao,1829
+Curaçao,Dutch,Suriname,1830
+Suriname,Dutch,Curacao,1830
+St Maarten,Dutch,Suriname,1831
+Suriname,Dutch,Curacao,1831
+Curacao,Dutch,St Eustatius,1832
+St Eustatius,Dutch,Parimaribo,1832
+Suriname,Dutch,Curacao,1832
+Curaçao,Dutch,Nederland,1833
+Batavia,Dutch,Nederland,1844
+Hellevoetsluis,Dutch,Batavia,1845
+Batavia,Dutch,San Francisco,1849
+San Francisco,Dutch,Valparaiso,1849
+Valparaiso,Dutch,Rio de Janeiro,1850
+Rio de Janeiro,Dutch,Vlissingen,1850
+Nederland,Dutch,Suriname,1852
+Suriname,Dutch,Curacao,1852
+Curacao,Dutch,Suriname,1852
+Curacao,Dutch,Nederland,1855
+Hellevoetsluis,Dutch,Freetown,1819
+Freetown,Dutch,Fort St Anthony, Axim,1819
+St George d'Elmina,Dutch,Fort Zeelandia,1819
+Fort Zeelandia,Dutch,Porto Kabello,1820
+Porto Kabello,Dutch,Rivier Kommewijne,1820
+Rivier Kommewijne,Dutch,Curacao,1820
+Curacao,Dutch,La Guayra,1820
+La Guayra,Dutch,Porto Cabello,1820
+Curacao,Dutch,Paramaribo,1821
+Paramaribo,Dutch,Texel,1821
+Nieuwediep,Dutch,Rio de Janeiro,1822
+Rio de Janeiro,Dutch,Batavia,1822
+Batavia,Dutch,Texel,1826
+Nederland,Dutch,Batavia,1849
+Batavia,Dutch,Nederland,1850
+Liverpool,Dutch,Melbourne,1853
+Melbourne,Dutch,Batavia,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Batavia,Dutch,Unknown,1853
+Kaap de Goede Hoop,Danish,Kopenhagen,1798
+Europa,French,Surabaya,1791
+Brest,French,Québec,1755
+Québec,French,Brest,1755
+Cork,British,Barbados,1799
+St Johns Antigua,British,Spithead,1802
+Rochefort,French,Fort Royal,1764
+Cap,French,Rochefort,1764
+Brest,French,Fort Royal,1752
+la Barbade,French,Brest,1753
+Brest,French,Cap,1787
+Cap,French,Brest,1787
+Cap,French,Brest,1787
+Brest,French,Cul de Sac,1787
+Cap Francaise,French,Rochefort,1787
+Cul de Sac,French,Cap Francaise,1787
+Brest,French,Terre Neuve,1788
+Terre Neuve,French,Brest,1788
+Rochefort,French,Louisbourg,1751
+Louisbourg,French,Rochefort,1751
+Nantes,French,Guadeloupe,1767
+Guadeloupe,French,Nantes,1768
+Spithead,British,Table Bay,1796
+Table Bay,British,St Catharines,1797
+Simon's Bay,British,Madras,1797
+Kedgeree,British,Pinang,1798
+Achean,British,Simon's Bay,1798
+Table Bay,British,Downs,1800
+Spithead,British,cruising western approaches,1800
+Brest,French,Cap,1772
+Cap,French,Brest,1773
+Honfleur,French,Grand banc, terre Neuve et retour a Honfleur,1777
+Honfleur,French,Grand banc, terre Neuve et retour a Honfleur,1777
+Rochefort,French,Martinique,1787
+Martinique,French,Rochefort,1787
+Rochefort,French,Martinique,1767
+Basse Terre,French,Rochefort,1768
+CÁDIZ,Spanish,MANILA,1777
+CÁDIZ,Spanish,MANILA,1778
+MANILA,Spanish,CÁDIZ,1779
+TALCAHUANO,Spanish,VALPARAISO,1790
+MORAO DE COPIAPO,Spanish,EL CALLAO,1790
+DESCONOCIDO (MARES DE NICARAGUA),Spanish,ACAPULCO,1791
+CÁDIZ,Spanish,DESCONOCIDO,1789
+DESCONOCIDO,Spanish,DESCONOCIDO,1789
+MANILA,Spanish,CÁDIZ,1816
+CADIZ,Spanish,EL CALLAO - LIMA,1789
+CÁDIZ,Spanish,EL CALLAO (LIMA),1789
+LA CORUÑA,Spanish,LA HABANA,1791
+LA HABANA,Spanish,LA CORUÑA,1791
+LA CORUÑA,Spanish,LA HABANA,1792
+CABO DE GRACIAS A DIOS,Spanish,ISLA DE SAN ANDRÉS Y STA. CATALINA, ALIAS PROVIDEN,1787
+LA CORUÑA,Spanish,LA HABANA,1780
+LA HABANA,Spanish,LA CORUÑA,1780
+MAHON,Spanish,ALGECIRAS,1782
+CALLAO,Spanish,CADIZ,1772
+CALLAO,Spanish,CÁDIZ,1772
+CADIZ,Spanish,EL CALLAO,1790
+ISLA DE FRANCIA,Spanish,TAHITI,1772
+MANILA,Spanish,MANILA(?),1829
+ISLA DE ALBIMOR EN LAS GALAPAGOS,Spanish,PACOCHA,1800
+CÁDIZ,Spanish,CARTAGENA,1823
+CARTAGENA,Spanish,MAHÓN,1822
+MAHÓN,Spanish,ARGEL,1822
+MAHÓN,Spanish,TARRAGONA,1822
+MAHÓN,Spanish,ARGEL,1822
+MAHON,Spanish,ALICANTE,1822
+CARTAGENA,Spanish,MAHON,1822
+MAHON,Spanish,CARTAGENA,1822
+CARTAGENA,Spanish,CÁDIZ,1822
+CÁDIZ,Spanish,CARTAGENA,1823
+CARTAGENA,Spanish,MAHÓN,1823
+MAHON,Spanish,CARTAGENA,1823
+CARTAGENA,Spanish,PALMA DE MALLORCA Y BARCELONA,1823
+CARTAGENA,Spanish,CÁDIZ,1824
+CÁDIZ,Spanish,ALGECIRAS Y A CRUZAR LA BOCA DEL ESTRECHO,1824
+CÁDIZ,Spanish,A CRUZAR SOBRE HUELVA,1824
+CÁDIZ,Spanish,TÁNGER (Y VUELTA),1824
+ALGECIRAS,Spanish,CÁDIZ,1825
+La Coruña,Spanish,Montevideo,1767
+La Coruña,Spanish,Montevideo,1767
+Montevideo ,Spanish,La Coruña,1768
+La Coruña,Spanish,Montevideo,1768
+Montevideo,Spanish,La Coruña,1769
+La Coruña,Spanish,Montevideo,1770
+Montevideo,Spanish,La Coruña,1770
+LA HABANA,Spanish,LA CORUÑA,1773
+La Coruña,Spanish,Montevideo,1773
+Montevideo,Spanish,La Coruña,1773
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1774
+La Coruña,Spanish,Montevideo,1777
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1778
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1779
+La Coruña,Spanish,Montevideo,1786
+Montevideo,Spanish,La Coruña,1786
+Montevideo,Spanish,La Coruña,1788
+SAN BLAS,Spanish,SAN LORENZO DE NUCA,1789
+SAN BLAS,Spanish,SAN LORENZO DE NUCA Y VUELTA,1789
+La Coruña,Spanish,Montevideo,1792
+Montevideo,Spanish,La Coruña,1793
+LA HABANA,Spanish,CÁDIZ,1794
+DESCONOCIDO,Spanish,BAHÍA DE MATANZAS (CUBA) Y LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+CADIZ,Spanish,LA HABANA,1849
+EL CALLAO (LIMA, PERÚ),Spanish,VALPARAÍSO (CHILE),1768
+VALPARAÍSO,Spanish,VALDIVIA,1769
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,CADIZ,1778
+LA HABANA,Spanish,CÁDIZ,1794
+Toulon,French,Almerie aux l'ille de Terre Neuve et retour a Bres,1784
+Brest,French,Dominique, cadix, Malagua et retour a Brest,1771
+Brest,French,Cadix,1771
+Cadix,French,Malagua,1771
+Malagua,French,Dominique, cadix, Malagua et retour a Brest,1771
+Cadix,French,Brest,1771
+Rochefort,French,Ferrol,1768
+Ferrol,French,Cap,1768
+La Havane,French,Rochefort,1769
+Rochefort,French,Rochefort,1769
+Europa,French,Madere,1785
+Madere,French,Teneriffe,1785
+Teneriffe,French,St Catherine,1785
+St Catherine,French,Talcaguana,1785
+Talcaguana,French,Ile de Paque,1786
+Ile de Paque,French,Ile Mowée,1786
+Ile Mowée,French,Port des Francais,1786
+Port des Francais,French,Monterey,1786
+Monterey,French,La côte de Chine,1786
+Macao,French,Mirabelle,1787
+Cavité,French,Ternal,1787
+Ternal,French,Suftren,1787
+Suftren,French,Langle,1787
+Langle,French,Castries,1787
+Castries,French,Avatscha,1787
+Avatscha,French,Nouvelle Hollande,1788
+La Coruña,Spanish,Montevideo,1771
+Montevideo,Spanish,La Coruña,1771
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1777
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1778
+La Coruña,Spanish,Montevideo,1779
+Montevideo,Spanish,La Coruña,1779
+La Coruña,Spanish,Montevideo,1785
+Montevideo,Spanish,La Coruña,1786
+La Coruña,Spanish,Montevideo,1786
+Montevideo,Spanish,La Coruña,1787
+Montevideo,Spanish,La Coruña,1788
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1790
+La Coruña,Spanish,Montevideo,1796
+Montevideo,Spanish,La Coruña,1797
+Rochefort,French,Tobago, la Martinique, St. Domingue,1790
+St Domingue,French,Rochefort,1790
+Rochefort,French,Guadeloupe,1766
+Guadeloupe,French,Martinique,1766
+Martinique,French,Rochefort,1766
+Brest,French,Marie Galante,1765
+Marie Galante,French,Brest,1765
+Brest,French,La Martinique,1766
+La Martinique,French,Brest,1766
+Brest,French,St Domingue,1775
+Cap,French,Brest,1776
+Fort Royal,French,Brest,1787
+Rochefort,French,Fort Royal,1787
+Fort Royal,French,Brest,1787
+Rochefort,French,Martinique,1787
+Martinique,French,Rochefort,1788
+Montevideo,Spanish,La Coruña,1772
+La Coruña,Spanish,Montevideo,1772
+Montevideo,Spanish,La Coruña,1773
+La Coruña,Spanish,Montevideo,1773
+Montevideo,Spanish,La Coruña,1774
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1777
+Montevideo,Spanish,La Coruña,1778
+La Coruña,Spanish,Montevideo,1778
+Montevideo,Spanish,La Coruña,1779
+La Coruña,Spanish,Montevideo,1789
+Montevideo,Spanish,La Coruña,1790
+Isle d'Aix,French,Louisbourg,1755
+Louisbourg,French,Louisbourg,1756
+Louisbourg,French,Quebec,1756
+Louisbourg,French,Québec,1756
+Quebec,French,Rochefort,1756
+Quebec,French,Rochefort,1756
+Brest,French,Martinique,1785
+Guadeloupe,French,Brest,1786
+St. Nazaire,French,St Domingue,1776
+St Domingue,French,St. Nazaire,1776
+Brest,French,Martinique,1786
+Fort Royal,French,Cap,1788
+Cap,French,Nantasken,1788
+Nantasken,French,Busque,1788
+Brest,French,Martinique,1759
+Cap,French,Brest,1759
+L'isle d'Aix,French,La Guadeloupe,1765
+La Guadeloupe,French,L'isle d'Aix,1765
+ Rochefort,French,Baie de Chibouctou-Rochefort,1746
+ Rochefort,French,Baie de Chibouctou-Rochefort,1746
+Rochefort,French,Mediterranean,1788
+Coulon,French,Martinique,1788
+Coulon,French,Martinique,1788
+Martinique,French,St Pierre,1789
+St Pierre,French,le Baye du Croc,1789
+le Baye du Croc,French,St Pierre,1789
+St Pierre,French,Martinique,1789
+Martinique,French,Rochefort,1790
+Brest,French,Portsmouth,1785
+Portsmouth,French,Brest,1785
+Brest,French,Martinique,1788
+Martinique,French,Brest,1788
+Brest,French,Martinique,1786
+Martinique,French,Brest,1786
+Brest,French,St Domingue,1788
+St Domingue,French,Martinique,1788
+Martinique,French,Brest,1788
+Brest,French,Martinique,1785
+Basse Terre,French,Brest,1786
+Rochefort,French,Martinique,1776
+Caribe,French,Rochefort,1777
+Rochefort,French,St Croix,1766
+St Croix,French,Cayenne,1766
+Cap,French,Rochefort,1767
+Brest,French,Basse Terre,1769
+Brest,French,Fort Royal,1769
+Brest,French,Fort Royal,1769
+Rochefort,French,St Pierre,1767
+St Pierre,French,Rochefort,1767
+Lorient ,French,Portsmouth,1783
+Portsmouth,French,Philadelphia,1783
+Philadelphia,French,Baltimore,1783
+Baltimore,French,Brest,1783
+Toulon,French,Malaga,1751
+Malaga,French,Cadise,1751
+Cadise,French,Martinique,1751
+Guadeloupe,French,Mediteranee,1752
+Brest,French,Martinique,1788
+Rochefort,French,Louisbourg,1751
+Rochefort,French,Louisbourg,1751
+Rochefort,French,Quebec,1752
+Québec,French,Isle D'aix,1753
+Rochefort,French,Québec,1753
+Québec,French,Rochefort,1752
+Québec,French,Isle D'aix,1753
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1768
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1769
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1769
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1769
+Le Habre,French,Brest-Martinique-Guadeloupe-Brest,1769
+Brest,French,Martinique-Guadeloupe-Dominique-Sainte Lucie et re,1769
+Brest,French,Martinique-Guadeloupe-Dominique-Sainte Lucie et re,1770
+Isle d'Aix,French,Fort Royal,1773
+Fort Royal,French,Isle d'Aix,1773
+Brest,French,Martinique,1775
+Brest,French,Martinique,1775
+Martinique,French,Brest,1776
+Martinique,French,Brest,1776
+Spithead,British,Table Bay,1799
+Simons Bay ,British,Mauritius,1800
+St Marys Madagascar,British,Table Bay,1800
+Table Bay ,British,River Plate,1801
+River Plate,British,Simons Bay,1801
+Bombay,British,St Helena,1805
+St Helena,British,Montevideo,1806
+Montevideo,British,Spithead,1807
+Texel,Dutch,Batavia,1765
+Spithead,British,Trindada,1793
+Nederland,Dutch,Batavia,1851
+Fort St David,British,UK,1751
+Spithead,British,Carlise Bay,1795
+Jamaica,British,Spithead,1750
+Antigua,British,Spithead,1769
+Whampoa,British,St Helena,1785
+Gravesend,British,Madras,1787
+Prince of Wales Island (Penang),British,Gravesend,1788
+Cork,British,Barbados,1796
+Plymouth,British,St Jago,1807
+St Jago,British,Funchal,1807
+Funchal,British,Falmouth,1807
+L'isle D'aix,French,Louisbourg et retour a l'isle D'aix,1754
+L'isle D'aix,French,Louisbourg et retour a l'isle D'aix,1754
+Brest,French,St Domingue,1774
+St Domingue,French,Brest,1774
+Brest,French,Martinique,1788
+Martinique,French,Brest,1788
+Brest,French,Louisbourg,1753
+Brest,French,Louisbourg,1753
+Louisbourg,French,Brest,1753
+Rochefort,French,Québec,1751
+Québec,French,Rochefort,1751
+Rochefort,French,Iles St. Pierre, Terre Neuve, Ile Royale et retour,1752
+Rochefort,French,Iles St. Pierre, Terre Neuve, Ile Royale et retour,1752
+Rochefort,French,Martinique,1766
+Guadeloupe,French,Rochefort,1766
+Havre,French,Guadeloupe,1777
+Brest,French,Martinique,1786
+Saint Pierre,French,Brest,1786
+Brest,French,Saint Pierre-Terre Neuve,1787
+Saint Pierre-Terre Neuve,French,Brest,1787
+Brest,French,La Martinique,1751
+Martinique,French,Brest,1752
+Port Louis,French,Martinique,1775
+Guadeloupe,French,Brest,1776
+Le Havre,French,New York,1787
+New York,French,Cherbourg,1787
+Ile d'Aix,French,Louisbourg et rtour a Rochefort,1753
+Ile d'Aix,French,Louisbourg et rtour a Rochefort,1753
+Rochefort,French,Louisbourg et retour a Rochefort,1754
+Rochefort,French,Louisbourg et retour a Rochefort,1754
+Brest,French,Louisbourg,1750
+Louisbourg,French,Cadix,1750
+Cadix,French,Brest,1750
+Rochefort,French,Louisbourg,1753
+Louisbourg,French,Rochefort,1753
+Rochefort,French,Louisbourg,1755
+Louisbourg,French,Rochefort,1755
+Rochefort,French,Louisbourg,1756
+Louisbourg,French,Rochefort,1756
+Rochefort,French,Martinique,1786
+Fort Royal,French,Rochefort,1786
+Brest,French,Martinique,1774
+Martinique,French,Rochefort,1775
+Rochefort,French,Ile Miquelon et retour a Rochefort,1766
+Rochefort,French,Ile Miquelon et retour a Rochefort,1766
+Brest,French,Martinique,1786
+Guadeloupe,French,Brest,1786
+Brest,French,St Domingue,1773
+St Domingue,French,Brest,1774
+Toulon,French,La Carboniere,1751
+La Carboniere,French,Malaga,1751
+Malaga,French,Louisbourg,1751
+Louisbourg,French,Louisbourg,1751
+Louisbourg,French,Toulon,1751
+Brest,French,St Domingue,1772
+St Domingue,French,Brest,1773
+L'Ile d'Aix,French,Louisbourg et retour a Rochefort,1755
+L'Ile d'Aix,French,Louisbourg et retour a Rochefort,1756
+Isle de Rhé,French,Isles Michelon et retour a la Rochelle,1771
+Isle de Rhé,French,Isles Michelon et retour a la Rochelle,1771
+Isle d´Aix,French,Martinique,1754
+Guadeloupe,French,L'isle Dieu,1755
+Lisbon,British,Newfoundland,1782
+Spithead,British,Antigua,1759
+Gibraltar,British,UK,1775
+Portsmouth,British,Cape Nicholas, San Domingo,1795
+Cape Nicholas,British,Spithead,1797
+Gibraltar,British,Martinique,1800
+Halifax,British,St Georges Bermuda,1799
+Bermuda,British,Halifax,1800
+Halifax,British,Bermuda,1800
+Virginia,British,New Providence,1801
+New Providence,British,Hampton Road,1801
+Hampton Road,British,Halifax,1801
+Halifax,British,Bermuda,1802
+Halifax,British,Antigua,1802
+Antigua,British,Bermuda,1803
+Bermuda,British,Hampton Road,1803
+Hampton Road,British,Halifax,1803
+Halifax,British,Bermuda,1803
+Halifax,British,Murray's Anchorage, Bermuda,1804
+Murray's Anchorage, Bermuda,British,Egg Island,1804
+Egg Island,British,Murray's Anchorage, Bermuda,1804
+Cork,British,Barbados,1757
+Madeira,British,Boston,1771
+Boston,British,UK,1772
+Pondicherry,British,Table Bay,1761
+Table Bay,British,Portsmouth,1761
+Portsmouth,British,Maderia,1763
+Madeira,British,St Jago,1763
+St Jago,British,Madagascar,1763
+Madagascar,British,Madras,1763
+Calcutta,British,Madras,1764
+Madras,British,Simons Bay,1764
+Madras,British,Simons Bay,1764
+Madras,British,Simons Bay,1764
+Simons Bay,British,St Helena,1764
+St Helena,British,Plymouth,1764
+Cadiz,British,UK,1768
+St Johns,British,Cadiz,1768
+Spithead,British,Norfolk, Virginia,1775
+New York,British,Halifax,1776
+Spithead,British,Nantucket,1771
+Hellevoetsluis,Dutch,Batavia,1845
+Batavia,Dutch,Hellevoetsluis,1846
+Rotterdam,Dutch,Rio de Janeiro,1849
+Rio de Janeiro,Dutch,Batavia,1849
+Batavia,Dutch,Holland,1850
+Java Head,British,St Helena,1752
+St Helena,British,Plymouth,1752
+Downs,British,Java,1787
+Java Head,British,London,1788
+UK,British,Java (xmas Island),1793
+Java Head,British,St Helena,1794
+Plymouth,British,Hampton Road Virginia,1759
+Nieuwe Diep,Dutch,Batavia,1845
+Banjoewangie,Dutch,Nieuwediep,1845
+Nieuwediep,Dutch,Batavia,1846
+Batavia,Dutch,Nieuwediep,1846
+Nieuwediep,Dutch,New York,1847
+New York,Dutch,Antwerpen,1847
+Antwerpen,Dutch,Batavia,1847
+Banjoewangi,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Batavia,1848
+Batavia,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Batavia,1849
+Batavia,Dutch,Nieuwediep,1850
+Cardiff,Dutch,New York,1850
+New York,Dutch,Buenos Aires,1850
+Buenos Aires,Dutch,New York,1851
+New York,Dutch,Batavia,1851
+Banjoewangie,Dutch,Nieuwediep,1851
+Antigua,British,Spithead,1764
+Spithead,British,Antigua,1772
+Basse Terre,British,Spithead,1774
+Yarmouth,British,Madeira,1774
+Madeira,British,Antigua,1774
+Antigua,British,Falmouth,1776
+Hellevoetsluis,Dutch,Buenos Aires,1823
+Buenos Aires,Dutch,Valparaiso,1823
+Valparaiso,Dutch,Callao,1824
+Callao,Dutch,Davilican baai,1824
+Davilican baai,Dutch,Pollilo,1824
+Pollilo,Dutch,Sursogon,1824
+Sursogon,Dutch,Cavite,1824
+Manilla,Dutch,Batavia,1824
+ESTRECHO DE SAN BERNARDINO,Spanish,ACAPULCO,1797
+CÁDIZ,Spanish,CÁDIZ,1779
+LA HABANA,Spanish,CÁDIZ,1794
+LA HABANA.,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,SANTA CATHALINA,1776
+SANTA CATHALINA,Spanish,MONTEVIDEO,1777
+SANTA CATHALINA,Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,SACRAMENTO,1777
+CÁDIZ,Spanish,RÍO DE JANEIRO (BRASIL),1809
+RÍO DE JANEIRO,Spanish,CÁDIZ,1809
+CÁDIZ,Spanish,PUERTO RICO,1793
+CÁDIZ,Spanish,PUERTO RICO,1793
+PUERTO RICO,Spanish,VERACRUZ,1794
+VERACRUZ,Spanish,LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,INGLATERRA,1790
+Texel,Dutch,St. Eustatius,1760
+St. Eustatius,Dutch,Nieuwediep,1761
+Nieuwediep,Dutch,Lissabon,1761
+Lissabon,Dutch,Nieuwediep,1761
+Rotterdam,Dutch,Batavia,1662
+Rotterdam,Dutch,Batavia,1663
+Nederland,Dutch,Suriname,1835
+Suriname,Dutch,St Maarten,1835
+Curaçao,Dutch,New York,1835
+New York,Dutch,Texel,1835
+Texel,Dutch,Rio de Janeiro,1838
+Texel,Dutch,Rio de Janeiro,1838
+Rio de Janeiro,Dutch,Batavia,1838
+Batavia,Dutch,Texel,1841
+Hellevoetsluis,Dutch,Batavia,1841
+Batavia,Dutch,Rotterdam,1842
+Hellevoetsluis,Dutch,St Vincent,1786
+St Vincent,Dutch,Rio Demerary,1787
+Rio Demerary,Dutch,Hellevoetsluis,1787
+Downs UK,British,Bengal,1826
+Bengal,British,Downs UK,1826
+Nieuwediep,Dutch,Calcutta,1850
+Nieuwediep,Dutch,Calcutta,1851
+Nieuwediep,Dutch,Calcutta,1851
+Calcutta,Dutch,Java,1851
+Calcutta,Dutch,Batavia,1851
+Batavia,Dutch,Kaap de Goede Hoop,1851
+Batavia,Dutch,Nederland,1851
+Westereilanden,Dutch,Nederland,1851
+Nederland,Dutch,Batavia,1851
+Batavia,Dutch,London,1852
+Batavia,Dutch,Nederland,1852
+Londen,Dutch,Calcutta,1853
+London,Dutch,Calcutta,1853
+Calcutta,Dutch,Batavia,1853
+Batavia,Dutch,Nederland,1853
+Batavia,Dutch,Nederland,1853
+Charlestown,British,Barbados,1782
+Antigua,British,New York,1782
+Plymouth,British,Annabona,1781
+Annabona,British,St Helena,1781
+St Helena,British,Madras,1781
+Plymouth,British,Barbados,1794
+Spithead,British,Carlise Bay Barbados,1802
+Jamaica,British,Spithead,1802
+Spithead,British,Halifax,1813
+Spithead,British,Barbados,1805
+Port Royal, Jamaica,British,The Nore,1806
+Table Bay,British,Spithead,1808
+Malacca,British,Madras,1763
+Manilla,British,Penang,1763
+Nieuwediep,Dutch,Batavia,1847
+Banjoewangie,Dutch,Nieuwediep,1848
+Nieuwediep,Dutch,Batavia,1848
+Bangoewangie,Dutch,Nieuwediep,1849
+Nieuwediep,Dutch,Batavia,1849
+Batavia,Dutch,Nieuwediep,1850
+Bremen,Dutch,New York,1852
+New York,Dutch,Nederland,1852
+Hellevoetsluis,Dutch,St George d'Elmina,1836
+St George d'Elmina,Dutch,Batavia,1836
+St George d'Elmina,Dutch,Batavia,1836
+Batavia,Dutch,Hellevoetsluis,1836
+Rotterdam,Dutch,Golf van Guinee,1838
+Golf van Guinee,Dutch,Batavia,1838
+Batavia,Dutch,Rotterdam,1838
+Rotterdam,Dutch,Batavia,1847
+Padang,Dutch,Nederland,1848
+Rotterdam,Dutch,Batavia,1849
+Batavia,Dutch,Brouwershaven,1850
+CÁDIZ,Spanish,CÁDIZ,1779
+La Coruña,Spanish,Montevideo,1785
+Montevideo,Spanish,La Coruña,1785
+La Coruña,Spanish,Montevideo,1787
+Montevideo,Spanish,La Coruña,1787
+Portsmouth,Dutch,Simonsbaai,1816
+Simonsbaai,Dutch,Batavia,1816
+Batavia,Dutch,Texel,1819
+Texel,Dutch,St George d'Elmina,1824
+St George d'Elmina,Dutch,Montevideo,1824
+Montevideo,Dutch,Valparaiso,1825
+Valparaiso,Dutch,Cherillos,1825
+Cherillos,Dutch,Noahiwa,1825
+Noahiwa,Dutch,Ambon,1825
+Ambon,Dutch,Ambon,1825
+Ambon,Dutch,Sourabaija,1825
+Sourabaija,Dutch,Batavia,1826
+Batavia,Dutch,Texel,1826
+Rotterdam,Dutch,Batavia,1850
+Batavia,Dutch,Rotterdam,1851
+Batavia,British,Cape of Good Hope,1750
+Cape of Good Hope,British,UK,1750
+Downs,British,St Helena,1790
+St Helena,British,Java,1790
+Rotterdam,Dutch,St Eustacius,1780
+Anguilla,British,Kinsale,1767
+Halifax,British,Fort Johnson,1768
+Halifax,British,Charleston,1770
+Charleston,British,Plymouth,1771
+Portsmouth,British,Carlisle Bay Barbados,1782
+Florida,British,Nova Scotia,1783
+Spithead ,British,Rio de Janeiro,1782
+Rio de Janeiro,British,Madagascar,1782
+Madagascar,British,Johanna,1782
+Johanna,British,Madras,1782
+Madras,British,Kedgeree,1782
+Madras,British,Table Bay,1783
+Table Bay,British,Portsmouth,1783
+Spithead,British,Antigua,1783
+Plymouth,British,Dixcove,1791
+St Thomas,British,Barbados,1792
+Jamaica,British,Weymouth,1792
+Spithead,British,Cruise to Finisterre,1755
+Spithead,British,Cruise to Finisterre,1756
+Spithead,British,Cruise to Azores,1756
+Spithead,British,Halifax,1759
+Spithead,British,St. Augustine, Madagascar,1760
+St. Augustine Madagascar,British,Cuddalore,1760
+Madras,British,Cape of Good Hope,1765
+Cape of Good Hope,British,St Helena,1765
+St Helena,British,Plymouth,1765
+Nederland,Dutch,Kaap de Goede Hoop,1832
+Kaap de Goede Hoop,Dutch,Batavia,1832
+Batavia,Dutch,St. Helena,1836
+St Helena,Dutch,Hellevoetsluis,1836
+Hellevoetsluis,Dutch,Falmouth,1839
+Falmouth,Dutch,Tenerife,1839
+Tenerife,Dutch,Rio de Janeiro,1839
+Rio de Janeiro,Dutch,Batavia,1839
+Batavia,Dutch,Texel,1842
+Nederland,Dutch,Suriname,1845
+Suriname,Dutch,Curacao,1845
+Curacao,Dutch,St Eustacius,1846
+St Eustacius,Dutch,Curacao,1846
+Curacao,Dutch,Suriname,1846
+Suriname,Dutch,St Maarten,1847
+St Maarten,Dutch,Curaçao,1847
+Curaçao,Dutch,Porto Cabello,1847
+Porto Cabello,Dutch,St Eustacius,1847
+St Eustacius,Dutch,Curaçao,1847
+Curaçao,Dutch,La Guaijra,1847
+Curaçao,Dutch,St Eustacius,1847
+St Eustacius,Dutch,La Guaijra,1847
+Curaçao,Dutch,St. Maarten,1848
+St. Maarten,Dutch,Suriname,1848
+Suriname,Dutch,St Maarten,1848
+St Maarten,Dutch,Curaçao,1848
+Curaçao,Dutch,Suriname,1848
+Suriname,Dutch,St Eustacius,1848
+St Eustacius,Dutch,Curaçao,1848
+Curaçao,Dutch,La Guaijra,1849
+La Guaijra,Dutch,Curaçao,1849
+Curaçao,Dutch,Puerto Cabello,1849
+Puerto Cabello,Dutch,La Guaijra,1849
+Curaçao,Dutch,Vlissingen,1849
+Texel,Dutch,Rio de Janeiro,1821
+Rio de Janeiro,Dutch,Batavia,1821
+Downs,British,Bombay,1787
+Java Head,British,Downs,1788
+Nederland,Dutch,Elmina,1840
+Elmina,Dutch,Batavia,1840
+Rammekens,Dutch,Simonsbaai,1793
+Nieuwediep,Dutch,Batavia,1853
+Soerabaija,Dutch,Nieuwediep,1854
+Batavia ,Dutch,Tafelbaai,1848
+Tafelbaai ,Dutch,Falmouth,1848
+Tafelbaai,Dutch,Falmouth,1849
+Tafelbaai ,Dutch,Falmouth,1848
+Hellevoetsluis,Dutch,Batavia,1848
+Batavia,Dutch,Rotterdam,1849
+Nederland,Dutch,Kaap de Goede Hoop,1851
+Kaap de Goede Hoop,Dutch,Batavia,1851
+Batavia,Dutch,Nederland,1852
+Middelburg,Dutch,Kaap Mazurado,1752
+Popo,Dutch,Camarones,1752
+San Thomé,Dutch,Vlissingen,1753
+Middelburg,Dutch,Kaap Monte,1753
+St George d'Elmina,Dutch,Suriname,1754
+Suriname,Dutch,Vlissingen,1754
+Rammekens,Dutch,West Afrika,1755
+West Afrika,Dutch,Rammekens,1755
+Rammekens,Dutch,Guinea,1756
+San Thomé,Dutch,Rammekens,1756
+Middelburg,Dutch,Afrika,1758
+Afrika,Dutch,Middelburg,1759
+Dublin Bay,British,Maderia,1750
+Madeira,British,Spithead,1750
+Plymouth,British,Newfoundland,1750
+Newfoundland,British,Lisbon,1750
+Lisbon,British,Lizard,1750
+Spithead,British,St Johns (NF),1780
+St Johns (NF),British,cruising off NF,1780
+St Johns (NF),British,cruising off Grand Banks,1780
+St Johns (NF),British,Spithead,1780
+Spithead,British,New York,1783
+Texel,Dutch,Paramaribo,1819
+Paramaribo,Dutch,Curacao,1819
+Curacao,Dutch,Hellevoetsluis,1822
+Spithead,British,Newfoundland,1767
+Spithead,British,Newfoundland,1768
+Spithead,British,Madeira,1769
+Anna de Chaces,British,Spithead,1769
+Jamaica,British,Spithead,1772
+Spithead,British,St Johns,1783
+St Johns,British,Spithead,1783
+Spithead,British,New York,1754
+New York,British,Charlestown,1754
+Spithead,British,Lisbon,1757
+Spithead,British,CharlesTown N.Carolina,1759
+Falmouth,British,Halifax,1767
+Boston,British,Halifax,1770
+Hellevoetsluis,Dutch,Rio de Janeiro,1852
+Rio de Janeiro,Dutch,Batavia,1852
+Batavia,Dutch,Paramaribo,1853
+Paramaribo,Dutch,Curacao,1853
+Curacao,Dutch,Nieuwediep,1853
+Texel,Dutch,Curaçao,1751
+Curaçao,Dutch,Middelburg,1751
+Middelburg,Dutch,Afrika,1752
+Afrika,Dutch,Suriname,1753
+Suriname,Dutch,Middelburg,1754
+Rotterdam,Dutch,Guinea,1754
+Guinea,Dutch,Suriname,1755
+Suriname,Dutch,Middelburg,1756
+Middelburg,Dutch,West Afrika,1756
+West Afrika,Dutch,Suriname,1757
+Suriname,Dutch,Middelburg,1758
+Tagus,British,Spithead,1782
+Spithead,British,Gibraltar,1782
+Gibraltar,British,Spithead,1782
+Spithead,British,Madras,1791
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Tagus,British,cruising off Tagus,1782
+Falmouth,British,St Augustines,1781
+St Augustines,British,Johanna,1781
+Johanna,British,Nagapatam,1781
+Spithead,British,St Jago,1781
+St Jago,British,Saldanha,1781
+Saldanha,British,Johanna,1781
+Johanna,British,Moubat,1781
+Moubat,British,Bombay,1781
+Bombay,British,Table Bay,1784
+Table Bay,British,St Helena,1784
+St Helena,British,Ascension,1784
+Ascension,British,Spithead,1784
+Antigua,British,New York,1781
+New York,British,Barbados,1781
+Gibraltar,British,Spithead,1772
+St Johns Newfoundland,British,Spithead,1781
+SAN BLAS,Spanish,AMÉRICA SEPTENTRIONAL(NOKA),1792
+SAN BLAS,Spanish,AMÉRICA SEPTENTRIONAL(NOKA),1792
+NOKA,Spanish,BUCARELY,1792
+BUCARELY,Spanish,NOKA,1792
+BUCARELY,Spanish,FLORIDA BLANCA,1792
+FLORIDA BLANCA,Spanish,SURGRO. DE SAN ROQUE,1792
+SURGIDERO DE SAN ROQUE,Spanish,NOKA,1792
+NOKA,Spanish,MONTERREY,1792
+MONTERREY,Spanish,SAN BLAS,1793
+RIO DE JANEIRO,Spanish,RIO DE LA PLATA,1782
+CADIZ,Spanish,PUERTO RICO,1793
+CÁDIZ,Spanish,PUERTO RICO,1793
+CÁDIZ,Spanish,VERACRUZ,1793
+VERACRUZ,Spanish,CÁDIZ,1794
+VERACRUZ.,Spanish,CÁDIZ,1794
+VERACRUZ,Spanish,LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+LA HABANA,Spanish,CÁDIZ,1794
+MÁLAGA,Spanish,ISLAS DE BARLOVENTO,1792
+CÁDIZ,Spanish,PACÍFICO,1827
+SISIRÁN,Spanish,SAN BLAS (NUEVA ESPAÑA),1781
+SISIRÁN,Spanish,SAN BLAS (NUEVA ESPAÑA),1780
+CÁDIZ,Spanish,VERACRUZ (MÉXICO),1794
+CÁDIZ,Spanish,LA HABANA,1793
+CÁDIZ,Spanish,VERACRUZ,1793
+LA HABANA,Spanish,CÁDIZ,1794
+VERACRUZ,Spanish,LA HABANA,1794
+EL CALLAO,Spanish,EL CALLAO,1676
+Madras,British,Table Bay,1783
+Table Bay,British,Spithead,1784
+Portsmouth,British,Portsmouth (after cruising towards Finisterre),1757
+Spithead,British,Halifax,1758
+New York,British,CharlesTown,1782
+CharlesTown,British,St Lucia,1782
+St Lucia,British,New York,1783
+Nova Scotia,British,Spithead,1784
+Batavia,Dutch,Amsterdam,1845
+Amsterdam,Dutch,Batavia,1845
+Amsterdam,Dutch,Batavia,1846
+Batavia,Dutch,Amsterdam,1847
+Het Nieuwe Diep,Dutch,Batavia,1847
+Batavia,Dutch,Amsterdam,1848
+Amsterdam,Dutch,Batavia,1849
+Bangoewangie,Dutch,Amsterdam,1849
+Texel,Dutch,Fonciaal,1780
+Fonciaal,Dutch,Curacao,1781
+Curacao,Dutch,Tiburon baai,1781
+Tiburon baai,Dutch,Texel,1781
+Plymouth ,British,Fayal Road Azores,1772
+Fayal, Azores,British,St Johns Newfoundland,1772
+St Johns Newfoundland (cruise of Grand Banks),British,St Johns Newfoundland,1772
+St Johns Newfoundland,British,Lisbon,1772
+Lisbon,British,Plymouth,1772
+Prince Ruperts Bay Dominica,British,Rhode Island,1794
+St Kitts,British,Milford Haven,1795
+Texel,Dutch,Batavia,1788
+Liverpool,Dutch,Melbourne,1853
+Melbourne,Dutch,Batavia,1853
+Nieuwediep,Dutch,Batavia,1847
+Batavia,Dutch,Soerabaya,1847
+Soerabaya,Dutch,Pangool,1847
+Soerabaya,Dutch,Nieuwediep,1848
+Rotterdam,Dutch,Batavia,1832
+Batavia,Dutch,Kaapstad,1833
+Kaapstad,Dutch,Rotterdam,1833
+Rotterdam,Dutch,Batavia,1836
+Batavia,Dutch,Rotterdam,1836
+Rotterdam,Dutch,Batavia,1845
+Batavia,Dutch,Hellevoetsluis,1845
+Hellevoetsluis,Dutch,Kaap de Goede Hoop,1838
+Kaap de Goede Hoop,Dutch,Batavia,1838
+Hellevoetsluis,Dutch,Kaap de Goede Hoop,1839
+Kaap de Goede Hoop,Dutch,Batavia,1839
+Batavia,Dutch,Hellevoetsluis,1841
+Batavia,Dutch,Hellevoetsluis,1841
+Holland,Dutch,Rio de Janeiro,1846
+Rio de Janeiro,Dutch,Batavia,1846
+Torbay UK,British,Basse Terre,1808
+Basse Terre,British,Plymouth,1808
+Plymouth,British,Barbados,1808
+Jamaica Port Royal,British,Spithead,1802
+Falmouth,British,Maldonado, River Plate,1806
+Falmouth,British,Maldonado, River Plate ,1806
+St Helens Road UK,British,Spithead,1756
+The Ramhead,British,Spithead,1756
+Spithead,British,Hamoze UK,1756
+Madeira,British,St Augustine Bay,1757
+Madeira,British,St Augustine Bay,1757
+St Augustin Bay,British,Bombay Harbour,1757
+St Augustine Bay,British,Bombay Harbour,1757
+Saderass,British,Collemoye,1758
+Halifax,British,Bermuda,1820
+Bermuda,British,Halifax,1820
+Halifax,British,Quebec,1820
+Halifax,British,Bermuda,1820
+Bermuda,British,Halifax,1821
+Halifax,British,Bermuda,1821
+Halifax,British,Spithead,1821
+Nederland,Dutch,Batavia,1845
+Batavia,Dutch,Nederland,1845
+London,Dutch,Batavia,1848
+Batavia,Dutch,Nederland,1848
+Nederland,Dutch,Batavia,1849
+Batavia,Dutch,Nederland,1849
+Nederland,Dutch,Java,1850
+Banjoewangie,Dutch,Brouwershaven,1850
+Brouwershaven,Dutch,Batavia,1852
+Batavia,Dutch,Brouwershaven,1853
+Middelburg,Dutch,West Afrika,1767
+Middelburg,Dutch,West Afrika,1767
+West Afrika,Dutch,Suriname,1767
+Suriname,Dutch,Middelburg,1768
+Middelburg,Dutch,West Afrika,1768
+West Afrika,Dutch,Suriname,1769
+Suriname,Dutch,Middelburg,1769
+Middelburg,Dutch,West Afrika,1770
+West Afrika,Dutch,Suriname,1771
+Suriname,Dutch,Middelburg,1771
+Middelburg,Dutch,Kaap Masurado,1779
+Elmina,Dutch,Braamspunt,1779
+Braamspunt,Dutch,St Eustatius,1780
+St Eustatius,Dutch,Middelburg,1780
+St John's Newfoundland,British,Cadiz,1768
+Cadiz,British,Spithead,1769
+Spithead,British,St John's Newfoundland,1769
+Spithead,British,Gibraltar,1770
+Lisbon,British,Spithead,1772
+Plymouth,British,Mauritius,1810
+Port Louis, Mauritius,British,Madras ,1811
+Madras,British,Port Louis, Mauritius,1811
+Port Louis,British,Batavia,1811
+Batavia,British,Port Louis,1811
+Port Louis,British,Table Bay,1812
+Simons Bay,British,Quiloa, East Africa,1812
+Quiloa East Africa,British,Table Bay,1812
+Table Bay,British,St Helena,1812
+St Helena,British,Table Bay,1813
+Bayonne,French,Bordeaux,1787
+Martinique,French,Cap Francois,1787
+Bordeaux,French,Martinique,1787
+Cap Francois,French,Bordeaux,1788
+Pal,French,Richard,1788
+Richard,French,Guadeloupe,1788
+Guadeloupe,French,Cap Francis,1788
+Cap Francis,French,Bordeaux,1788
+Le Havre,French,New York,1788
+New York,French,Brest,1788
+Bordeaux,French,St Domingue,1787
+St Domingue,French,Bordeaux,1788
+Middelburg,Dutch,Batavia,1758
+Batavia,Dutch,Rammekens,1759
+Rammekens,Dutch,Batavia,1761
+Gravesend,British,St Helena,1767
+St Helena,British,Canton,1767
+Canton,British,St Helena,1768
+Gravesend,British,Bombay,1770
+Bombay,British,Canton,1771
+Canton ,British,Table Bay,1772
+Table Bay,British,Spithead,1772
+Dungeness,British,Bombay,1774
+Bombay,British,Bengal,1774
+Calcutta,British,Table Bay,1775
+Table Bay,British,Lisbon,1776
+Lisbon,British,Spithead,1776
+Simons Bay,British,Downs UK via St Helena,1807
+Yarmouth,British,New York,1760
+Yarmouth,British,New York,1760
+Cork,British,New York,1765
+Cape Verde (Dakar),British,Simons Bay,1779
+Table Bay,British,Madras,1779
+Frankrijk,French,Nederlands Indië,1811
+Rotterdam,Dutch,Batavia,1851
+Batavia,Dutch,Shanghai,1851
+Shanghai,Dutch,Batavia,1851
+Batavia,Dutch,Rotterdam,1852
+Rotterdam,Dutch,Batavia,1852
+Schiedam,Dutch,Spitsbergen,1791
+Spitsbergen,Dutch,Schiedam,1791
+Schiedam,Dutch,Spitsbergen,1792
+Spitsbergen,Dutch,Schiedam,1792
+Schiedam,Dutch,Spitsbergen,1793
+Spitsbergen,Dutch,Schiedam,1793
+Schiedam,Dutch,Spitsbergen,1794
+Spitsbergen,Dutch,Schiedam,1794
+Amsterdam,Dutch,Batavia,1853
+Batavia,Dutch,Amsterdam,1853
+Hellevoetsluis,Dutch,Guiana,1759
+Suriname,Dutch,Hellevoetsluis,1759
+Hellevoetsluis,Dutch,Brest,1787
+Brest,Dutch,False Baay,1787
+False Baay,Dutch,Batavia,1787
+Placentia Road,British,Lisbon,1754
+Lisbon,British,Plymouth,1754
+Hammoze,British,Hammoze (cruising),1755
+St Johns, Newfoundland,British,Halifax,1755
+Halifax,British,Froward Point (England),1755
+Rammekens,Dutch,Ceylon,1773
+Hellevoetsluis,Dutch,Batavia,1848
+Bangowangie,Dutch,Brouwershaven,1849
+MONTEVIDEO,Spanish,SANTA CATALINA Y DE ALLÍ A ESPAÑA,1778
+CÁDIZ,Spanish,AMÉRICA MERIDIONAL,1776
+CADIZ,Spanish,ISLA SANTA CATALINA (BRASIL),1776
+CÁDIZ,Spanish,ISLA SANTA CATALINA (BRASIL),1777
+CÁDIZ,Spanish,SANTA CATALINA (BRASIL),1776
+CÁDIZ,Spanish,ISLA SANTA CATALINA,1776
+CÁDIZ,Spanish,DOMINIOS DE AMÉRICA,1776
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+LA CORUÑA,Spanish,LA HABANA,1765
+LA HABANA,Spanish,LA CORUÑA,1765
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+LA CORUÑA,Spanish,LA HABANA,1766
+LA HABANA,Spanish,LA CORUÑA,1766
+Buenos Aires,Spanish,La Coruña,1767
+LA CORUÑA,Spanish,LA HABANA,1768
+LA HABANA,Spanish,LA CORUÑA,1768
+LA HABANA,Spanish,LA CORUÑA,1769
+La Coruña,Spanish,Montevideo,1769
+Montevideo,Spanish,La Coruña,1770
+La Coruña,Spanish,Montevideo,1770
+Montevideo,Spanish,La Coruña,1771
+La Coruña,Spanish,Montevideo,1771
+Montevideo,Spanish,La Coruña,1772
+La Coruña,Spanish,Montevideo,1772
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1773
+LA CORUÑA,Spanish,LA HABANA,1773
+LA CORUÑA,Spanish,LA HABANA,1775
+LA HABANA,Spanish,LA CORUÑA,1775
+LA CORUÑA,Spanish,LA HABANA,1776
+LA HABANA,Spanish,LA CORUÑA,1776
+Montevideo,Spanish,La Coruña,1777
+LA CORUÑA,Spanish,LA HABANA,1777
+LA HABANA,Spanish,LA CORUÑA,1778
+LA CORUÑA,Spanish,LA HABANA,1778
+LA HABANA,Spanish,LA CORUÑA,1778
+La Coruña,Spanish,Montevideo,1780
+Montevideo,Spanish,La Coruña,1781
+LA CORUÑA,Spanish,LA HABANA,1782
+LA HABANA,Spanish,LA CORUÑA,1783
+LA CORUÑA,Spanish,LA HABANA,1783
+LA HABANA,Spanish,LA CORUÑA,1784
+LA CORUÑA,Spanish,LA HABANA,1786
+LA HABANA,Spanish,LA CORUÑA,1786
+LA CORUÑA,Spanish,LA HABANA,1787
+LA HABANA,Spanish,LA CORUÑA,1787
+LA CORUÑA,Spanish,LA HABANA,1790
+LA HABANA,Spanish,LA CORUÑA,1790
+LA CORUÑA,Spanish,LA HABANA,1791
+LA HABANA,Spanish,LA CORUÑA,1792
+CÁDIZ,Spanish,PACÍFICO(MAR DEL SUR),1764
+CÁDIZ,Spanish,CÁDIZ ?,1782
+Nederland,Dutch,Padang,1833
+Nederland,Dutch,Padang,1833
+Padang,Dutch,Texel,1836
+Padang,Dutch,Texel,1836
+Rio de Janeiro,Dutch,Batavia,1842
+Nederland,Dutch,Java,1842
+Java,Dutch,Texel,1845
+Wydah,British,Barbados,1775
+Jamaica,British,Spithead,1775
+St Thomas,British,Jamaica,1776
+Jamaica,British,Newfoundland,1776
+Falmouth,Dutch,Boston,1825
+Boston,Dutch,New York,1825
+New York,Dutch,Norfolk,1825
+Norfolk,Dutch,Hellevoetsluis,1825
+Hellevoetsluis,Dutch,Bridgetown,1826
+Hellevoetsluis,Dutch,Havanna,1826
+Havanna,Dutch,Curacao,1826
+Curacao,Dutch,Laguayra,1826
+Laguayra,Dutch,Porto Cabello,1826
+Curacao,Dutch,Suriname,1826
+Paramaribo,Dutch,Curacao,1828
+Curacao,Dutch,Trunillo,1828
+Trunillo,Dutch,Havana,1828
+Havana,Dutch,Truvillo,1828
+St Juan de Nicaragua,Dutch,St Martha,1828
+St Martha,Dutch,Curacao,1828
+Curacao,Dutch,Omoa,1828
+Omoa,Dutch,Belize,1829
+Belize,Dutch,Havana,1829
+Havana,Dutch,Curacao,1829
+Curacao,Dutch,St Eustatius,1829
+St Thomas,Dutch,Curacao,1829
+Curacao,Dutch,St Eustatius,1829
+St Eustatius,Dutch,Suriname,1829
+Suriname,Dutch,Curacao,1829
+Curacao,Dutch,Havanna,1830
+Havanna,Dutch,Trinidad (Cuba),1830
+Trinidad (Cuba),Dutch,Curacao,1830
+Curacao,Dutch,St Eustatius,1830
+St Maarten,Dutch,Suriname,1830
+Suriname,Dutch,Hellevoetsluis,1830
+Vlissingen,Dutch,Curaçao,1826
+Curaçao,Dutch,Boca Chica,1826
+Curaçao,Dutch,Suriname,1828
+Suriname,Dutch,Curaçao,1828
+Curaçao,Dutch,St Eustacius,1828
+St Eustacius,Dutch,Bonaire,1829
+Curaçao,Dutch,St Eustacius,1829
+St Eustacius,Dutch,Suriname,1829
+Suriname,Dutch,St Eustacius,1829
+St Eustacius,Dutch,Suriname,1829
+Suriname,Dutch,St Eustacius,1830
+St Martin,Dutch,Curaçao,1830
+Curaçao,Dutch,St Eustacius,1830
+St Eustacius,Dutch,Suriname,1830
+Suriname,Dutch,Vlissingen,1830
+Hellevoetsluis,Dutch,Batavia,1839
+Hellevoetsluis,Dutch,Batavia,1839
+Batavia ,Dutch,Soerabaija,1842
+St Kitts,British,Plymouth,1759
+Spithead,British,Fort St David,1760
+Madras,British,Acheen Road (Sumatra),1763
+Batavia,British,Madras,1764
+St. Helena,British,Spithead,1765
+Plymouth,British,St Johns, Newfoundland,1771
+Plymouth,British,St John Newfoundland,1773
+Spithead,British,St John Newfoundland,1774
+Hellevoetsluis,Dutch,Suriname,1785
+Suriname,Dutch,Curacao,1786
+Curacao,Dutch,Texel,1786
+Lisbon,British,Plymouth,1767
+York Harbour (Newfoundland),British,John Harbour (Newfoundland),1768
+Plymouth,British,St Lawrence New foundland,1769
+Plymouth,British,Newfoundland,1770
+Diego Garcia,Dutch,Port Louis,1819
+Nederland,Dutch,Suriname,1832
+Suriname,Dutch,Curaçao,1832
+Curacao,Dutch,St Maarten,1832
+St Maarten,Dutch,Suriname,1832
+Suriname,Dutch,St Maarten,1833
+St Maarten,Dutch,Curacao,1833
+Curacao,Dutch,St Eustacius,1834
+St Eustacius,Dutch,Suriname,1834
+Suriname,Dutch,Curacao,1834
+Curacao,Dutch,St Eustacius,1834
+St Eustacius,Dutch,Suriname,1834
+Suriname,Dutch,St Eustacius,1834
+St Maarten,Dutch,Suriname,1834
+Suriname,Dutch,Curaçao,1835
+Curacao,Dutch,St Eustacius,1835
+St Eustatius,Dutch,Suriname,1835
+Paramaribo,Dutch,Hellevoetsluis,1835
+Gravesend UK,British,Bombay,1752
+Anjango,British,UK,1753
+UK,British,Bombay,1755
+Anjengo,British,St Helena,1756
+Anguilla,British,Halifax,1808
+Halifax,British,Barbados,1808
+St Thomas, Virgin Islands,British,Halifax,1809
+Halifax,British,Delgada Bay,1809
+Delgada Bay,British,Halifax,1809
+Plymouth Sound,British,St Johns harbour (Newfoundland),1753
+Cape Spear (Newfoundland),British,Cadiz,1753
+Cadiz,British,Lisbon,1753
+Lisbon,British,Margaret road (England),1753
+Cadiz,British,Lisbon,1754
+Lisbon,British,Dungerness,1755
+Portland,British,St John's Newfoundland,1755
+St John's Newfoundland,British,Lisbon,1755
+River Tagus (Lisbon),British,Portsmouth,1755
+Louisbourg,British,Halifax,1760
+Halifax,British,New York,1761
+Sandy Hook,British,Barbados,1761
+Havanna,British,UK,1762
+New York,British,New York,1776
+Spithead,British,New York,1776
+Charles Town,British,Antigua,1777
+Antigua,British,Delaware,1777
+Cape Henlopen,British,St Augustine Florida,1777
+Cape Henlopen,British,St Augustines (Florida),1778
+St Augustines (Florida),British,Charlestown,1778
+Charlestown,British,New York,1778
+New York,British,Antigua,1779
+Charles Town,British,Spithead,1780
+Portsmouth,British,Madras,1802
+Java Head,British,Downs,1803
+Portsmouth,British,Whampoe,1804
+Malacca,British,St Helena,1805
+St Helena,British,Benkulen,1806
+Acheen Head, Sumatra,British,St Helena,1807
+Portsmouth,British,Madras,1809
+Spithead,British,Hampton Road, Virginia,1803
+Hampton Road, Virginia,British,Madras,1804
+Middelburg,Dutch,Guinee,1750
+Bocht van Guinee,Dutch,Prinsies,1751
+Prinsies,Dutch,Kaap Lahoe,1751
+Kaap Lahoe,Dutch,Middelburg,1752
+Rammekens,Dutch,Guinea,1752
+Guinea,Dutch,Suriname,1753
+Rotterdam,Dutch,Guinea,1754
+Guinea,Dutch,Suriname,1755
+Suriname,Dutch,Rotterdam,1755
+Rotterdam,Dutch,Guinea,1756
+Elmina,Dutch,Suriname,1757
+Suriname,Dutch,The Netherlands,1757
+Rotterdam,Dutch,Guinea,1758
+Guinea,Dutch,Suriname,1759
+Suriname,Dutch,The Netherlands,1759
+Rotterdam,Dutch,Guinea,1760
+Elmina,Dutch,Paramaribo,1760
+Suriname,Dutch,The Netherlands,1761
+West Indies,Dutch,Amsterdam,1760
+Amsterdam,Dutch,Curacao,1760
+Spithead,British,Madeira,1768
+Teneriffe,British,Senegal,1769
+Cape Coast,British,Port Royal Jamaica,1769
+Spithead,British,Madeira,1770
+Teneriffe,British,Senegal,1770
+Sierra Leon,British,Dix Cove,1770
+Cape Coast,British,Port Royal, Jamaica,1770
+Jamaica,British,Spithead,1770
+Batavia ,Dutch,Samarang,1842
+Samarang,Dutch,Soerabaija,1842
+Texel,Dutch,Suriname,1796
+Bramspunt,Dutch,Bergen/Noorwegen,1799
+Nederland,Dutch,Batavia,1842
+Batavia,Dutch,Nieuwediep,1843
+Nederland,Dutch,Batavia,1843
+Batavia,Dutch,Nieuwediep,1843
+Nederland,Dutch,Batavia,1846
+Batavia,Dutch,Nieuwediep,1846
+Nederland,Dutch,Java,1848
+Nederland,Dutch,Batavia,1852
+Batavia,Dutch,Nederland,1853
+Deptford,British,cruising of Ushant,1779
+Deptford,British,cruising off Ushant,1778
+Simonsbaai,Dutch,Fort Banjoewangie,1804
+Spithead,British,Trincomalee,1759
+Cumbava,British,Cape of Good Hope,1761
+Batavia,Dutch,Kaap de Goede Hoop,1750
+Batavia,Dutch,Kaap de Goede Hoop,1749
+Batavia,Dutch,Kaap de Goede Hoop,1750
+Batavia,Dutch,Kaap de Goede Hoop,1750
+Rotterdam,Dutch,West Afrika,1785
+Axim,Dutch,Suriname,1786
+West Afrika,Dutch,Suriname,1785
+Suriname,Dutch,Fort Royal,1786
+Suriname,Dutch,Fort Royal,1786
+Fort Royal,Dutch,Hellevoetsluis,1786
+Rammekens,Dutch,Batavia,1791
+Suriname,Dutch,Dronthem,1796
+Texel,Dutch,Suriname,1796
+Suriname,Dutch,Dronthem,1799
+Nederland,Dutch,St George d'Elmina,1824
+St George d'Elmina,Dutch,Montevideo,1824
+Buenos Aires,Dutch,Valparaiso,1825
+Valparaiso,Dutch,Charillo,1825
+Charillo,Dutch,Anna Maria,1825
+Anna Maria,Dutch,Ambon,1825
+Ambon,Dutch,Soerabaya,1825
+Batavia,Dutch,Mauritius,1827
+Mauritius,Dutch,Texel,1827
+Portland,British,Barbados,1790
+Portsmouth,British,St Helena,1771
+Spithead,British,Madeira,1771
+Madeira,British,St John's Antigua,1772
+Madeira,British,St Johns Antigua,1771
+Antigua,British,Spithead,1772
+Downs,British,Madeira,1773
+Madeira,British,Dominica,1773
+Jamaica,British,Spithead,1774
+Hellevoetsluis,Dutch,Rio de Janeiro,1839
+Rio de Janeiro,Dutch,Batavia,1839
+Lisbon,British,cruising to Lisbon,1805
+Boston,British,Plymouth,1776
+Spithead,British,New York,1776
+Falmouth,British,Barbados,1821
+St Thomas,British,Falmouth,1821
+Start Point,British,Bombay,1751
+Havannah (Cuba),British,Portsmouth,1752
+Gravesend,British,Hudson Bay,1760
+Hudson Bay,British,Gravesend,1760
+Gravesend,British,Hudson Bay Moose,1761
+Gravesend,British,Hudson Bay Moose,1762
+Hudson Bay Moose,British,Gravesend,1762
+Gravesend,British,Hudson Bay Moose,1763
+Hudson Bay Moose,British,Gravesend,1763
+Gravesend,British,Hudson Bay Moose,1764
+Hudson Bay Moose,British,Gravesend,1764
+Gravesend,British,Hudson Bay Churchill,1765
+Churchill,British,Gravesend,1765
+Kinsale,British,Churchill,1766
+Churchill,British,Gravesend,1766
+Gravesend,British,Churchill,1767
+Churchill,British,Gravesend,1767
+Gravesend,British,Churchill,1768
+Churchill,British,Gravesend,1768
+Gravesend,British,Churchill,1769
+Churchill,British,Gravesend,1769
+Gravesend,British,York Factory,1770
+York Factory,British,Gravesend,1770
+Gravesend,British,Moose,1771
+Moose,British,Gravesend,1771
+Gravesend,British,Churchill,1772
+Churchill,British,Gravesend,1772
+Gravesend,British,Churchill,1773
+Churchill,British,Gravesend,1773
+Gravesend,British,Moose,1774
+Moose,British,Gravesend,1774
+Gravesend,British,Churchill,1775
+Churchill,British,London,1775
+Gravesend,British,Churchill,1776
+Churchill,British,Gravesend,1776
+Gravesend,British,York Factory,1777
+York Factory,British,Gravesend,1777
+Gravesend,British,Moose,1778
+Moose,British,Gravesend,1778
+Gravesend,British,Moose,1780
+Moose,British,Gravesend,1780
+Gravesend,British,Churchill,1782
+Churchill,British,Gravesend,1782
+Gravesend,British,Churchill,1783
+Churchill,British,Gravesend,1783
+Gravesend,British,Churchill,1784
+Churchill,British,Gravesend,1784
+Gravesend,British,Churchill,1785
+Churchill,British,Gravesend,1785
+Gravesend,British,Moose,1786
+Churchill,British,Gravesend,1786
+Hellevoetsluis,Dutch,Curacao,1760
+Hellevoetsluis,Dutch,Funchal,1762
+Funchal,Dutch,St Eustatius,1762
+St Eustatius,Dutch,Curacao,1762
+Curacao,Dutch,Hellevoetsluis,1762
+Gibraltar,Dutch,Lissabon,1777
+Lissabon,Dutch,Funchal,1778
+Funchal,Dutch,St Eustatius,1778
+St Eustatius,Dutch,Curacao,1778
+Curacao,Dutch,Nieuwediep,1778
+Texel,Dutch,Madeira,1777
+Madeira,Dutch,St Eustatius,1778
+St Eustatius,Dutch,Christiaan Zand,1778
+Texel,Dutch,St. Eustacius,1777
+Jamaica,British,Spithead,1773
+Cape ,British,Java,1754
+Batavia,British,Canton,1754
+Canton,British,Java,1755
+Java Head,British,St Helena,1755
+St Helena,British,Ascension,1755
+Ascension,British,Cape,1757
+Moca Moca Sumatra,British,St Helena,1758
+Dungeness,British,Cape Lagullas,1760
+Cape Lagullas,British,Anjengo,1760
+Madras,British,Wampoe,1760
+(Gilolo) Halmahira,British,Wampoe,1761
+Wampoe,British,New Guinea,1761
+Wampoe,British,Acheen,1761
+Acheen (Sumatra),British,St Helena,1762
+St Helena,British,Falmouth,1762
+Spithead,British,St Helena,1764
+St Helena,British,Bencoolen,1764
+Batavia,British,Wampoe,1764
+Java Head,British,St Helena,1765
+St Helena,British,UK,1765
+Falmouth,British,Cape,1771
+Vlissingen,Dutch,Tafelbaai,1816
+Tafelbaai,Dutch,Batavia,1817
+Batavia,Dutch,Simonsbaai,1819
+Batavia,Dutch,Simonsbaai,1819
+Simonsbaai,Dutch,Mountsbaai,1819
+Terneuzen,Dutch,Batavia,1853
+Portsmouth,Dutch,Tafelbaai,1816
+Tafelbaai,Dutch,Batavia,1817
+Nederland,Dutch,Tafelbaai,1848
+Tafelbaai,Dutch,Batavia,1848
+Batavia,Dutch,Texel,1849
+Texel,Dutch,Santa Cruz,1850
+Santa Cruz,Dutch,St. George d'Elmina,1850
+St George d'Elmina,Dutch,Clarence Cove,1850
+Clarence Cove,Dutch,Ascension,1850
+Ascension,Dutch,Rio de Janeiro,1850
+Rio de Janeiro,Dutch,Curacao,1850
+Curacao,Dutch,Nederland,1850
+Schiedam,Dutch,Batavia,1843
+Batavia,Dutch,Schiedam,1843
+Amsterdam,Dutch,Batavia-Soerabaya,1846
+Soerabaya,Dutch,Rotterdam,1846
+Batavia,Dutch,Nederland,1851
+Nederland,Dutch,Batavia,1852
+Batavia,Dutch,Nederland,1852
+Sao Tome,Dutch,Vlissingen,1751
+Nederland,Dutch,West Afrika,1752
+West Afrika,Dutch,Suriname,1752
+Suriname,Dutch,Nederland,1753
+Nederland,Dutch,Guinea,1753
+West Afrika,Dutch,Suriname,1754
+Suriname,Dutch,Nederland,1754
+Nederland,Dutch,Guinea,1761
+Guinea,Dutch,St Eustacius,1761
+St Eustacius,Dutch,Nederland,1762
+Middelburg,Dutch,West Afrika,1762
+West Afrika,Dutch,Axim,1763
+Cormantijn,Dutch,Paramaribo,1763
+Paramaribo,Dutch,Middelburg,1764
+Vlissingen,Dutch,St Eustacius,1815
+St Eustacius,Dutch,Curaçao,1816
+Curaçao,Dutch,Jamaica,1816
+Jamaica,Dutch,Nederland,1816
+Nederland,Dutch,Zuiden,1816
+Rotterdam,Dutch,Batavia,1832
+Batavia,Dutch,Nagasaki,1833
+Nagasaki,Dutch,Batavia,1833
+Batavia,Dutch,Rotterdam,1834
+Rotterdam,Dutch,Batavia,1835
+Batavia,Dutch,Nederland,1836
+Rotterdam,Dutch,West Afrika,1836
+West Afrika,Dutch,Batavia,1836
+Batavia,Dutch,Rotterdam,1837
+Dordrecht,Dutch,Spitsbergen,1779
+Spitsbergen,Dutch,Dordrecht,1779
+Dordrecht,Dutch,Spitsbergen,1787
+Spitsbergen,Dutch,Dordrecht,1787
+Texel,Dutch,Suriname,1802
+Spithead,British,Barbados,1791
+Rotterdam,Dutch,Batavia,1850
+Tjilatjap,Dutch,Rotterdam,1850
+Spithead,British,St Helena,1780
+St Helena,British,Spithead,1780
+Spithead,British,St Augustine Madagascar,1772
+St Augustine,British,Bombay,1772
+Jamaica,British,Spithead,1779
+Sandy Hook,British,East River,1781
+New London,British,Carlisle Bay,1815
+Carlisle Bay,British,Barbados,1815
+Port Royal Jamaica,British,Bermuda,1815
+Bermuda,British,Fayal, Azores,1815
+Fayal, Azores,British,Motherbank,1815
+Plymouth,British,Madeira,1769
+Barbados,British,Montserrat,1769
+Montserat,British,Spithead,1772
+Spithead,British,Carlisle Bay,1796
+Jamaica,British,Spithead,1797
+Spithead,British,Port Royal Jamaica,1799
+Port Royal Jamaica,British,Woolwich,1802
+Plymouth,British,Batavia,1778
+Benkulen,British,St Helena,1779
+Java Head,British,UK,1788
+St Jago,British,Port Egmont,1785
+Port Egmont,British,Hawaiian Islands,1786
+Hawaiian Islands,British,Coal Harbour,1786
+Coal Harbour,British,Montague Isle,1786
+Montague Isle,British,Hawaiian Islands,1786
+Hawaiian Islands,British,Prince William's Sound,1787
+Prince William's Sound,British,Norfolk Sound,1787
+Port Banks,British,King George's Sound,1787
+King George's Sound,British,Hawaiian Islands,1787
+Hawaiian Islands,British,Macao,1787
+Macao,British,St Helena,1788
+Gravesend ,British,York Factory,1793
+York Factory,British,Gravesend ,1793
+Gravesend ,British,Moose,1794
+Moose,British,Gravesend ,1794
+Gravesend ,British,York Factory,1795
+York Factory,British,Gravesend ,1795
+Gravesend,British,York Factory,1796
+York Factory,British,Gravesend,1796
+Gravesend,British,York Factory,1797
+York Factory,British,Gravesend,1797
+Gravesend,British,York Factory,1798
+York Factory,British,Gravesend,1798
+Gravesend,British,York Factory,1799
+York Factory,British,Gravesend,1799
+Bombay,British,Madras,1758
+CABO DE BUENA ESPERANZA,Spanish,DESCONOCIDO,1773
+MADEIRA,Spanish,CABO DE BUENA ESPERANZA,1772
+PLYMOUTH,Spanish,MADEIRA,1772
+CÁDIZ,Spanish,CÁDIZ,1794
+Whitby Bay UK,British,Vogle Sound,1773
+Smeerenberg,British,Deptford,1773
+Plymouth,British,Teneriffe,1775
+Portendic,British,Fayal,1775
+Fayal,British,Spithead,1775
+Cadix,British,Azores,1750
+Plymouth,British,St Johns Newfoundland,1751
+St Johns Newfoundland,British,Lisbon,1751
+Lisbon,British,Spithead,1752
+Hampton,British,Margret Road (UK),1766
+Dixcove,British,Barbados,1771
+Bermuda,British,Spithead,1771
+Long Island,British,Spithead,1780
+Plymouth,British,Barbados,1795
+Port Royal,British,UK,1796
+Spithead,British,Table Bay,1797
+Table Bay towards Madagascar,British,Table Bay,1798
+Table Bay,British,Downs UK,1799
+Montevideo,British,Table Bay,1807
+Barnstable Bay,British,Bermuda,1814
+Bermuda,British,Shelburne Harbour,1814
+St Johns,British,Fayal, Azores,1807
+Fayal, Azores,British,St Johns,1807
+St Johns,British,Fayal, Azores,1807
+Fayal, Azores,British,St Johns,1807
+Falmouth,British,Lisbon,1780
+Lisbon,British,Plymouth,1780
+Table Bay,British,Madras,1795
+Madras,British,Simons Bay,1796
+Table Bay,British,Simons Bay,1798
+Table Bay,British,Madagascar,1798
+Simons Bay,British,Madagascar,1800
+Table Bay,British,St Helena,1801
+St Helena,British,Table Bay,1801
+Table Bay,British,Madras,1803
+Spithead,British,Boston,1775
+Boston,British,Chalestown,1775
+Savannah,British,Savannah,1776
+St Augustine,British,New York,1776
+Portsmouth,British,St. Helena,1783
+St. Helena,British,Bombay,1783
+Gravesend,British,Cape of Good Hope,1784
+Bencoolen,British,Cape of Good Hope,1786
+Cork,British,Barbados,1795
+Port au Prince,British,Bermuda,1796
+Cork,British,Barbados,1796
+Jamaica,British,Downs,1799
+Spithead,British,St Georges Bermuda,1814
+Tangier Bay, Chesapeake,British,Cumberland Island, Florida,1814
+Plymouth,British,Santa Cruz,1795
+Santa Cruz,British,Rio de Janeiro,1795
+Rio de Janeiro,British,Port Jackson Australia,1795
+Port Jackson Australia,British,Cape of Good Hope,1797
+Cape of Good Hope,British,Port Jackson Australia,1797
+Port Jackson Australia,British,St Helena,1800
+St Helena,British,Spithead,1800
+Nieuwediep,Dutch,Bristol,1852
+Bristol,Dutch,Ceijlon,1853
+Ceijlon,Dutch,Coromandel,1853
+Coromandel,Dutch,Batavia,1853
+Batavia,Dutch,Nieuwediep,1853
+Rotterdam,Dutch,Kaap de Goede Hoop,1802
+Kaap de Goede Hoop,Dutch,Batavia,1802
+Port Royal (Jamaica),British,Spithead,1751
+Madeira,British,Prince Ruperts Bay,1767
+Jamaica,British,Spithead,1770
+Downs UK,British,St Helena,1823
+St Helena,British,Benkulen,1823
+Java Head,British,Downs UK,1824
+Downs UK,British,Penang,1825
+Plymouth,British,Madeira,1772
+Madeira,British,Cape Verde,1772
+Cape Verde,British,Table Bay,1772
+Table Bay,British,New Zealand,1773
+New Zealand,British,Tahiti,1773
+Tahiti,British,Tonga,1773
+Pylstaert (nr Tonga),British,New Zealand,1773
+Cape Pallisser New Zealand,British,Easter Island,1773
+Easter Island,British,Marquesas,1774
+Marquesas,British,Tahiti,1774
+Tahiti,British,Tonga,1774
+New Caledonia,British,New Zealand,1774
+New Zealand,British,Towards Cape Horn,1774
+Plymouth,British,Gibraltar,1780
+Gibraltar,British,Spithead,1780
+Plymouth,British,New York,1780
+Jamaica,British,Woolwich,1797
+Texel,Dutch,Kaap de Goede Hoop,1796
+Ferrol,Dutch,Rio de Janeiro,1803
+Rio de Janeiro,Dutch,Batavia,1803
+Nieuwediep,Dutch,Batavia,1842
+Wijnkopers Baai,Dutch,Tafelbaai,1842
+Tafelbaai,Dutch,Nieuwediep,1843
+Cardiff,Dutch,Praya,1848
+Praya,Dutch,Fort St Francisco,1848
+Fort St Francisco,Dutch,St Helena,1848
+St Helena,Dutch,Kingston,1848
+Kingston,Dutch,Manzanilla de Cuba,1848
+Manzanilla de Cuba,Dutch,Dartmouth,1848
+Nieuwediep,Dutch,Batavia,1849
+Banjoewangie,Dutch,Tafelbaai,1849
+Tafelbaai,Dutch,Nieuwediep,1850
+Rotterdam,Dutch,Batavia,1834
+Batavia,Dutch,Amsterdam,1834
+Rotterdam,Dutch,Batavia,1835
+Batavia,Dutch,Rotterdam,1835
+Rotterdam,Dutch,Batavia,1836
+Batavia,Dutch,Rotterdam,1837
+Nederland,Dutch,Kaap Apollonia,1838
+St George d'Elmina,Dutch,Batavia,1838
+Batavia,Dutch,Brouwershaven,1839
+Spithead,British,Hampton Road,1768
+Boston,British,Spithead,1769
+Spithead,British,Table Bay,1776
+Table Bay,British,Madras,1777
+Madeira,British,Halifax,1767
+St Helena,British,Spithead,1781
+Aden,British,Bombay,1802
+Bombay,British,St Helena,1802
+Spithead,British,Goree,1803
+Princes Island,British,Barbados,1804
+Road Town, Tortola,British,Nore,1804
+Madeira,British,Barbados,1760
+Halifax,British,UK,1771
+Gravesend,British,Bengal,1821
+Bengal,British,Downs,1822
+Hellevoetsluis,Dutch,Suriname,1778
+Suriname,Dutch,Hellevoetsluis,1779
+Roterdam,Dutch,Batavia,1840
+Batavia,Dutch,Rotterdam,1841
+Rotterdam,Dutch,Batavia,1841
+Padang,Dutch,Amsterdam,1843
+Padang,Dutch,Amsterdam,1843
+Rotterdam,Dutch,Batavia,1846
+Batavia,Dutch,Rotterdam,1847
+Rotterdam,Dutch,Batavia,1847
+Batavia,Dutch,Rotterdam,1848
+Rotterdam,Dutch,Java,1849
+Rotterdam,Dutch,Batavia,1826
+Batavia,Dutch,Rotterdam,1826
+Rotterdam,Dutch,Batavia,1827
+Batavia,Dutch,Rotterdam,1827
+Rotterdam,Dutch,Batavia,1828
+Rotterdam,Dutch,Batavia,1828
+Batavia,Dutch,Rotterdam,1829
+Torbay,British,Port Jackson,1792
+Port Jackson,British,Whampoa,1792
+Java Head,British,Deptford,1793
+Downs,British,Java,1786
+Java Head,British,St Helena,1787
+Downs,British,Benkulen, Sumatra,1790
+Java Head,British,Long Reach,1791
+Downs ,British,Madras,1793
+Fort St David,British,St Helena,1750
+Tillicherry,British,Madagascar,1751
+Spithead,British,Madeira,1778
+Madeira,British,Jamaica,1778
+Falmouth,British,Table Bay,1795
+Table Bay,British,Downs,1797
+Plymouth,British,St Helena,1800
+Nederland,Dutch,Oost Indie,1829
+Batavia,Dutch,Nederland,1831
+Batavia,Dutch,Nederland,1831
+Den Helder,Dutch,Batavia,1838
+BUENOS AIRES,Spanish,BUENOS AIRES,1746
+DESCONOCIDO (CREO QUE ACAPULCO),Spanish,SAN BLAS,1790
+CÁDIZ,Spanish,ISLA SANTA CATALINA (BRASIL),1777
+CÁDIZ,Spanish,MONTEVIDEO,1777
+ISLA SANTA CATALINA (BRASIL),Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,ISLA SANTA CATALINA (BRASIL),1777
+MONTEVIDEO,Spanish,ISLA SANTA CATALINA (BRASIL),1777
+MONTEVIDEO,Spanish,ISLA SANTA CATALINA (BRASIL),1777
+SANTA CATALINA (BRASIL),Spanish,CÁDIZ,1778
+CADIZ,Spanish,CARTAGENA,1792
+CARTAGENA,Spanish,CÁDIZ,1794
+FERROL,Spanish,SENOUR,1778
+CARTAGENA,Spanish,CÁDIZ,1793
+VERACRUZ,Spanish,CÁDIZ,1794
+VERACRUZ.,Spanish,CÁDIZ,1794
+MONTEVIDEO,Spanish,SANTA CATALINA,1777
+MONTEVIDEO,Spanish,CADIZ,1778
+EL CALLAO,Spanish,RIO DE JANEIRO,1784
+CÁDIZ,Spanish,I. SANTA CATALINA,1776
+MONTEVIDEO,Spanish,SANTA CATALINA,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+CÁDIZ,Spanish,CÁDIZ,1777
+CÁDIZ,Spanish,STA CATALINA Y MONTEVIDEO,1776
+CÁDIZ,Spanish,STA. CATAL Y MONTEV.,1776
+CÁDIZ,Spanish,STA. CATAL. Y MONTEV.,1776
+CÁDIZ,Spanish,STA. CATALINA Y MONTEVID.,1776
+CÁDIZ,Spanish,STA. CATALINA Y MONTEVIDEO,1776
+LA HABANA,Spanish,MÁLAGA,1791
+CÁDIZ,Spanish,CÁDIZ,1779
+BAHÍA DE CÁDIZ,Spanish,BAHÍA DE CÁDIZ,1779
+CÁDIZ,Spanish,A LA MAR ? CÁDIZ?,1779
+CALCUTA,Spanish,CÁDIZ,1819
+CALCUTA.,Spanish,CÁDIZ,1819
+CÁDIZ,Spanish,CÁDIZ,1783
+CÁDIZ,Spanish,FERROL,1783
+EL CALLAO (LIMA),Spanish,CÁDIZ,1772
+EL CALLAO,Spanish,CADIZ,1772
+LIMA,Spanish,CÁDIZ,1772
+CADIZ,Spanish,LA HABANA,1794
+CÁDIZ,Spanish,LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+LA HABANA.,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,CÁDIZ?,1781
+CÁDIZ,Spanish,LEVANTE ESPAÑOL,1781
+CORUÑA,Spanish,CÁDIZ,1772
+CÁDIZ,Spanish,FERROL,1773
+MONTEVIDEO,Spanish,CALLAO (LIMA),1774
+LA HABANA,Spanish,CÁDIZ,1794
+BUENOS AIRES,Spanish,ISLA DE LOS ESTADOS,1792
+CÁDIZ,Spanish,CÁDIZ,1781
+CÁDIZ,Spanish,CÁDIZ,1781
+CÁDIZ,Spanish,CÁDIZ,1781
+CÁDIZ,Spanish,CÁDIZ,1781
+CÁDIZ,Spanish,CÁDIZ,1782
+CÁDIZ,Spanish,CÁDIZ,1782
+MANILA,Spanish,EL CALLAO,1803
+FERROL,Spanish,FERROL?,1772
+FERROL,Spanish,BREST,1779
+BREST,Spanish,DESCONOCIDO,1780
+FERROL,Spanish,CADIZ,1780
+FERROL,Spanish,CÁDIZ?,1780
+MONTEVIDEO,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,CÁDIZ,1778
+CADIZ,Spanish,MANILA,1833
+CÁDIZ,Spanish,MANILA,1833
+MANILA,Spanish,CÁDIZ,1834
+MANILA.,Spanish,CÁDIZ,1834
+CÁDIZ,Spanish,CALLAO DE LIMA,1780
+CÁDIZ,Spanish,MAR PACÍFICO,1780
+MONTEVIDEO,Spanish,CÁDIZ,1783
+LA HABANA,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,CÁDIZ?,1781
+CADIZ,Spanish,CADIZ,1788
+MONTEVIDEO,Spanish,LA CORUÑA,1798
+FERROL,Spanish,CARTAGENA,1789
+CARTAGENA,Spanish,NÁPOLES Y VUELTA A ESPAÑA,1789
+CARTAGENA,Spanish,NÁPOLES Y VUELTA A ESPAÑA,1789
+CADIZ,Spanish,CADIZ,1789
+CÁDIZ,Spanish,MONTEVIDEO,1776
+MONTEVIDEO,Spanish,ISLA SANTA CATALINA (BRASIL) Y VUELTA,1777
+MONTEVIDEO,Spanish,ISLA SANTA CATALINA (BRASIL)Y VUELTA,1777
+MONTEVIDEO,Spanish,ESPAÑA (CÁDIZ?),1778
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,CÁDIZ,1779
+MONTEVIDEO,Spanish,CÁDIZ,1794
+CÁDIZ,Spanish,MOGADOR,1785
+MONTEVIDEO,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,CÁDIZ,1778
+CÁDIZ,Spanish,CÁDIZ,1779
+CÁDIZ,Spanish,ESTRECHO DE MAGALLANES,1785
+CÁDIZ,Spanish,ESTRECHO DE MAGALLANES,1785
+CÁDIZ,Spanish,ESTRECHO DE MAGALLANES,1785
+DESCONOCIDO,Spanish,COSTA PATAGÓNICA,1786
+DESCONOCIDO,Spanish,COSTA PATAGÓNICA,1786
+ESTRECHO DE MAGALLANES,Spanish,CADIZ,1786
+ESTRECHO DE MAGALLANES,Spanish,CÁDIZ,1786
+ESTRECHO DE MAGALLANES,Spanish,CÁDIZ,1786
+COSTA PATAGÓNICA,Spanish,CÁDIZ,1786
+EL FERROL,Spanish,RIO DE LA PLATA,1774
+MONTEVIDEO,Spanish,DE LA SOLEDAD (MALVINAS),1774
+DE LA SOLEDAD (MALVINAS),Spanish,RIO DE LA PLATA,1774
+MONTEVIDEO,Spanish,SANTA CATALINA,1776
+EL CALLAO,Spanish,ISLA DE PASCUA,1770
+ISLA DE PASCUA,Spanish,CHILOÉ,1770
+CHILOÉ,Spanish,ISLA DE PASCUA Y EL CALLAO,1771
+ISLA DE PASCUA,Spanish,CHILOÉ,1771
+MONTEVIDEO,Spanish,SANTA CATALINA,1778
+SANTA CATALINA,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,SANTA CATALINA,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,CÁDIZ,1778
+MONTEVIDEO.,Spanish,CADIZ,1778
+CÁDIZ,Spanish,VERACRUZ,1772
+CÁDIZ,Spanish,VERACRUZ,1772
+CÁDIZ,Spanish,VERACRUZ,1772
+VERACRUZ,Spanish,LA HABANA,1772
+LA HABANA,Spanish,VERACRUZ,1773
+ISLA DEL PRINCIPE,Spanish,CADIZ,1778
+LISBOA,Spanish,RIO DE JANEIRO,1782
+LA HABANA,Spanish,VERACRUZ,1793
+FERROL,Spanish,CÁDIZ,1774
+CÁDIZ,Spanish,CARTAGENA (ESPAÑA),1774
+CÁDIZ,Spanish,MONTEVIDEO,1774
+CÁDIZ,Spanish,VERACRUZ,1774
+MONTEVIDEO,Spanish,SANTA CATALINA,1777
+ENSENADA DE MONTEVIDEO,Spanish,SANTA CATALINA,1777
+SANTA CATHALINA,Spanish,PUERTO DE MONTEVIDEO,1777
+PUERTO DE MONTEVIDEO,Spanish,YSLA DE SANTA CATHALINA,1778
+PUERTO DE MONTEVIDEO,Spanish,YSLA DE SANTA CATHALINAYSLA DE SANTA CATHALINA,1778
+PUERTO DE MONTEVIDEO,Spanish,YSLA DE SANTA CATHALINA,1778
+MONTEVIDEO,Spanish,CADIZ,1778
+MONTEVIDEO,Spanish,CÁDIZ,1778
+SANTA CATALINA,Spanish,CÁDIZ,1778
+SANTA CATHALINA,Spanish,CÁDIZ,1778
+SANTA CATHALINA,Spanish,CÁDIZ,1778
+MONTEVIDEO,Spanish,LA CONCEPCIÓN DE CHILE Y EL CALLAO DE LIMA,1769
+EL CALLAO (LIMA),Spanish,CÁDIZ,1772
+CARTAGENA,Spanish,STA. CATHALINA (BRASIL),1776
+CÁDIZ,Spanish,DESCONOCIDO,1776
+SANTA CATALINA(BRASIL),Spanish,DESCONOCIDO,1777
+STA. CATHALINA,Spanish,MONTEVIDEO Y VUELTA,1777
+SANTA CATALINA(BRASIL),Spanish,DESCONOCIDO,1777
+SANTA CATALINA(BRASIL),Spanish,DESCONOCIDO,1777
+STA. CATHALINA,Spanish,MONTEVIDEO Y VUELTA,1777
+SANTA CATALINA(BRASIL),Spanish,DESCONOCIDO,1777
+STA. CATHALINA,Spanish,MONTEVIDEO Y VUELTA,1777
+STA. CATHALINA,Spanish,MONTEVIDEO Y VUELTA,1777
+CARTAGENA,Spanish,STA. CATHALINA (BRASIL),1778
+SANTA CATALINA(BRASIL),Spanish,DESCONOCIDO,1778
+SANTA CATHALINA,Spanish,ESPAÑA (CÁDIZ),1778
+STA. CATALINA,Spanish,EUROPA (CÁDIZ?),1778
+STA. CATHALINA,Spanish,MONTEVIDEO Y VUELTA,1778
+MONTEVIDEO,Spanish,ISLA DE SANTA CATALINA,1777
+SANTA CATALINA,Spanish,MONTEVIDEO,1777
+MONTEVIDEO,Spanish,BAHÍA DE CÁDIZ,1778
+St Helena,British,Downs UK,1797
+Cape Laguallas,British,UK,1750
+Plymouth,British,Madeira,1770
+Trincomalee,British,Table Bay,1777
+Table Bay,British,St Helena,1778
+St Helena,British,Spithead,1778
+Cork,British,Antigua,1779
+Jamaica,British,Spithead,1780
+Spithead,British,Placentia,1750
+Lisbon,British,Sherness,1750
+Falmouth,British,Placentia harbour,1751
+Placentia harbour,British,Lisbon,1751
+Lisbon,British,Woolwich,1751
+Cape Verde,British,Spithead,1759
+Spithead,British,Aquofort Harbour, Newfoundland,1759
+Willemsoord,Dutch,Batavia,1842
+Java,Dutch,Willemsoord,1842
+Nederland,Dutch,Cadiz,1846
+Cadiz,Dutch,Nederland,1846
+Nederland,Dutch,Noordzee,1847
+Nederland,Dutch,Noordzee,1848
+Nederland,Dutch,Batavia,1848
+Batavia,Dutch,Nederland,1849
+La Coruña,Spanish,Montevideo,1768
+Montevideo,Spanish,La Coruña,1769
+La Coruña,Spanish,Montevideo,1769
+Montevideo,Spanish,La Coruña,1770
+La Coruña,Spanish,Montevideo,1771
+Montevideo,Spanish,La Coruña,1771
+La Coruña,Spanish,Montevideo,1772
+La Coruña,Spanish,Montevideo,1772
+Montevideo,Spanish,La Coruña,1772
+La Coruña,Spanish,Montevideo,1773
+Montevideo,Spanish,La Coruña,1773
+La Coruña,Spanish,Montevideo,1774
+Montevideo,Spanish,La Coruña,1774
+La Coruña,Spanish,Montevideo,1775
+Montevideo,Spanish,La Coruña,1775
+La Coruña,Spanish,Montevideo,1776
+Montevideo,Spanish,La Coruña,1776
+La Coruña,Spanish,Montevideo,1777
+Montevideo,Spanish,La Coruña,1778
+La Coruña,Spanish,Montevideo,1780
+Montevideo,Spanish,La Coruña,1781
+La Coruña,Spanish,Montevideo,1781
+Montevideo,Spanish,La Coruña,1782
+Java,British,UK,1750
+Cape St Nicholas,British,Bermuda,1779
+Nederland,Dutch,Batavia,1847
+Table Bay,British,Calicut,1808
+Bombay,British,Achean Road,1808
+Achean Head,British,Bombay,1808
+Nieuwediep,Dutch,Batavia,1848
+Rotterdam,Dutch,Batavia,1840
+Batavia,Dutch,Rotterdam,1840
+Rotterdam,Dutch,Batavia,1841
+Batavia,Dutch,Rotterdam,1842
+Rotterdam,Dutch,Batavia,1843
+Batavia,Dutch,Rotterdam,1844
+Rotterdam,Dutch,Batavia,1845
+Batavia,Dutch,Rotterdam,1845
+Rotterdam,Dutch,Batavia,1847
+Batavia,Dutch,Rotterdam,1848
+Boston,British,Savanah Georgia,1776
+Plymouth,British,Madras,1803
+Penang,British,St Helena,1804
+Table Bay,British,Portsmouth,1808
+Texel,Dutch,Batavia,1755
+Hellevoetsluis,Dutch,St Eustacius,1761
+St Eustacius,Dutch,Curacao,1761
+Curacao,Dutch,Hellevoetsluis,1761
+Schiedam,Dutch,Spitsbergen,1778
+Spitsbergen,Dutch,Schiedam,1778
+Schiedam,Dutch,Spitsbergen,1779
+Spitsbergen,Dutch,Hellevoetsluis,1779
+Schiedam,Dutch,northerly fishing grounds,1787
+northerly fishing grounds,Dutch,Schiedam,1787
+Schiedam,Dutch,northerly fishing grounds,1788
+northerly fishing grounds,Dutch,Schiedam,1788
+Schiedam,Dutch,northerly fishing grounds,1789
+northerly fishing grounds,Dutch,Schiedam,1789
+Texel,Dutch,Bengal,1767
+Kaap de Goede Hoop,Dutch,Bay of Bengal,1767
+Nederland,Dutch,Suriname,1848
+Hellevoetsluis,Dutch,Del Fuego,1786
+Del Fuego,Dutch,Zuid Afrika,1786
+South Africa,Dutch,Colombo,1786
+Colombo,Dutch,Batavia,1786
+Batavia,Dutch,Kaap de Goede Hoop,1788
+Kaap de Goede Hoop,Dutch,Hellevoetsluis,1789
+Hellevoetsluis,Dutch,Tafelbaai,1791
+Tafelbaai,Dutch,Cork,1793
+Hellevoetsluis,Dutch,Kaap de Goede Hoop,1794
+Kaap de Goede Hoop,Dutch,Noorwegen,1795
+Hellevoetsluis,Dutch,Hellevoetsluis via Kaap de Goede Hoop en Noorwegen,1794
+Madeira,British,Brunswick,1750
+Brunswick,British,Cape Fear,1750
+Cape Fear,British,Makinda Creek,1751
+Cadiz,British,Charleston,1751
+Brunswick,British,Baltimore harbour,1753
+Plymouth,British,Barbados,1792
+Peter's Island (West Indies),British,Downes,1793
+Port Royal,British,Downes,1796
+Falmouth,British,Port Royal,1800
+Port Royal,British,Plymouth,1800
+Falmouth,British,Demerara,1800
+Plymouth,British,Madras,1761
+Diego Rays,British,Table Bay,1761
+Table Bay,British,Madras,1762
+Java Head,British,Madras,1764
+Ceylon,British,St. Marys Road Madagascar,1764
+St Marys, Madagascar,British,Table Bay,1764
+Table Bay,British,Plymouth,1765
+Madeira,British,Jamaica,1770
+Guernsey,British,Monserrat,1773
+Caicos,British,UK,1775
+Lisbon ,British,UK,1751
+England,British,Gibraltar,1752
+Lisbon,British,England,1753
+England,British,Madeira,1755
+Madeira,British,Virginia,1755
+Virginia,British,Spithead,1755
+Portsmouth,British,Newfoundland,1756
+St Johns,British,Lisbon,1756
+Lisbon,British,England,1757
+Java Head,British,UK,1763
+Antigua,British,Spithead,1773
+Spithead,British,Madras,1774
+Kedgeree,British,Malacca,1776
+Malacca,British,Macao,1776
+Macao,British,Malacca,1776
+Malacca,British,Madras,1777
+Gravesend,British,Churchill,1779
+Churchill,British,Gravesend,1779
+Gravesend,British,York Factory,1780
+York Factory,British,Gravesend,1781
+Table Bay,British,Plymouth,1783
+Gravesend,British,York Factory,1787
+York Factory,British,Gravesend,1787
+Gravesend,British,York Factory,1788
+York Factory,British,Gravesend,1788
+Gravesend,British,York Factory,1790
+York Factory,British,Gravesend,1790
+Gravesend,British,York Factory,1791
+York Factory,British,Gravesend,1791
+Gravesend,British,York Factory,1792
+York Factory,British,Gravesend,1792
+Port Royal Jamaica,British,UK,1802
+Plymouth,British,Boston,1775
+Nederland,Dutch,Suriname,1802
+Plymouth (England),British,Plymouth (Monserrat),1752
+Bahamas,British,Spithead,1756
+Port Antonio,British,Downs,1794
+Spithead,British,Halifax,1794
+Gibraltar,British,Port au Prince,1795
+Plymouth,British,Carlisle Bay, Barbados,1800
+Basse Terre,British,Martinique,1800
+Prince Rupert Bay, Dominica,British,Downs,1802
+Bombay,British,St Helena,1752
+Plymouth,British,Madeira,1763
+Anguilla,British,Plymouth,1764
+Plymouth,British,Maderia,1765
+St Thomas (Sao Tome),British,Plymouth,1765
+Table Bay,British,Spithead,1750
+St Thomas, Gulf of Guinea,British,Carlisle Bay,1795
+Fort Royal, Martinique,British,Prince Rupert Bay,1795
+Prince Rupert Bay,British,Fort Royal,1796
+Cork,British,Cabendar Road,1796
+Cape Nicholas,British,Downs,1798
+Princes Island,British,St Georges Bay, Grenada,1798
+Cape Nicholas,British,Downs,1798
+Table Bay,British,Mocha,1801
+VoyageFrom,Nationality,VoyageTo,NaN
+Spithead,British,Madeira,1753
+Madeira,British,Antigua,1753
+Antigua,British,Charles Town,1753
+Charlestown,British,Hampton Road (Virginia),1754
+Hampton Road (Virginia),British,Chibucto Harbour (Halifax),1754
+Hampton Road (Virginia),British,Halifax (Chibucto Harbour),1754
+Chibucto Harbour (Halifax),British,Sandy Hook (New York),1754
+Sandy Hook (New York),British,York in Virginia,1754
+York in Virginia,British,Charlestown,1754
+Charles Town,British,Providence (Bahamas),1754
+Matanzes (Cuba),British,Deptford,1757
+Texel,Dutch,Kaap de Goede Hoop,1796
+Texel,Dutch,Rio de Janeiro,1820
+Rio de Janeiro,Dutch,Batavia,1821
+Batavia,Dutch,Hellevoetsluis,1824
+Ceylon,Dutch,Batavia,1757
+Batavia,Dutch,Punto Gale,1757
+Cochin,Dutch,Batavia,1758
+Batavia,Dutch,Texel,1758
+Holland,Dutch,Gujana,1783
+Gujana,Dutch,Holland,1784
+Holland,Dutch,Gujana,1784
+Gujana,Dutch,Holland,1785
+Batavia,Dutch,Kaap de Goede Hoop,1756
+Amsterdam,Dutch,Suriname,1761
+Suriname,Dutch,Amsterdam,1761
+Texel,Dutch,Elmina,1762
+Prinsse Eiland,Dutch,Suriname,1762
+Suriname,Dutch,Curacao,1763
+Curacao,Dutch,Nederland,1763
+Rotterdam,Dutch,Soerabaya,1839
+Soerabaya,Dutch,Batavia,1839
+Batavia,Dutch,Azoren,1839
+Azoren,Dutch,Hellevoetsluis,1840
+Java Head,British,UK,1750
+Plymouth,British,Boston,1774
+Plymouth,British,Boston,1774
+Halifax,British,Torbay,1776
+UK,British,New York,1777
+Schiedam,Dutch,Oost Indie,1844
+Oost Indie,Dutch,Schiedam,1844
+Rotterdam,Dutch,Batavia,1846
+Batavia,Dutch,Rotterdam,1846
+Rotterdam,Dutch,New York,1847
+New York,Dutch,Londen,1847
+Nieuwediep,Dutch,Batavia,1751
+Batavia,Dutch,Ceylon,1753
+Punte Gale,Dutch,Mazulipatnam,1753
+Nagapatnam,Dutch,Coromandel,1753
+Coromandel,Dutch,Gale,1753
+Bengalen,Dutch,Batavia,1755
+Ceserijen,Dutch,Batavia,1755
+Plymouth,British,Funchal,1823
+Teneriffe,British,Rio de Janeiro,1823
+Rio de Janeiro,British,Cape of Good Hope,1824
+Simons Bay,British,Rio de Janeiro,1824
+Rio de Janeiro,British,Montevideo,1824
+St Johns Road (Antigua),British,UK,1750
+Cadiz,British,Portsmouth ,1750
+Lizard,British,Cape St Marie,1750
+Cadiz,British,Tennerife,1750
+Tennerife,British,Cadiz,1750
+Downs,British,Caymans Bay (Cape),1795
+Caymans Bay (Cape),British,Bahia,1795
+Bahia,British,False Bay,1795
+False Bay,British,St Helena,1795
+Table Bay,British,Madras,1795
+Table Bay,British,St Helena,1797
+St Helena,British,Table Bay,1797
+Table Bay,British,St Helena,1798
+St Helena,British,Spithead,1799
+Amsterdam,Dutch,Kaapstad,1802
+Kaapstad,Dutch,Bergen,1803
+Lizard,British,Madeira,1765
+Madeira,British,Senegal River,1765
+Senegal River,British,Lizard,1765
+Virginia,British,Spithead,1766
+Antigua,British,UK,1771
+St Thomas, Gulf of Guinea,British,Spithead,1795
+Lisbon,British,Hampton Road, Virginia,1797
+Spithead,British,New York,1798
+Hampton Road,British,Halifax,1799
+Halifax,British,Calisle Bay, Barbados,1799
+St Johns, Antigua,British,Halifax,1800
+Vlissingen,Dutch,Suriname,1763
+Suriname,Dutch,Curacao,1764
+Curacao,Dutch,Vlissingen,1764
+St Vincent ,British,Liverpool,1818
+Nieuwediep,Dutch,Batavia,1854
+Batavia,Dutch,Nieuwediep,1854
+Amsterdam,Dutch,Batavia,1837
+Batavia,Dutch,Amsterdam,1838
+Amsterdam,Dutch,Batavia,1838
+Batavia,Dutch,Amsterdam,1839
+Amsterdam,Dutch,Batavia,1839
+Batavia,Dutch,Padang,1840
+Padang,Dutch,Amsterdam,1840
+Amsterdam,Dutch,Batavia,1844
+Batavia,Dutch,Amsterdam,1844
+Amsterdam,Dutch,Batavia,1845
+Batavia,Dutch,Amsterdam,1845
+Amsterdam,Dutch,Batavia,1847
+Batavia,Dutch,Amsterdam,1847
+Amsterdam,Dutch,Batavia,1848
+Banjouwangie,Dutch,Amsterdam,1849
+Nederland,Dutch,Newport,1851
+Newport,Dutch,St Thomas,1851
+St Thomas,Dutch,Belize,1851
+Belize,Dutch,Nederland,1852
+Zierikzee,Dutch,Batavia,1846
+Batavia,Dutch,Zierikzee,1846
+Zierikzee,Dutch,Batavia,1847
+Patjitan,Dutch,Middelburg,1847
+Zierikzee,Dutch,Batavia,1848
+Batavia,Dutch,Zierikzee,1849
+New Port,Dutch,Valparaiso,1850
+Valparaiso,Dutch,Panama,1850
+Panama,Dutch,Lima,1851
+Lima (Pisco),Dutch,Cork,1851
+New Castle,Dutch,Singapore (via Anger),1852
+Singapore,Dutch,Batavia,1852
+Batavia,Dutch,Zierikzee,1853
+Portsmouth,British,Madeira,1769
+Madeira,British,Table Bay,1769
+Table Bay,British,Ceylon,1769
+Muscat,British,Bombay,1770
+Madras,British,Trincomalee,1771
+Trincomalee,British,Mauritius,1771
+Mauritius,British,Spithead,1771
+Spithead,British,Funchal,1797
+Funchal,British,Spithead,1797
+Plymouth,British,St Helena,1796
+St Helena,British,Downs,1796
+Rammekens,Dutch,Kust van Afrika,1791
+Elmina,Dutch,Suriname,1792
+Paramaribo,Dutch,Middelburg,1792
+Rammekens,Dutch,Kust van Afrika,1791
+Rammekens,Dutch,Kust van Afrika,1791
+Rammekens,Dutch,Kust van Afrika,1791
+Middelburg,Dutch,Kaap de Goede Hoop,1793
+Spithead,British,Simon's Bay,1797
+Simon's Bay,British,Cape St Mary,1798
+Table Bay,British,St Helena,1799
+St Helena,British,Table Bay,1799
+Table Bay,British,Mauritius,1800
+St Marys Madagascar,British,Simons Bay,1800
+Table Bay,British,Trinidade,1800
+Trinidade,British,River Plate,1800
+Cape St Mary (S America),British,Table Bay,1801
+Table Bay,British,Spithead,1801
+Middelburg,Dutch,Ceylon,1784
+UK,British,Saugor Roads,1813
+Saugor Roads,British,Spithead,1813
+Spithead,British,Nassau, Bahamas,1801
+Nassau, Bahamas,British,Spithead,1802
+Spithead,British,Port Royal,1802
+Texel,Dutch,Bengal,1786
+Casserijen,Dutch,Texel,1787
+Amsterdam,Dutch,Batavia,1853
+Batavia,Dutch,Nieuwediep,1854
+Gravesend UK,British,Cape Land,1751
+Table Bay,British,Bombay,1751
+St Helena,British,Woolwich UK,1753
+Boston  ,British,Lizard,1752
+Lizard,British,Halifax,1754
+Spithead,British,Madras,1794
+Table Bay,British,UK,1802
+Nederland,Dutch,Sierra Leone,1828
+St George d'Elmina,Dutch,Rio de Janeiro,1828
+Rio de Janeiro,Dutch,Rio de la Plata,1828
+Rio de la Plata,Dutch,Rio de Janeiro,1828
+Rio de Janeiro,Dutch,Curacao,1828
+Curacao,Dutch,Vera Cruz,1829
+Vera Cruz,Dutch,Havanna,1829
+Havanna,Dutch,Vlissingen,1829
+Vlissingen,Dutch,Axim,1829
+Princes eiland,Dutch,Rio de Janeiro,1830
+Rio de Janeiro,Dutch,St Eustatius,1830
+St Eustatius,Dutch,Curacao,1830
+Curacao,Dutch,Havannah,1830
+Havannah,Dutch,Vlissingen,1830
+New London, Connecticut,British,Plymouth,1815
+Suriname,Dutch,Texel,1759
+Texel,Dutch,Suriname,1760
+Hellevoetsluis,Dutch,Paramaribo,1847
+Paramaribo,Dutch,Hellevoetsluis,1849
+Hellevoetsluis,Dutch,Batavia,1850
+Cadiz,British,Spithead,1775
+Portsmouth,British,Maderia,1750
+Madeira,British,Cape St Maries,1750
+Cape St Maries,British,Sierra Leone,1750
+The Bananas,British,Dixcove,1750
+Accrah,British,Southsea,1751
+Tagus Lisbon,British,St Johns,1797
+St Johns on a cruise to Bermuda and back,British,St Johns,1797
+Vlissingen,Dutch,Cabo de Goede Hoop,1793
+Nieuwediep,Dutch,Batavia,1836
+Banjoemangie,Dutch,Nieuwediep,1837
+Nieuwediep,Dutch,Batavia,1837
+Batavia,Dutch,Nieuwediep,1838
+Fort William,British,Malacca Town,1750
+Malacca Town,British,Monopin Hill,1750
+Mallaca Town,British,Monopin Hill,1750
+Palembang River,British,Batowia Road,1750
+Batavia Road,British,Cherebon Road,1750
+Fort St Davids Road,British,Unknown,1751
+Unknown,British,Fort St Davids Road,1752
+Fort St Davids Road,British,St Hellena,1752
+St Hellena,British,UK,1752
+Spithead,British,St Jago,1771
+St Jago,British,St Helena,1771
+St Helena,British,Madras,1771
+Point Palmiras,British,Madras,1772
+Surat,British,Muscat,1773
+Muscat,British,Bombay,1773
+Mapulipatam,British,Cuddalore,1773
+Trincomalee,British,Port Louis,1775
+Table Bay,British,Tillicherry,1775
+Halifax,British,Bermuda,1799
+Bermuda,British,Halifax,1799
+Halifax,British,Bermuda,1799
+Bermuda,British,New Providence Bahamas,1800
+New Providence Bahamas,British,Bermuda,1800
+Bermuda,British,Mona Island,1800
+Mona Island,British,Hampton Road Virginia,1800
+Mona Island,British,Hampton Road, Virginia,1800
+Spithead,British,Havana,1763
+Plymouth,British,Madeira,1766
+Madeira,British,Porto Praya,1766
+Porto Praya,British,Port Egmont, Falkland Islands,1766
+Carlisle Bay Falkland Islands,British,Plymouth,1769
+Equator,British,Madras,1794
+Lagos Bay,British,Antigua to Gibraltar,1805
+Plymouth,British,Murrays Anchorage, Bermuda,1807
+Halifax,British,Fayal,1808
+Fayal,British,Halifax,1808
+Table Bay,British,Madras,1796
+Madras - Balasore,British,Madras,1797
+Trincomalee,British,Lisbon,1802
+Unknown,British,Bombay,1750
+Spithead,British,Funchal Road (Madeira),1754
+Funchal Road (Madeira),British,Virginia,1755
+New York,British,Boston,1755
+The Mannan,British,Charles Town,1755
+Charlestown,British,Portsmouth,1756
+Spithead,British,Gibralter,1756
+Gibralter,British,Spithead,1758
+Cork,British,Carlise Bay,1801
+Port Royal Jamica,British,Plymouth,1802
+CÁDIZ,Spanish,AMÉRICA,1782
+Bombay,British,Unknown,1751
+Bombay,British,Table Bay,1751
+Texel,Dutch,Bengal,1776
+La Coruña,Spanish,Montevideo,1779
+Montevideo,Spanish,La Coruña,1780
+La Coruña,Spanish,Montevideo,1782
+Montevideo,Spanish,La Coruña,1782
+Rotterdam,Dutch,Batavia,1842
+Batavia,Dutch,Rotterdam,1843
+Rotterdam,Dutch,Batavia,1843
+Batavia,Dutch,Rotterdam,1843
+Rotterdam,Dutch,Makassar,1844
+Makassar,Dutch,Batavia,1844
+Batavia,Dutch,Rotterdam,1845
+Rotterdam,Dutch,Batavia,1847
+Batavia,Dutch,Tjilatjap,1847
+Batavia,Dutch,Tjilatjap,1847
+Rotterdam,Dutch,Makassar,1850
+Rotterdam,Dutch,Makassar,1850
+Rotterdam,Dutch,Makassar,1850
+Makassar,Dutch,Macao,1850
+Macao,Dutch,Batavia,1851
+Batavia,Dutch,Macao,1851
+Macao,Dutch,San Francisco,1852
+San Francisco,Dutch,Kema,1852
+Kema,Dutch,Makassar,1852
+Makassar,Dutch,Manila,1852
+Manilla,Dutch,Batavia,1852
+Plymouth,British,St. Augustines, Madagascar,1761
+Madagascar,British,Table Bay,1761
+Table Bay,British,Plymouth,1762
+Spithead,British,Barbados,1793
+Cape Caravella, Martinique,British,Port Louis, Martinique,1794
+Spithead,British,Madras,1801
+Spithead,British,Madras,1801
+Acheen,British,Madras,1802
+Madras,British,Acheen,1802
+Madras,British,Penang,1802
+Penang,British,Calcutta,1803
+Spithead,British,Sumba (off Java),1790
+Penang,British,Downs via St Helena,1800
+Portsmouth,British,Penang via St Helena,1804
+Downs,British,Bombay,1819
+Java Head,British,Portsmouth,1820
+Nieuwediep,Dutch,Batavia,1841
+Batavia,Dutch,Nieuwediep,1841
+Plymouth,British,St Helena,1777
+St Helena,British,Plymouth,1777
+Kinsale,British,Halifax,1778
+Kinsale ,British,Halifax,1778
+Halifax,British,Plymouth,1778
+Lissabon,Dutch,Mesurado,1787
+Mesurado,Dutch,La Hou,1787
+La Hou,Dutch,Appolonia,1787
+Acara,Dutch,Paramaribo,1787
+Paramaribo,Dutch,St Eustatius,1788
+Texel,Dutch,Santa Croix,1789
+Santa Croix,Dutch,Porto Prayo,1789
+Porto Prayo,Dutch,Simonsbaaij,1789
+Simonsbaaij,Dutch,Batavia,1789
+Batavia,Dutch,Texel,1792
+Spithead,British,Halifax,1790
+Motherbank,British,Bengal,1807
+Madras,British,Motherbank,1808
+Motherbank,British,Madras,1810
+Bengal,British,Downs,1810
+Portsmouth,British,Madras,1812
+St Helena,British,Downs,1813
+Motherbank,British,Madras,1814
+Point de Galle,British,Downs,1815
+Bali (Java),British,UK,1760
+Spithead,British,Fort St George,1762
+Ingerlee,British,Spithead,1763
+Downs,British,Madras,1765
+Java Head,British,Falmouth,1766
+Downs,British,Christmas Island,1768
+Java Head,British,St Helena,1769
+Plymouth,British,Halifax (Chabukta Harbour),1752
+Plymouth,British,Halifax (Chabukta Harbour),1753
+Halifax (Chabukta Harbour),British,Lisbon,1753
+Lisbon,British,Plymouth,1753
+Rio de Janeiro,British,Falmouth,1808
+Downs ,British,Colombo,1802
+Quilon,British,Downs,1803
+Portsmouth,British,Diamond Harbour, Bengal,1804
+Diamond Harbour, Bengal,British,Downs,1805
+Simon's Bay,British,St Catharine's (South America),1800
+Simon's Bay,British,Bombay,1801
+Bombay,British,Simons Bay,1802
+Table Bay,British,Back Bay, Trincomalee,1803
+Back Bay, Trincomalee,British,Benkulen,1804
+Benkulen,British,Rodriguez,1804
+Flat Island, Mauritius,British,St Marys Madagascar,1804
+St Marys Madagascar,British,Point de Galle Road, Ceylon,1804
+Goa Road,British,Mathurin Bay, Rodiguez,1805
+Mauritius,British,Madras,1805
+Anjengo,British,Downs,1806
+St Hellens,British,Spihead (cruising),1795
+Spithead,British,Madras,1796
+Gibraltar,British,Virginia,1750
+Virginia,British,Cadiz,1753
+Connecticutt,British,Cadiz,1755
+Long Bay Jamaica,British,Spithead,1795
+Texel,Dutch,Plymouth,1837
+Plymouth,Dutch,Batavia,1838
+Texel,Dutch,Kaap de Goede Hoop,1796
+Table Bay,British,Spithead,1797
+Nore ,British,Barbados,1800
+St Kitts,British,Spithead,1802
+Vlissingen,Dutch,Rio de Janeiro,1817
+Rio de Janeiro,Dutch,Batavia,1817
+Beachy Head,British,Canton,1750
+Canton,British,Tillicherry,1750
+Singapore Straight,British,Wampoe,1751
+Java,British,UK,1752
+Plymouth,British,Barbados,1790
+Spithead,British,Cadiz,1795
+Cadiz,British,Spithead,1795
+Santa Cruz,British,Spithead,1796
+Spithead,British,Santa Cruz,1796
+Plymouth,British,Table Bay,1797
+Simons Bay,British,Downs,1798
+England,British,Madeira,1754
+Madeira,British,Barbados,1754
+Antigua,British,Barbados,1755
+Antigua,British,Barbados,1755
+Cape Nicholas (Santo Domingo),British,Charlestown,1764
+St Augustine (Florida),British,Charlestown,1764
+Charlestown,British,Deptford,1766
+Plymouth,British,Madeira,1769
+Madeira,British,Basse Terre,1769
+Nieuwediep,Dutch,Batavia,1835
+Banjoewangi,Dutch,Nieuwediep,1836
+Texel,Dutch,Batavia,1836
+Banjoewangie,Dutch,Nieuwediep,1838
+Nieuwediep,Dutch,Batavia,1843
+Batavia,Dutch,St. Helena,1844
+St Helena,Dutch,Nieuwediep,1844
+Madeira,British,New York,1770
+New York,British,Boston,1770
+Falmouth,British,Cadiz,1771
+Cork,British,Funchal,1824
+Funchal,British,Rio de Janeiro,1824
+Rio de Janeiro,British,Maldonado,1824
+Maldonado,British,Rio de Janeiro,1824
+Rio de Janeiro,British,Spithead,1824
+Portsmouth,British,Funchal,1827
+Funchal,British,Porta Praya,1827
+Porta Praya,British,Table Bay,1827
+Torbay,British,Carlisle Bay,1802
+Middelburg,Dutch,Ceylon,1790
+Spithead,British,Carlisle Bay,1799
+Nederland,Dutch,Java,1846
+Java,Dutch,Nederland,1847
+Nederland,Dutch,Nederlands Indië,1849
+Nederlands Indië,Dutch,Nederland,1850
+Urk,Dutch,St Eustatius,1778
+St Eustatius,Dutch,Texel,1779
+Portugal,Dutch,Soerabaija,1845
+Soerabaija,Dutch,Rotterdam,1846
+Nederland,Dutch,Batavia,1848
+Soerabaija,Dutch,Rotterdam,1848
+Rotterdam,Dutch,Batavia,1850
+Soerabaja,Dutch,Rotterdam,1851
+Holland,Dutch,Batavia,1838
+Batavia,Dutch,Holland,1839
+Nieuwendiep,Dutch,Batavia,1845
+Batavia,Dutch,Nieuwendiep,1845
+Rotterdam,Dutch,Java,1849
+Java,Dutch,Rotterdam,1849
+Rotterdam,Dutch,Java,1843
+Java,Dutch,Rotterdam,1843
+Texel,Dutch,Valsbaai,1783
+Kaapstad,Dutch,Batavia,1783
+Batavia,Dutch,Ceylon,1785
+Ceylon,Dutch,Rotterdam,1786
+CADIZ,Spanish,CABO BUENA ESPERANZA,1775
+CÁDIZ,Spanish,CABO BUENA ESPERANZA,1775
+LA HABANA,Spanish,CANAL DE BAHAMA,1789
+LA HABANA,Spanish,CÁDIZ,1794
+LA HABANA,Spanish,CANAL DE BAHAMA,1789
+LA HABANA,Spanish,CANAL DE BAHAMA,1789
+PUERTO RICO,Spanish,VERACRUZ,1794
+VERACRUZ,Spanish,LA HABANA,1794
+LA HABANA,Spanish,CÁDIZ,1794
+Madeira,British,Madras,1777
+Madras,British,St Helena,1778
+St. Helena,British,Duins,1793
+Bantam,Dutch,Kaap de Goede Hoop,1788
+Curacao,Dutch,Fruxillo,1827
+Fruxillo,Dutch,Havana,1827
+Havana,Dutch,Fruxillo,1827
+Fruxillo,Dutch,Vera Cruz,1827
+Vera Cruz,Dutch,Havana,1827
+Havana,Dutch,Rotterdam,1827
+Rotterdam,Dutch,Axim,1827
+Elmina,Dutch,Parimaribo,1827
+Parimaribo,Dutch,St Eustacius,1828
+St Eustacius,Dutch,Parimaribo,1828
+Parimaribo,Dutch,Curacao,1828
+Curacao,Dutch,St Eustacius,1828
+St Maarten,Dutch,Parimaribo,1828
+Parimaribo,Dutch,St Eustacius,1828
+St Maarten,Dutch,Parimaribo,1829
+Parimaribo,Dutch,St Eustacius,1829
+St Eustacius,Dutch,Parimaribo,1829
+Parimaribo,Dutch,Curacao,1829
+Curacao,Dutch,St Eustacius,1829
+St Maarten,Dutch,Parimaribo,1829
+Parimaribo,Dutch,St Eustacius,1830
+St Thomas,Dutch,Curacao,1830
+Curacao,Dutch,St Eustacius,1831
+St Maarten,Dutch,Parimaribo,1831
+Parimaribo,Dutch,St Eustacius,1832
+St Eustacius,Dutch,Curacao,1832
+Curacao,Dutch,Rotterdam,1832
+Rotterdam,Dutch,Batavia,1849
+Anjer,Dutch,Sambvangan,1849
+Sambvangan,Dutch,Manila,1849
+Manila,Dutch,Batavia,1849
+Batavia,Dutch,Grise,1849
+Pasgeroeang,Dutch,Banjoewangie,1850
+Banjoewangie,Dutch,Holland,1850
+Nieuwediep,Dutch,Batavia,1834
+Goede Rheede,Dutch,Rio de Janeiro,1820
+Rio de Janeiro,Dutch,Indische Zee,1820
+Torbay,British,Fort Royal, Martinique,1794
+Gibraltar,British,Port Royal Jamaica,1802
+Jamaica,British,Halifax,1802
+Halifax,British,Jamaica,1802
+Gravesend,British,Java,1767
+Java Head,British,St Helena,1768
+Antwerpen,Dutch,Batavia,1824
+Batavia,Dutch,Antwerpen,1824
+Antwerpen,Dutch,Batavia,1825
+Batavia,Dutch,Nagasaki,1825
+Nagasaki,Dutch,Batavia,1825
+Batavia,Dutch,Antwerpen,1826
+Middelburg,Dutch,Ceylon,1786
+Batavia,Dutch,Middelburg,1790
+Nederland,Dutch,Suriname,1840
+Paramaribo,Dutch,Curacao,1841
+Curacao,Dutch,Martinique,1841
+Martinique,Dutch,Curacao,1841
+Curacao,Dutch,Baai Jacomel,1841
+Baai Jacomel,Dutch,Jamaica,1841
+Jamaica,Dutch,Curacao,1841
+Curacao,Dutch,St Maarten,1842
+St Maarten,Dutch,Paramaribo,1842
+Paramaribo,Dutch,Cayenne,1842
+Cayenne,Dutch,Curacao,1842
+Curacao,Dutch,La Guayra,1842
+La Guayra,Dutch,Curacao,1842
+St Martin,Dutch,La Guayra,1842
+Curacao,Dutch,St Eustatius,1843
+St Eustatius,Dutch,St Martin,1843
+St Martin,Dutch,Paramaribo,1843
+Paramaribo,Dutch,Curacao,1843
+Curacao,Dutch,Paramaribo,1843
+Curacao,Dutch,Hellevoetsluis,1844
+Hellevoetsluis,Dutch,Parimaribo,1849
+Parimaribo,Dutch,Curacao,1849
+Curacao,Dutch,Laguaijra,1849
+Laguaijra,Dutch,Porto Cabello,1849
+Porto Cabello,Dutch,Laguaijra,1849
+Curacao,Dutch,Aguadilla,1850
+Aguadilla,Dutch,St. Juan de Porte Rico,1850
+St. Juan de Porte Rico,Dutch,Curacao,1850
+Curacao,Dutch,St Martin,1850
+St Martin,Dutch,Paramaribo,1850
+St Martin,Dutch,Paramaribo,1850
+Paramaribo,Dutch,Curacao,1850
+Curaçao,Dutch,St Martin,1850
+St Martin,Dutch,Paramaribo,1850
+Middelburg,Dutch,St Paolo,1786
+El Mina,Dutch,Paramaribo,1787
+Paramaribo,Dutch,Middelburg,1787
+Middelburg,Dutch,Caap Monte,1788
+El Mina,Dutch,Suriname,1789
+El Mina,Dutch,Suriname,1789
+Suriname,Dutch,Middelburg,1790
+Middelburg,Dutch,Elmina,1794
+Loango,Dutch,Suriname,1795
+Chintsura,Dutch,Batvia,1788
+Portland,British,Mocha,1801
+Diego Garcia,British,Tamatave, Madagascar,1801
+St Mary's ,British,Diego Garcia,1801
+Diego Garcia,British,Colombo,1802
+Downs ,British,Madras,1795
+Madras,British,Prince of Wales Island,1796
+Madras,British,Acheen,1801
+Pinang,British,Madras,1801
+Rammekes,Dutch,Guinnee,1778
+Guinnee (Kaap Axim),Dutch,Suriname,1779
+Paramaribo,Dutch,Vlissingen,1779
+Cracatoa,British,Fort St David Road (Madras),1750
+Fort St David Road (Madras),British,Anjango Road,1750
+Anjango Road,British,Tillicherry Flag,1750
+Tillicherry Flag,British,Bombay Harbour,1750
+Tillicherry,British,Madagascar,1751
+Marvile Madagascar,British,Fort Dauphin Bay, Madagascar,1751
+Dauphin Bay, Madagascar,British,Table Bay,1751
+Table Bay,British,UK,1752
+Nieuwediep,Dutch,San Salvador,1807
+Middelburg,Dutch,Guinea,1753
+Netherlands,Dutch,St Andries,1756
+Elmina,Dutch,Paramaribo,1757
+Paramaribo,Dutch,The Netherlands,1757
+The Netherlands,Dutch,Guinea,1759
+Elmina,Dutch,Golf van GuineeGuinea,1760
+Golf van Guinee,Dutch,The Netherlands,1760
+The Netherlands,Dutch,Golf van Guinee,1761
+Golf van Guinee,Dutch,The Netherlands,1762
+The Netherlands,Dutch,Golf van Guinee,1762
+Golf van Guinee,Dutch,The Netherlands,1763
+Middelburg,Dutch,Rio Gabon,1764
+Rio Gabon,Dutch,St. Thomee,1766
+Rio Gabon,Dutch,St.Thomee,1766
+St. Thomee,Dutch,Middelburg,1766
+Middelburg,Dutch,Gabon,1767
+Vlissingen,Dutch,Guinea,1770
+Guinea,Dutch,Suriname,1771
+Suriname,Dutch,Rammekens,1771
+Middelburg,Dutch,Guinee,1772
+Guinee,Dutch,Paramaribo,1773
+Paramaribo,Dutch,St Maarten,1774
+St Maarten,Dutch,Middelburg,1774
+Suriname,Dutch,Bergen,1799
+Bergen,Dutch,Delfzijl,1800
+Batavia,Dutch,Gamron,1755
+Gamron,Dutch,Cochin,1755
+Rammekens,Dutch,Ceylon,1765
+Vlissingen,Dutch,Kaap de Goede Hoop,1792
+Amsterdam,Dutch,Suriname,1777
+Suriname,Dutch,Amsterdam,1778
+St Marie, Isle de Rhee,Dutch,Kaapstad,1802
+Kaapstad,Dutch,Batavia,1803
+Texel,Dutch,Batavia,1788
+Batavia,Dutch,Souratte,1789
+Souratte,Dutch,Punte Gale,1790
+Colombo,Dutch,Cochin,1790
+Souratte,Dutch,Cochin,1790
+Punte Gale,Dutch,Batavia,1790
+Punte Gale,Dutch,Colombo,1790
+Souratte,Dutch,Punte Gale,1790
+Middelburg,Dutch,Kaap de Goede Hoop,1791
+Vlissingen,Dutch,Guinea,1788
+Batavia,Dutch,Cadiz,1781
+Batavia,Dutch,Bengalen,1767
+Texel,Dutch,Suriname,1756
+Middelburg,Dutch,Gulf of Guinea,1751
+Gulf of Guinea,Dutch,Middelburg,1752
+Middelburg,Dutch,Gulf of Guinea,1753
+Eppe,Dutch,Cammeroenes,1754
+Gulf of Guinea,Dutch,Middelburg,1755
+Middelburg,Dutch,Gulf of Guinea,1756
+Gulf of Guinea,Dutch,Suriname,1757
+Suriname,Dutch,Middelburg,1757
+Middelburg,Dutch,Gulf of Guinea,1762
+Gulf of Guinea,Dutch,Suriname,1762
+Suriname,Dutch,Curacao,1763
+Curacao,Dutch,Middelburg,1763
+Middelburg,Dutch,Golf van Guinee,1764
+Elmina,Dutch,Suriname,1765
+Suriname,Dutch,Curacao,1765
+Suriname,Dutch,Middelburg,1765
+Plymouth,Dutch,Gulf of Guinea,1767
+Axim,Dutch,Paramaribo,1767
+Paramaribo,Dutch,Nederland,1768
+Nederland,Dutch,Gulf of Guinea,1769
+Axim,Dutch,Paramaribo,1769
+Paramaribo,Dutch,Vlissingen,1770
+Batavia,Dutch,Decima,1772
+Texel,Dutch,Kaap de Goede Hoop,1796
+Spithead,British,Gibraltar,1753
+Gibraltar,British,Fyall (Azores),1753
+Fyall (Azores),British,Halifax,1753
+Halifax,British,New York,1757
+New York,British,Halifax,1757
+Halifax,British,Portland England,1757
+Lizard,British,Lisbon,1763
+Cape St Vincent,British,Lisbon,1763
+Lisbon,British,Start Point England,1766
+Downs,British,Benkuleu,1804
+Penang,British,Long Reach,1805
+Portsmouth,British,Bombay,1806
+Penang,British,Downs,1807
+Ingelee,British,Mocha,1750
+Mocha,British,Bombay,1750
+Point Palmira,British,UK,1751
+Downs,British,Cape of Good Hope,1779
+Bengal,British,Downs via St Helena,1780
+Java Head,British,Bristol Channel,1784
+Portsmouth,British,Anjer Road Java,1792
+Java Head,British,Portsmouth,1793
+Portsmouth,British,Canton via Australia,1794
+Achean Head, Sumatra,British,Motherbank,1795
+Nieuwediep,Dutch,Batavia,1842
+Banjoewangie,Dutch,Nieuwediep,1843
+Nieuwediep,Dutch,Batavia,1844
+Batavia,Dutch,Nieuwediep,1844
+Nieuwediep,Dutch,Batavia,1847
+Batavia,Dutch,Nieuwediep,1847
+Nieuwediep,Dutch,Batavia,1848
+Banjoewangie,Dutch,Nieuwediep,1849
+Nieuwediep,Dutch,Batavia,1850
+Batavia,Dutch,Nieuwediep,1850
+Swansea,Dutch,Tafelbaai,1851
+Tafelbaai,Dutch,Java,1851
+Java,Dutch,Nieuwediep,1851
+London,Dutch,Adelaide,1852
+Adelaide,Dutch,Batavia,1853
+Batavia,Dutch,Nieuwediep,1853
+Spithead,British,Penang Via Simons Bay,1811
+Downs ,British ,Java Head ,1815
+Java Head ,British ,Blackwall,1816
+Bombay,British,Bengall,1750
+Bengall,British,Deptford,1751
+Downs,British,Sunda Straight,1823
+Java Head,British,Downs,1824
+Table Bay,British,Spithead,1774
+Torbay,British,St Patrick's Hole, Newfoundland,1777
+River of St Lawrence,British,Spithead,1777
+Spithead,British,St Jago,1778
+Porto Praya,British,St Helena,1778
+St Helena,British,Spithead,1778
+Spithead,British,Newfoundland,1778
+Madeira,British,St Helena,1779
+St Helena,British,Spithead,1779
+Hellevoetsluis,Dutch,Simonsbaai,1783
+Simonsbaai,Dutch,Batavia,1783
+Punto Gale,Dutch,Kaap de Goede Hoop,1786
+Punto Gale,Dutch,Kaap de Goede Hoop,1786
+Kaap de Goede Hoop,Dutch,Nederland,1786
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1786
+Coastal,Dutch,,1786
+Coastal,Dutch,,1786
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1785
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Coastal,Dutch,,1784
+Rotterdam,Dutch,Batavia,1849
+Batavia,Dutch,Brouwershaven,1850
+Nieuwediep,Dutch,Samarang,1827
+Samarang,Dutch,Anjer,1827
+Anjer,Dutch,Texel,1827
+Spithead,British,Madeira,1771
+Madeira,British,Senegal,1772
+St Thomas,British,Ascension,1772
+Ascension,British,Towards Equator,1772
+Spithead,British,Santa Cruz,1773
+Santa Cruz,British,Cape Blanco,1773
+Cape Blanco,British,Senegal,1773
+Senegal,British,Portendie,1774
+Senegal,British,Falmouth,1774
+St Jago,British,Goree,1775
+Sierra Leone,British,St Jago,1775
+Teneriffe,British,Gambia,1775
+St Thomas (Sao Tome),British,Dominica,1777
+Batavia,Dutch,Kaap de Goede Hoop,1772
+Middelburg,Dutch,Gulf of Guinea,1769
+Gulf of Guinea,Dutch,Paramaribo,1770
+Paramaribo,Dutch,Rammekens,1770
+Nederland,Dutch,Guinea,1773
+Guinea,Dutch,Suriname,1774
+Suriname,Dutch,Nederland,1774
+Kaap de Goede Hoop,Dutch,De eilanden Dina en Maarseveen,1699
+Rammekens,Dutch,Ceylon,1765
+Batavia,Dutch,Kaap de Goede Hoop,1770
+Kaap de Goede Hoop,Dutch,Batavia,1770
+Motherbank,British,Madras,1805
+Madras,British,Spithead,1805
+Medemblik/Texel,Dutch,Rio de Janeiro,1817
+Rio de Janeiro,Dutch,Batavia,1817
+Nieuwe Diep,Dutch,Java,1820
+Nieuwediep,Dutch,Batavia,1840
+Batavia,Dutch,Nieuwediep,1840
+Nieuwediep,Dutch,Maregat,1826
+Texel,Dutch,Montevideo,1826
+Montevideo,Dutch,Valparaiso,1827
+Valparaiso,Dutch,Arika,1827
+Arika,Dutch,Guayaquil,1827
+Guayaquil,Dutch,Paita,1827
+Paita,Dutch,Callao,1827
+Callao,Dutch,Valparaiso,1827
+Valparaiso,Dutch,Arika,1827
+Arika,Dutch,Karakokoa,1828
+Kauai,Dutch,Macao,1828
+Macao,Dutch,Cavita,1828
+Manila,Dutch,Macao,1828
+Canton,Dutch,Texel,1829
+Nederland,Dutch,St George d'Elmina,1846
+St George d'Elmina,Dutch,Batavia,1846
+Batavia,Dutch,Hellevoetsluis,1846
+Texel,Dutch,Batavia,1853
+Batavia,Dutch,Texel,1853
+Gibraltar,British,Plymouth,1775
+Portsmouth,British,Bengal Via Maderia,1809
+Simons Bay,British,Madras,1810
+Hellevoetsluis,Dutch,Philadelphia,1783
+Philadelphia,Dutch,Terveur,1783
+Nederland,Dutch,Batavia,1842
+Rotterdam,Dutch,New York,1852
+New York,Dutch,Rotterdam,1853
+Rotterdam,Dutch,Melbourne,1853
+Melbourne,Dutch,Batavia,1853
+Nederland,Dutch,Curacao,1803
+Curacao,Dutch,St Eustatius,1803
+St Martijn,Dutch,Bergen,1803
+Spithead,British,Boston,1756
+Boston,British,Barbados,1756
+Barbados,British,Spithead,1756
+Spithead,British,Barbados,1756
+Anguilla,British,Carlisle Bay,1757
+Antigua ,British,England,1759
+Teneriffe,British,Senegal,1760
+Senegal,British,Goree,1761
+Cape Coast,British,Barbados,1761
+Plymouth,British,Teneriffe,1761
+Jamaica,British,Martinique,1794
+Carlisle Bay,British,Woolwich,1797
+Table Bay,British,Downs,1799
+Downs UK ,British,Bombay,1767
+Anjengo,British,Portsmouth,1768
+Downs UK,British,Bombay,1770
+Bengal,British,Woolwich,1771
+Downs,British,Madras,1772
+Java Head,British,St Helena,1778
+Antigua,British,New York,1780
+New York,British,Plymouth,1780
+Downs UK,British,Benkuleu via St Helena,1773
+Benkulen,British,St Helena,1775
+Benkuleu,British,St Helena,1775
+Motherbank,British,Bombay via Johanna,1777
+Bombay,British,St Helena,1778
+Portsmouth,British,Madras via Johanna,1780
+Bali,British,St Helena,1781
+Cape Good Hope,British,Downs,1787
+Rammekens,Dutch,Kaap de Goede Hoop,1790
+Texel,Dutch,San Sebastian,1837
+Texel,Dutch,San Sebastian,1836
+San Sebastian,Dutch,Batavia,1837
+San Sebastian,Dutch,Batavia,1837
+San Sebastian,Dutch,Batavia,1837
+Batavia,Dutch,Texel,1839
+Batavia,Dutch,Texel,1839
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Straat Sunda,Dutch,Noordkust Java,1837
+Nederland,Dutch,Gulf of Guinea,1764
+Gulf of Guinea,Dutch,Nederland,1766
+Nederland,Dutch,Gulf of Guinea,1768
+Gulf of Guinea,Dutch,Suriname,1769
+Suriname,Dutch,Nederland,1770
+Nederland,Dutch,Gulf of Guinea,1771
+Gulf of Guinea,Dutch,Suriname,1771
+Suriname,Dutch,Nederland,1772
+Rammekens,Dutch,Colombo,1786
+Ramekens,Dutch,Guinea,1787
+Vlissingen,Dutch,Suriname,1784
+Suriname,Dutch,St Eustatius,1785
+St Eustatius,Dutch,Bonaire,1785
+Curacao,Dutch,Texel,1785
+Nederland,Dutch,Batavia,1840
+Straat Bali,Dutch,Nederland,1841
+Nederland,Dutch,Batavia,1843
+Batavia,Dutch,Zierikzee,1843
+Hellevoetsluis,Dutch,Paramaribo,1763
+Rio Dommeraaij,Dutch,Hellevoetsluis,1764
+Hellevoetsluis,Dutch,Paramaribo,1779
+Rio Demmerary,Dutch,Hellevoetsluis,1779
+Middelburg,Dutch,Cabo de Goede Hoop,1790
+Amsterdam,Dutch,Batavia,1789
+Texel,Dutch,St George d'Elmina,1818
+St George d'Elmina,Dutch,Paramaribo,1818
+Paramaribo,Dutch,St Annabaai,1818
+St Annabaai,Dutch,Porte Cabello,1818
+Porte Cabello,Dutch,Curacao,1818
+Curacao,Dutch,La Guayra,1818
+La Guayra,Dutch,Porte Cabello,1818
+Porte Cabello,Dutch,Curacao,1818
+Curacao,Dutch,La Guayra,1818
+Curacao,Dutch,De Goede Rheede,1819
+Curaçao,Dutch,Vlissingen,1823
+Texel,Dutch,St George d'Elmina,1833
+St George d'Elmina,Dutch,Suriname,1833
+Texel,Dutch,Funchal,1841
+Funchal,Dutch,Texel,1841
+Funchal,Dutch,Texel,1841
+Texel,Dutch,Batavia,1842
+Texel,Dutch,Batavia,1842
+Texel,Dutch,Batavia,1842
+Batavia,Dutch,Nederland,1845

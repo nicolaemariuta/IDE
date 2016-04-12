@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Assignment 3</title>
+      <style>
+         body {
+		  font: 11px sans-serif;
+           padding: 50px;
+           margin-right: 150px;
+           margin-left: 150px;
+         }
+         h1 {
+           margin-top: 0px;
+         }
+         p {
+           margin-top: 10px;
+           margin-bottom: 10px;
+         }
+
+.axis path,
+.axis line {
+  fill: none;
+   stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+ .axis text {
+            font-family: Lato;
+            font-size: 13px;
+        }
+.div:graph {
+position:relative
+}
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+</style>
+   </head>
+   <body>
+      <h1 >
+         Assignment 3 
+      </h1>
+      <p>       Carp, Cristian-Gabriel, slp670</p>
+      <p>      Nicolae, Mariuta, rqt629</p>
+      <p>		Rudd, Lou Nørgaard, vkr358</p>
+      <h2>Older Assignments</h2>
+      <p>
+         <a href="assignment1.html"> Assignment 1 (Gabriel and Nicolae)</a><br/>
+         <a href="http://ide.netne.net/"> Assignment 1 (Lou)</a><br/>
+		 <a href="http://idediku.eu.pn/"> Assignment 2</a><br/>
+      </p>
+	  
+<script src="//d3js.org/d3.v3.min.js"></script>
+	  <script>
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = window.innerWidth/2 - 2*margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+/* 
+ * value accessor - returns the value to encode for a given data object.
+ * scale - maps value to a visual display encoding, such as a pixel position.
+ * map function - maps from data value to display value
+ * axis - sets up axis
+ */ 
+
+// setup x 
+var xValue = function(d) { return d.x;}, // data -> value
+    xScale = d3.scale.linear().range([0, width]), // value -> display
+    xMap = function(d) { return xScale(xValue(d));}, // data -> display
+    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+// setup y
+var yValue = function(d) { return d.y;}, // data -> value
+    yScale = d3.scale.linear().range([height, 0]), // value -> display
+    yMap = function(d) { return yScale(yValue(d));}, // data -> display
+    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+// setup fill color
+//var cValue = function(d) { return d[2];},
+//    color = d3.scale.category10();
+
+// add the graph canvas to the body of the webpage
+var context = d3.select("body")
+	.append("div")
+	.attr("id","graph")
+    .attr("width", width*2)
+    .attr("height", height + margin.top + margin.bottom);
+	
+var svgLeft =context
+	.append("svg")
+	.attr("id","left_svg")
+	.style("float","left")
+    .attr("width", width + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+	
+var svgRight = context
+	.append("svg")
+	.attr("id","right_svg")
+	.style("float","right")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// add the tooltip area to the webpage
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+	 function InitChart(handIndex) {
+                    // Sibiu 1918 blank   1991-1994 missing data
+                    //YEAR,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,D-J-F,M-A-M,J-J-A,S-O-N,metANN
+                    d3.csv("/data/hands2.csv", function(e,d) {
+                        var dataset = d;
+
+                         xScale = d3.scale.linear().range([0, width])
+                            .domain([d3.min(dataset, function(d){ return +d.XCOORD }) , d3.max(dataset, function(d){ return +d.XCOORD })]),
+
+                           yScale = d3.scale.linear().range([height, 0])
+                            .domain([d3.min(dataset, function(d){ return +d.YCOORD }) , d3.max(dataset, function(d){ return +d.YCOORD })]),
+
+
+                            
+                            xAxis = d3.svg.axis()
+                            .scale(xScale),
+                            yAxis = d3.svg.axis()
+                            .scale(yScale)
+                            .orient("left");
+                    
+                    svgRight.append("g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + (height - margin.bottom) + ")")
+                        .call(xAxis);
+                    svgRight.append("g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + (margin.left) + ",0)")
+                        .call(yAxis);
+
+                    var lineGen = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.XCOORD);
+                        })
+                        .y(function(d) {
+                            return yScale(+d.YCOORD)
+                        })
+                        .interpolate("monotone");
+
+						d3.selectAll("#current_hand").remove();
+                    svgRight.append('svg:path')
+					.attr("id","current_hand")
+                        .attr('d', lineGen(dataset.filter(function(d){						
+						return +d.HAND==handIndex;})))
+                        .attr('stroke','purple' )
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    
+                    })
+                }
+
+d3.csv("/data/hands2.csv", function(error, data) {
+
+  // change string (from CSV) into number format
+  data.forEach(function(d) {
+  d.hand =+d.hand
+   d.x = +d.XCOORD;
+	d.y = +d.YCOORD;
+  });
+  
+  // don't want dots overlapping axis, so add in buffer to data domain
+  xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
+  yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+  /*
+    // x-axis
+  svgRight.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("X");
+
+  // y-axis
+  svgRight.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Y");
+	  
+	   // draw dots
+  svgRight.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 3.5)
+      .attr("cx", xMap)
+      .attr("cy", yMap)
+      .style("fill", "blue");
+
+  // draw legend
+  var legend = svgLeft.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  // draw legend colored rectangles
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  // draw legend text
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d;});
+	  */
+	  });
+ 
+// load data
+d3.csv("/data/hands_pca_clustering.csv", function(error, data) {
+	console.log(data);
+  // change string (from CSV) into number format
+  data.forEach(function(d,i) {
+   d.x = +d.x;
+	d.y = +d.y;
+	 d.k = +d.k;
+  
+  });
+
+  // don't want dots overlapping axis, so add in buffer to data domain
+  xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
+  yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+
+  // x-axis
+  svgLeft.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("X");
+
+  // y-axis
+  svgLeft.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Y");
+	  
+	
+  // draw dots
+  svgLeft.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 3.5)
+      .attr("cx", xMap)
+      .attr("cy", yMap)
+      .style("fill", function(d,i) {
+						if(d.k == 1)
+							{return "red";}
+						if(d.k == 2)
+							{return "blue";}
+						if(d.k == 3)
+							{return "yellow";}
+						return "black";
+					})
+	  
+	  
+	  
+	  
+	  .on("mouseover", function(d,i) {
+          tooltip.transition()
+               .duration(200)
+               .style("opacity", .9);
+          tooltip.html("Position<br/> (" + xValue(d) 
+	        + ", " + yValue(d) + ") <br/> Hand: " + (i+1) )
+               .style("left", (d3.event.pageX + 5) + "px")
+               .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function(d) {
+          tooltip.transition()
+               .duration(500)
+               .style("opacity", 0);
+       })
+      .on("click", function(d,i) {
+         InitChart(i);
+      });
+/*
+  // draw legend
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  // draw legend colored rectangles
+  legend.append("rect")
+      .attr("x", width - 18)
+      .attr("width", 18)
+      .attr("height", 18)
+      .style("fill", color);
+
+  // draw legend text
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text(function(d) { return d;}) */
+});
+</script>
+   </body>
+</html>

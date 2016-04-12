@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+
+  <head>
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+		<style>#map {
+				width:600px;
+				height:400px;
+				}</style>
+		
+		
+		
+		
+   </head>
+   
+   
+   
+   <p>  First map</p>
+   <iframe width="100%" height="520" frameborder="0" src="https://nicolae-mariuta.cartodb.com/viz/c00ed984-a0f5-11e5-857f-0ecd1babdde5/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+   
+    <p> Toggle days</p>
+   <button type="button" onclick = "showMonday()" >Monday</button>
+   <button type="button" onclick = "showTuesday()" >Tuesday</button>
+   <button type="button" onclick = "showMonday()" >Wednesday</button>
+	
+	<iframe id = "ToggleWeekdays"   width="100%" height="520" frameborder="0" src="https://nicolae-mariuta.cartodb.com/viz/0c06d04e-a100-11e5-8d77-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+   
+  
+   
+   
+    <body>
+	<script>
+	function showMonday()	{	
+	document.getElementById("ToggleWeekdays").src = "https://nicolae-mariuta.cartodb.com/viz/0c06d04e-a100-11e5-8d77-0e3ff518bd15/embed_map";
+	}
+	
+	function showTuesday()	{	
+	document.getElementById("ToggleWeekdays").src = "https://nicolae-mariuta.cartodb.com/viz/fc920582-a101-11e5-991c-0e31c9be1b51/embed_map";
+	}
+	
+
+
+		
+	</script>
+	
+	
+	
+	<p>  CartoDb Javascript API</p>
+	
+	<a href="#monday" id="monday" class="button monday">Monday</a> 
+    <a href="#tuesday" id="tuesday" class="button tuesday">Tuesday</a> 
+    <a href="#wednesday" id="wednesday" class="button wednesday">Wednesday</a>
+	
+	
+	
+	<div id="map" style="width:600px; height:400px;">
+	<script>
+// get the viz.json url from the CartoDB Editor
+// - click on visualize
+// - create new visualization
+// - make visualization public
+// - click on publish
+// - go to API tab
+
+	var sublayer = null;
+
+
+
+	window.onload = function() {
+	var vis = cartodb.createVis('map', 'https://nicolae-mariuta.cartodb.com/api/v2/viz/0c06d04e-a100-11e5-8d77-0e3ff518bd15/viz.json')
+		  .done(function(vis, layers) {
+    // layer 0 is the base layer, layer 1 is cartodb layer
+    // when setInteraction is disabled featureOver is triggered
+    layers[1].setInteraction(true);
+    //layers[1].on('featureOver', function(e, latlng, pos, data, layerNumber) {
+    //  console.log(e, latlng, pos, data, layerNumber);
+    //
+	//});
+	 
+	sublayer = layers[1].getSubLayer(1);
+	
+ 
+
+    // you can get the native map to work with it
+    var map = vis.getNativeMap();
+
+    // now, perform any operations you need, e.g. assuming map is a L.Map object:
+    // map.setZoom(3);
+    // map.panTo([50.5, 30.5]);
+	});	
+	
+	
+	
+	
+	
+	  //we define the queries that will be performed when we click on the buttons, by modifying the SQL of our layer
+	var LayerActions = {
+	
+    monday: function(){
+	console.log("action");
+      sublayer.setSQL("SELECT * FROM sf_crime where sf_crime.dayofweek = 'Monday'");
+      return true;
+    },
+    tuesday: function(){
+      sublayer.setSQL("SELECT * FROM sf_crime where sf_crime.dayofweek = 'Tuesday'");
+      return true;
+    },
+    wednesday: function() {
+      sublayer.set({
+        sql: "SELECT * FROM sf_crime where sf_crime.dayofweek = 'Wednesday'",
+        //as it is said, you can also add some CartoCSS code to make your points look like you want for the different queries
+       // cartocss: "#ne_10m_populated_places_simple{ marker-fill: black; }"
+      });
+      return true;
+    }
+  }
+
+  $('.button').click(function() {
+    $('.button').removeClass('selected');
+    $(this).addClass('selected');
+    //this gets the id of the different buttons and calls to LayerActions which responds according to the selected id
+    LayerActions[$(this).attr('id')]();
+  });
+  
+ 
+	}
+	</script>
+	
+	
+	 
+	</body>
+</html>

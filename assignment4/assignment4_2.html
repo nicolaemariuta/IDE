@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	<script>
+	
+		var width = 500;
+		var height = 500;
+		var padding = 50;
+	
+	
+	
+	
+	
+
+		d3.csv("crimeSF2.csv", function(data) {
+		
+				var mapDays = data.map(function (d) { return parseInt(d.Hour);});
+				console.log(mapDays);
+			
+			
+			
+				var histogram = d3.layout.histogram()
+					.bins(24)
+					(mapDays);
+			
+				var y = d3.scale.linear()	
+					.domain([0,d3.max(histogram.map( function(i) { return i.length; }  ))])
+					.range([0,height]);
+						
+				
+						
+				var x = d3.scale.linear()	
+					.domain([0,d3.max(mapDays)])
+					.range([0,width]);			
+			
+				console.log(x);		
+				
+				var xAxis = d3.svg.axis()
+					.scale(x)
+					.orient("bottom");
+
+				var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",width)
+					.attr("height",height + padding)
+					.append("g")
+						.attr("transform", "translate(10,0)");	
+					
+					
+				var group = canvas.append("g")	
+							.attr("transform", "translate(0,"+ height +")")
+							.call(xAxis);
+							
+				var bars = canvas.selectAll(".bar")
+						.data(histogram)
+						.enter()
+						.append("g");
+
+						//	.attr("class","node")
+						//	.attr("transform", function (d) { return "translate("+d.y+","+d.x+")"}  )						
+					
+				bars.append("rect")
+					.attr("x", function(d) { return d.x; })
+					.attr("y", function(d) { return 500 - d.y; })	
+					.attr("width", function(d) { return d.dx; })	
+					.attr("height", function(d) { return d.y; })
+					.attr("fill", "steelblue");
+		
+		});
+	
+	
+		
+	 </script>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 </body>
+</html>

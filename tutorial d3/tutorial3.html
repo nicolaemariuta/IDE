@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	 
+	<script>
+	
+	
+		
+	
+		var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",500)
+					.attr("height",500)
+					.append("g")
+					.attr("transform","translate(20,0)");
+					
+		var circle = canvas.append("circle")
+						.attr("cx", 50)
+						.attr("cy", 50)
+						.attr("r", 25);	
+
+			
+//		circle.transition()
+//			.duration(1500)
+//			.delay(2000)
+//			.attr("cx", 100)
+//			.transition()
+//			.attr("cy", 100)
+//		
+
+		circle.transition()
+			.duration(1500)
+			.delay(2000)
+			.attr("cx", 100)
+			.each("end", function () {d3.select(this)
+										.attr("start","red")})
+
+
+	 
+	 </script>
+	 
+	 
+	 </body>
+</html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <style>
+        .axis path {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-family: Lato;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+
+            <svg id="visualisation" width="1000" height="500"></svg>
+            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script>
+                //http://code.tutsplus.com/tutorials/building-a-multi-line-chart-using-d3js--cms-22935
+                function InitChart() {
+                    // Sibiu 1918 blank   1991-1994 missing data
+                    //YEAR,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,D-J-F,M-AJ-M,-J-A,S-O-N,metANN
+                    d3.csv("stationSibiu.csv", function(e,d) {
+                        var dataset = d;
+                        console.log(d);
+                        
+                        //var dataset = [[ 1950, 10, 5 ],[ 1968, -25, -8 ],[ 1972, 5, 3 ],[ 1977, 15, 9 ],[ 1981, -2, 0 ],[ 1983, -5, 9 ],[ 1988, 7, 19 ],[ 1990, 11, -3 ],[ 1993, 25, -7 ],[ 1994, 18, 20 ],[ 1997, -5, 3 ],[ 2000, -2, 0 ],[ 2001, -25, -18 ],[ 2012, 25, 2 ],[ 2015, 13, 15 ]];
+
+                        var vis = d3.select("#visualisation"),
+                            WIDTH = 1000,
+                            HEIGHT = 500,
+                            MARGINS = {
+                                top: 20,
+                                right: 20,
+                                bottom: 20,
+                                left: 50},
+                            //.domain([d3.min(dataset, function(d) { return d[1]; }), d3.max(dataset, function(d) { return d[1]; })])
+                            xScale = d3.scale.linear().range([MARGINS.left, WIDTH - MARGINS.right]).domain([d3.min(dataset, function(d){ return d.YEAR }) , d3.max(dataset, function(d){ return d.YEAR })]),
+
+                            yScale = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([-25, 25]),
+                            xAxis = d3.svg.axis()
+                            .scale(xScale),
+                            yAxis = d3.svg.axis()
+                            .scale(yScale)
+                            .orient("left");
+                    
+                    vis.append("svg:g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
+                        .call(xAxis);
+                    vis.append("svg:g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + (MARGINS.left) + ",0)")
+                        .call(yAxis);
+
+                    var lineGen = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d.metANN);
+                        })
+                        .interpolate("monotone");
+                    
+                    var lineGen2 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d.JAN);
+                        })
+                        .interpolate("monotone");
+                    
+                    vis.append('svg:path')
+                        .attr('d', lineGen(dataset))
+                        .attr('stroke', 'green')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    vis.append('svg:path')
+                        .attr('d', lineGen2(dataset))
+                        .attr('stroke', 'blue')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                   	
+                    
+                   //attempt to make legend	
+					var color_hash = {  0 : ["metANN", "green"],
+										1 : ["JAN", "blue"]
+									  };  
+						
+					
+
+					
+					// add legend   
+					var legend = vis.append("g")
+					.attr("class", "legend")
+					.attr("x", WIDTH - 65)
+					.attr("y", 75)
+					.attr("height", 100)
+					.attr("width", 100);
+                                        
+                    legend.selectAll('g').data(dataset)
+					.enter()
+					.append('g')
+					.each(function(d, i) {
+						var g = d3.select(this);
+						g.append("rect")
+						.attr("x", WIDTH - 65)
+						.attr("y", i*25)
+						.attr("width", 10)
+						.attr("height", 10)
+						.style("fill", color_hash[String(i)][1]);
+						
+						g.append("text")
+						.attr("x", WIDTH - 50)
+						.attr("y", i * 25 + 8)
+						.attr("height",30)
+						.attr("width",100)
+						.style("fill", color_hash[String(i)][1])
+						.text(color_hash[String(i)][0]);
+				
+					})			
+						
+				
+                    })
+                }
+
+                InitChart();
+
+
+            </script>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+	rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;   
+      }
+       
+  
+#tooltip {
+  position: absolute;
+  /*width: 200px;*/
+  height: auto;
+  padding: 2px;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 11px;
+/*  line-height: 20px;*/
+}
+      .chart {
+      background: #fff;
+      margin: 5px;
+      }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
+      text.axis-workweek {
+        fill: #000;
+      }
+
+      text.axis-worktime {
+        fill: #000;
+      }
+        .axis path {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-family: Lato;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+ <h1 id="test">
+         <p id="title"> Assignment 2 </p>
+      </h1>
+      <p>       Carp Cristian Gabriel, slp670</p>
+      <p>      Nicolae Mariuta, rqt629</p>
+	  <p>		Rudd, Lou Nørgaard, vkr358</p>
+      <h2 > D3 visualizations  (point 1)</h2>
+    <div class="container">
+
+        <div class="jumbotron">
+
+            <svg id="visualisation" width="1000" height="500"></svg>
+            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script>
+                //http://code.tutsplus.com/tutorials/building-a-multi-line-chart-using-d3js--cms-22935
+                function InitChart() {
+                    // Sibiu 1918 blank   1991-1994 missing data
+                    //YEAR,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,D-J-F,M-A-M,J-J-A,S-O-N,metANN
+                    d3.csv("/assignment2/stationSibiu1.csv", function(e,d) {
+                        var dataset = d;
+
+                        var vis = d3.select("#visualisation"),
+                            WIDTH = 1000,
+                            HEIGHT = 500,
+                            MARGINS = {
+                                top: 20,
+                                right: 20,
+                                bottom: 20,
+                                left: 50},
+                            //.domain([d3.min(dataset, function(d) { return d[1]; }), d3.max(dataset, function(d) { return d[1]; })])
+                            xScale = d3.scale.linear()
+                            .range([MARGINS.left, WIDTH - MARGINS.right])
+                            .domain([d3.min(dataset, function(d){ return +d.YEAR }) , d3.max(dataset, function(d){ return +d.YEAR })]),
+
+                            yScale = d3.scale.linear()
+                            .range([HEIGHT - MARGINS.top, MARGINS.bottom])
+                            .domain([d3.min(dataset, function(d){ return +d.JAN }) , d3.max(dataset, function(d){ return +d.AUG })]),
+
+                            
+                            xAxis = d3.svg.axis()
+                            .scale(xScale),
+                            yAxis = d3.svg.axis()
+                            .scale(yScale)
+                            .orient("left");
+                    
+                    vis.append("svg:g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
+                        .call(xAxis);
+                    vis.append("svg:g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + (MARGINS.left) + ",0)")
+                        .call(yAxis);
+
+                    var lineGen0 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.mean([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC]));
+                        })
+                        .interpolate("monotone");
+
+                    var lineGen1 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.max([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC]));
+                        })
+                        .interpolate("monotone");
+                    
+                    var lineGen2 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.min([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC])); 
+                        })
+                        .interpolate("monotone");
+                    
+                    vis.append('svg:path')
+                        .attr('d', lineGen0(dataset))
+                        .attr('stroke', 'purple')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    vis.append('svg:path')
+                        .attr('d', lineGen1(dataset))
+                        .attr('stroke', 'red')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    vis.append('svg:path')
+                        .attr('d', lineGen2(dataset))
+                        .attr('stroke', 'blue')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+						
+					vis.append()	
+						
+					//attempt to make legend	
+					var color_hash = {  0 : ["Average", "purple"],
+										1 : ["Maximum", "red"],
+                                        2 : ["Minimum", "blue"]
+									  };  
+						
+					
+               
+					
+					// add legend   
+					var legend = vis.append("g")
+					.attr("class", "legend")
+					.attr("x", WIDTH - 65)
+					.attr("y", 75)
+					.attr("height", 100)
+					.attr("width", 100);
+                                        
+                    legend.selectAll('g').data(dataset)
+					.enter()
+					.append('g')
+					.each(function(d, i) {
+						if(i<3) {
+						var g = d3.select(this);
+						g.append("rect")
+						.attr("x", WIDTH - 165)
+						.attr("y", i*25+20)
+						.attr("width", 10)
+						.attr("height", 10)
+						.style("fill", color_hash[String(i)][1]);
+						
+						g.append("text")
+						.attr("x", WIDTH - 150)
+						.attr("y", i * 25 + 28)
+						.attr("height",30)
+						.attr("width",100)
+						.style("fill", color_hash[String(i)][1])
+						.text(color_hash[String(i)][0]);}
+						
+					
+						   })
+						
+
+                    })
+                }
+
+                InitChart();
+
+
+            </script>
+        </div>
+    </div>
+<p> This was built from the ground up and it was really bothersome to do </p>
+	
+	<h3> External Copy Paste and Swearing from different source</h3>
+	<div id="chart"></div>
+	<div id="tooltip" class="hidden">
+    <p><span id="value">?</span></p>
+  </div>
+    <script type="text/javascript">
+       var margin = { top: 20, right: 40, bottom: 100, left: 50 },
+          width =  1360 - margin.left - margin.right,
+          height = 10500 - margin.top - margin.bottom,
+          gridSize = Math.floor(width / 17),
+          legendElementWidth = gridSize*2,
+          buckets = 9,
+          colors = ["#081d58","#253494","#225ea8","#1d91c0","#41b6c4","#7fcdbb","#c7e9b4","#edf8b1", "#ffffd9"], // alternatively colorbrewer.YlGnBu[9]
+          years = d3.range(1880,2015,1),
+          months = ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "winter", "spring", "summer", "autumn", "average"],
+          dataset = "/assignment2/stationSibiu1.csv";
+
+      var svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var dayLabels = svg.selectAll(".yearLabel")
+          .data(years)
+          .enter().append("text")
+            .text(function (d) { return d; })
+            .attr("x", 0)
+            .attr("y", function (d, i) { return i * gridSize; })
+            .style("text-anchor", "end")
+            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+            .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
+
+      var timeLabels = svg.selectAll(".monthLabel")
+          .data(months)
+          .enter().append("text")
+            .text(function(d) { return d; })
+            .attr("x", function(d, i) { return i * gridSize; })
+            .attr("y", 0)
+            .style("text-anchor", "middle")
+            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+	
+	var heatmapChart = function(tsvFile) {
+        d3.csv(tsvFile,
+        function(d) {
+          return {
+            year: +d.YEAR,
+            month: +d.MONTH,
+            temp: +d.TEMP
+          };
+        },      
+		function(error, data) {
+          var colorScale = d3.scale.quantile()
+              .domain([-12, buckets - 1, 25])
+              .range(colors);
+			 
+			// var min = functions(d) {return d3.min(d.temp);};
+			 //var max = functions(d) {return d3.max(d.temp);};
+          var cards = svg.selectAll(".month")
+              .data(data, function(d) {return d.year+':'+d.month;});
+			  
+          cards.append("title");
+
+          cards.enter().append("rect")
+              .attr("x", function(d) { return (d.month -1) * gridSize; })
+              .attr("y", function(d) { return (d.year - 1880) * gridSize; })
+              .attr("rx", 4)
+              .attr("ry", 4)
+              .attr("class", "month bordered")
+              .attr("width", gridSize)
+              .attr("height", gridSize)
+			  .attr("title",function(d){return d.temp;})
+              .style("fill", colors[0])
+			  .on("mousemove", function(d) {
+        var point = d3.mouse(this);
+
+        d3.select("#tooltip")
+          .classed("hidden", false)
+          .style("left", (point[0]+50)+"px")
+          .style("top", (point[1]+10)+"px")
+          .select("#value")
+          .text(d['temp']);
+      })
+      .on("mouseout", function() {
+        d3.select("#tooltip").classed("hidden", true);
+      });
+
+          cards.transition().duration(1000)
+              .style("fill", function(d) { return colorScale(d.temp); });
+
+          cards.select("title").text(function(d) { return d.temp; });
+          
+          cards.exit().remove();
+
+          var legend = svg.selectAll(".legend")
+              .data([-12].concat(colorScale.quantiles()), function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return legendElementWidth * i; })
+            .attr("y", height)
+            .attr("width", legendElementWidth)
+            .attr("height", gridSize / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+            .text(function(d) { return "≥ " + Math.round(d); })
+            .attr("x", function(d, i) { return legendElementWidth * i; })
+            .attr("y", height + gridSize);
+
+          legend.exit().remove();
+
+        });  
+      };
+
+      heatmapChart(dataset);
+       
+    </script>
+</body>
+
+</html>

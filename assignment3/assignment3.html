@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	 
+	<script>
+	
+		 d3.csv("/data/hands.csv", function(e,d) {
+		 
+		 var dataset = d;
+		 
+		 var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",500)
+					.attr("height",500);
+					
+					
+		var scatter = canvas.selectAll("points")
+					.data(dataset)
+					.enter()
+						.append("rect")
+						.attr("width", function(d) { return d * 10; })
+						.attr("height",50)
+						.attr("y" , function(d,i) {return i*100});
+										
+		
+		 
+		 
+		 
+		 }
+	
+	
+		var dataArray = [20, 40, 50];
+	
+		var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",500)
+					.attr("height",500);
+		
+		var bars = canvas.selectAll("rect")
+					.data(dataArray)
+					.enter()
+						.append("rect")
+						.attr("width", function(d) { return d * 10; })
+						.attr("height",50)
+						.attr("y" , function(d,i) {return i*100});
+							
+		
+	 
+	 </script>
+	 
+	 
+	 </body>
+</html>

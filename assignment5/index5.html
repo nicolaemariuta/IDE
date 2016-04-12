@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My three.js webgl - geometries</title>
+        <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+	  
+	  #info {
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				font-weight: bold;
+				text-align: center;
+				z-index: 1;
+			}
+			
+			
+	#topmenu {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 100%;
+				text-align: right;
+				padding: 0;
+				margin: 0;
+				z-index: 1;
+			}
+			
+	#resmenu {
+				position: absolute;
+				left:30px;
+				top:300px;
+				width: 150px;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				font-weight: bold;
+				text-align: left;
+				z-index: 1;
+				position: fixed;
+			
+				
+				-moz-user-select: -moz-none;
+				-khtml-user-select: none;
+				-webkit-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+				
+			}		
+			
+			
+			
+	button {
+				color: rgb(255,255,255);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: rgba(0,255,255,0.5);
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(0,255,255,1);
+			}	
+			
+	  a {
+				color: #ffffff;
+			}
+	
+	.glycine{
+		 color:#00FFFF
+	}
+	.alanine{
+		 color:#0000FF
+	}
+	.valine{
+		 color:#8A2BE2
+	}
+	.leucine{
+		 color:#5F9EA0
+	}
+	.isoleucine{
+		 color:#7FFF00
+	}
+	.phenylalanine{
+		 color:#D2691E
+	}
+	.proline{
+		 color:#DC143C
+	}
+	.serine{
+		 color:#6495ED
+	}
+	.threonine{
+		 color:#FF8C00
+	}
+	.tyrosine{
+		 color:#8B008B
+	}
+	.cysteine{
+		 color:#8B0000
+	}
+	.methionine{
+		 color:#008000
+	}
+	.lysine{
+		 color:#7CFC00
+	}
+	.arginine{
+		 color:#FF0000
+	}
+	.histidine{
+		 color:#98FB98
+	}
+	.tryptophan{
+		 color:#778899
+	}
+	.asparticacid{
+		 color:#FFFF00
+	}
+	.glutamicacid{
+		 color:#9ACD32
+	}
+	.asparagine{
+		 color:#FFFFFF
+	}
+	.glutamine{
+		 color:#A0522D
+	}
+
+	
+
+	 </style>
+	 
+  </head>
+  <body>
+	  <script src="http://d3js.org/d3.v3.js"></script>
+      <script src="js/build/three.min.js"></script>
+	  <script src="js/OrbitControls.js"></script>
+	  
+	  <div id="info"><a href="http://www.rcsb.org/pdb/explore.do?structureId=2rh1" target="_blank">2RH1</a> - High resolution crystal structure of human B2-adrenergic G protein-coupled receptor</div>
+	  
+	  <div id="topmenu">
+			<button id="b_a">Atoms</button>
+			<button id="b_b">Residues</button>
+	  </div>
+	  
+	  
+	  <div id="resmenu">
+			<div class="glycine">  <input type="checkbox" name="glycine" value="GLY" onchange='clickCheckBox(this.value,this.checked);' checked >Glycine<br> </div>
+			<div class="alanine">  <input type="checkbox" name="alanine" value="ALA" onchange='clickCheckBox(this.value,this.checked);' checked >Alanine<br> </div>
+			<div class="valine">  <input type="checkbox" name="valine" value="VAL" onchange='clickCheckBox(this.value,this.checked);' checked >Valine<br> </div>
+			<div class="leucine">  <input type="checkbox" name="leucine" value="LEU" onchange='clickCheckBox(this.value,this.checked);' checked >Leucine<br> </div>
+			<div class="isoleucine">  <input type="checkbox" name="isoleucine" value="ILE" onchange='clickCheckBox(this.value,this.checked);' checked >Isoleucine<br> </div>
+			<div class="phenylalanine">  <input type="checkbox" name="phenylalanine" value="PHE" onchange='clickCheckBox(this.value,this.checked);' checked >Phenylalanine<br> </div>
+			<div class="proline">  <input type="checkbox" name="proline" value="PRO" onchange='clickCheckBox(this.value,this.checked);' checked >Proline<br> </div>
+			<div class="serine">  <input type="checkbox" name="serine" value="SER" onchange='clickCheckBox(this.value,this.checked);' checked >Serine<br> </div>
+			<div class="threonine">  <input type="checkbox" name="threonine" value="THR" onchange='clickCheckBox(this.value,this.checked);' checked >Threonine<br> </div>
+			<div class="tyrosine">  <input type="checkbox" name="tyrosine" value="TYR" onchange='clickCheckBox(this.value,this.checked);' checked >Tyrosine<br> </div>
+			<div class="cysteine">  <input type="checkbox" name="cysteine" value="CYS" onchange='clickCheckBox(this.value,this.checked);' checked >Cysteine<br> </div>
+			<div class="methionine">  <input type="checkbox" name="methionine" value="MET" onchange='clickCheckBox(this.value,this.checked);' checked >Methionine<br> </div>
+			<div class="lysine">  <input type="checkbox" name="lysine" value="LYS" onchange='clickCheckBox(this.value,this.checked);' checked >Lysine<br> </div>
+			<div class="arginine">  <input type="checkbox" name="arginine" value="ARG" onchange='clickCheckBox(this.value,this.checked);' checked >Arginine<br> </div>
+			<div class="histidine">  <input type="checkbox" name="histidine" value="HIS" onchange='clickCheckBox(this.value,this.checked);' checked >Histidine<br> </div>
+			<div class="tryptophan">  <input type="checkbox" name="tryptophan" value="ASP" onchange='clickCheckBox(this.value,this.checked);' checked >Tryptophan<br> </div>
+			<div class="asparticacid">  <input type="checkbox" name="asparticacid" value="CYS" onchange='clickCheckBox(this.value,this.checked);' checked >Aspartic Acid<br> </div>
+			<div class="glutamicacid">  <input type="checkbox" name="glutamicacid" value="GLU" onchange='clickCheckBox(this.value,this.checked);' checked >Glutamic Acid<br> </div>
+			<div class="asparagine">  <input type="checkbox" name="asparagine" value="ASN" onchange='clickCheckBox(this.value,this.checked);' checked >Asparagine<br> </div>
+			<div class="glutamine">  <input type="checkbox" name="glutamine" value="GLN" onchange='clickCheckBox(this.value,this.checked);' checked >Glutamine<br> </div>
+			
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <script>
+      var container;
+      var camera, scene, renderer;
+	  var atoms;
+	  var aminoacids = [];
+	  var sceneObjects = [];
+	  
+	  
+	  //used for click event 
+	  var raycaster = new THREE.Raycaster();
+	  var mouse = new THREE.Vector2();
+	  
+	  
+	 //load the data and scene 
+	 window.onload = loadData;  
+	 
+	 
+	 //all types of residues:
+	var resTypes = ["GLY","ALA", "VAL", "LEU", "ILE", "PHE", "PRO", "SER", "THR", "TYR", "CYS", "MET", "LYS", "ARG", "HIS", "ASP", "CYS","GLU", "ASN", "GLN" ];
+	
+	
+	//switch between atoms and residues
+	var draw = "residues";  
+	 
+	  
+
+      function init() {
+
+        container = document.createElement( 'div' );
+        document.body.appendChild( container );
+
+        // create a scene, that will hold all our elements such as objects, cameras and lights.
+        scene = new THREE.Scene();
+		var WIDTH = window.innerWidth,
+          HEIGHT = window.innerHeight;
+		
+        // create and setup a renderer
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setClearColor(new THREE.Color(0x202020 , 1.0));
+        renderer.setSize( window.innerWidth, window.innerHeight );
+	
+		//select the atoms I want to display
+		
+		var atomStack = [];
+		var atomPrev = null; 
+		
+		
+		
+		//create aminoacid objects
+		for (i = 0; i < atoms.length; i++) { 
+			atom = atoms[i];
+			
+			if(atomPrev == null){
+				atomPrev = atom;
+			}
+			else{
+				if (atom.resid == atomPrev.resid) {
+					atomPrev = atom;
+					atomStack.push(atom);
+				}
+				else{
+					var amnx = 0;
+					var amny = 0;
+					var amnz = 0;
+					
+					
+					for (j = 0; j < atomStack.length; j++){
+						atomS = atomStack[j];
+						amnx = amnx + parseFloat(atomS.xcoordinate);
+						amny = amny + parseFloat(atomS.ycoordinate);
+						amnz = amnz + parseFloat(atomS.zcoordinate);
+					}
+				
+					amnx = amnx/atomStack.length;
+					amny = amny/atomStack.length;
+					amnz = amnz/atomStack.length;
+				
+					aminoacid = {aminoid:atomPrev.resid,aminoname:atomPrev.resname, xcoordinate:amnx, ycoordinate:amny , zcoordinate:amnz };
+					aminoacids.push(aminoacid);
+				
+					atomPrev = atom;
+					atomStack = [];
+					atomStack.push(atom);
+				
+				}
+			}
+		
+		}
+		
+		
+		// Create a camera, zoom it out from the model a bit, and add it to the scene.
+		camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 20000);
+		 
+
+		//camera in middle of atoms
+			var sumx = 0;
+			var sumy = 0;
+			var sumz = 0;
+			
+			
+			for (i = 0; i < aminoacids.length; i++){
+				aminoacid = aminoacids[i];
+				sumx = sumx + parseFloat(aminoacid.xcoordinate);
+				sumy = sumy + parseFloat(aminoacid.ycoordinate);
+				sumz = sumz + parseFloat(aminoacid.zcoordinate);
+			}
+		
+			sumx = sumx/aminoacids.length;
+			sumy = sumy/aminoacids.length;
+			sumz = sumz/aminoacids.length;
+
+			
+			camera.position.set(sumx,sumy,sumz);
+			scene.add(camera);
+		
+		// Create an event listener that resizes the renderer with the browser window.
+		window.addEventListener('resize', function() {
+		var WIDTH = window.innerWidth,
+			HEIGHT = window.innerHeight;
+		renderer.setSize(WIDTH, HEIGHT);
+		camera.aspect = WIDTH / HEIGHT;
+		camera.updateProjectionMatrix();
+		});
+		
+			
+	  // setup a light source     
+        var spotLight = new THREE.AmbientLight( 0xffffff);
+          scene.add( spotLight );
+		  
+		  //function to draw the atoms
+		addAminoacidsToScene(aminoacids, scene);
+		  
+		  
+
+        // render scene
+		camera.lookAt( new THREE.Vector3(sumx,sumy,sumz));
+        renderer.render( scene, camera );       
+        container.appendChild( renderer.domElement );
+		
+		// Add OrbitControls so that we can pan around with the mouse.
+		controls = new THREE.OrbitControls(camera, renderer.domElement);
+	  
+	 
+		//event listeners
+		var b_a = document.getElementById( "b_a" );
+		var b_b = document.getElementById( "b_b" );
+		b_a.addEventListener( 'click', function () { console.log('clicked'); addAtomsToScene(atoms, scene);  draw = "atoms"; });
+		b_b.addEventListener( 'click', function () { console.log('clicked'); addAminoacidsToScene(aminoacids, scene);  draw = "residues"; } );
+		
+		}
+		
+		
+	// load data from file and create the arrays objects that are needed
+	 function loadData(){
+		
+		//use d3 to load atoms as objects from the file
+		 d3.csv("atoms.csv", function(e,d) {
+		 
+		 
+			// the atom objects
+			atoms = d;
+			
+			
+			// create the residue objects
+			residues = [];
+			var atomStack = [];
+			var atomPrev = null; 
+			
+			for (i = 0; i < atoms.length; i++) { 
+				atom = atoms[i];
+				
+				if(atomPrev == null){
+					atomPrev = atom;
+				}
+				else{
+					if (atom.resid == atomPrev.resid) {
+						atomPrev = atom;
+						atomStack.push(atom);
+					}
+					else{
+						var amnx = 0;
+						var amny = 0;
+						var amnz = 0;
+						
+						
+						for (j = 0; j < atomStack.length; j++){
+							atomS = atomStack[j];
+							amnx = amnx + parseFloat(atomS.xcoordinate);
+							amny = amny + parseFloat(atomS.ycoordinate);
+							amnz = amnz + parseFloat(atomS.zcoordinate);
+						}
+					
+						amnx = amnx/atomStack.length;
+						amny = amny/atomStack.length;
+						amnz = amnz/atomStack.length;
+					
+						var residue = {aminoid:atomPrev.resid,aminoname:atomPrev.resname, xcoordinate:amnx, ycoordinate:amny , zcoordinate:amnz };
+						residues.push(residue);
+					
+						atomPrev = atom;
+						atomStack = [];
+						atomStack.push(atom);
+					
+					}
+				}
+			
+			}
+				
+			
+			init();
+			animate();
+		});	
+		
+		}
+		
+		
+		
+		
+		
+		
+
+
+	  // Renders the scene and updates the render as needed.
+    function animate() {
+
+		// Read more about requestAnimationFrame at http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+		requestAnimationFrame(animate);
+      
+		renderer.render(scene, camera);
+		controls.update();
+	  
+	}
+	
+	
+	
+	
+	// function to add atoms to the scene
+	function addAtomsToScene(atoms, scene){
+	
+		clearScene(scene);
+		
+		
+		//choose sphere diameter and color for each type of atom
+		
+		for (i = 0; i < atoms.length; i++) { 
+		
+		var atom = atoms[i];
+		
+		if(resTypes.indexOf(atom.resname) != -1){
+		
+		
+		
+		var atomRadius = 1;
+		var atomColor = 0xFF00CC;
+		var sizeScale = 0.001;
+		
+		
+		
+		
+		if(atom.element == 'N'){
+			atomRadius = 65*sizeScale;
+			atomColor = 'blue';
+			}
+		if(atom.element == 'C'){
+			atomRadius = 70*sizeScale;
+			atomColor = 'gray';
+			}
+		if(atom.element == 'O'){
+			atomRadius =60*sizeScale;
+			atomColor = 'red';
+			}
+		if(atom.element == 'S'){
+			atomRadius = 100*sizeScale;
+			atomColor = 'yellow';
+			}
+		if(atom.element == 'H'){
+			atomRadius = 25*sizeScale;
+			atomColor = 'white';
+			}
+			
+			
+			
+		if(atomColor == 0xFF00CC)	
+		{
+		//	console.log(atom);
+		}
+		
+		
+		 // create a sphere
+        var sphereGeometry = new THREE.SphereGeometry(atomRadius, 9, 6);
+        var sphereMaterial = new THREE.MeshLambertMaterial({color: atomColor});
+        var sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+        sphere.position.set(atom.xcoordinate,atom.ycoordinate,atom.zcoordinate);
+		
+		
+	//	sphere.addEventListener("mousedown", function updateCamera() {
+	//			console.log('click');
+	//			camera.position.set(atom.xcoordinate+5,atom.ycoordinate+5,atom.zcoordinate+5);    } );
+		
+		// add the sphere to the scene
+		
+		sceneObjects.push(sphere);
+        scene.add(sphere); 
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		//create connections to nearby atoms
+		for (j = i; j < atoms.length; j++){
+		atom2 = atoms[j];
+		
+		distance = (atom.xcoordinate-atom2.xcoordinate)*(atom.xcoordinate-atom2.xcoordinate) + (atom.ycoordinate-atom2.ycoordinate)*(atom.ycoordinate-atom2.ycoordinate) + (atom.zcoordinate-atom2.zcoordinate)*(atom.zcoordinate-atom2.zcoordinate)
+		distance = Math.sqrt(distance);
+		
+		
+		
+		if(distance < 1.90){
+			
+				var point1 = new THREE.Vector3(atom.xcoordinate,atom.ycoordinate,atom.zcoordinate);
+			var point2 = new THREE.Vector3(atom2.xcoordinate,atom2.ycoordinate,atom2.zcoordinate);
+			
+			
+		//	console.log('connection');
+			
+			//calculate cylinder position
+			var cylinderGeometry = new THREE.CylinderGeometry(0.005, 0.005, distance, 5);
+			var cylinderMaterial = new THREE.MeshBasicMaterial({color: '#ffffff'});
+			var cylinder = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
+			
+			
+			
+			var midx = parseFloat(atom.xcoordinate) + parseFloat(atom2.xcoordinate);
+			var midy = parseFloat(atom.ycoordinate) + parseFloat(atom2.ycoordinate);
+			var midz = parseFloat(atom.zcoordinate) + parseFloat(atom2.zcoordinate); 
+			
+			midx = midx/2;
+			midy = midy/2;
+			midz = midz/2;
+			
+			
+			var center = new THREE.Vector3(midx,midy,midz);
+	
+			
+		
+	//		//calculate cylinder angle
+	//		//	var focalPoint = new THREE.Vector3(cylinder.position.x+atom.xcoordinate,cylinder.position.y+atom.ycoordinate,cylinder.position.z+atom.zcoordinate);
+	//		//all that remains is setting the up vector (if needed) and use lookAt
+	//		//	cylinder.up = new THREE.Vector3(midx,midy,midz);//Z axis up
+	//		//	cylinder.lookAt(focalPoint); 
+	//	
+	//					//create a point to lookAt
+	//		var focalPoint = new THREE.Vector3(
+	//			point2.x,
+	//			point2.y,
+	//			point2.z
+	//		);
+	//	
+	//		
+	//		cylinder.up = new THREE.Vector3(1,0,0);
+	//		cylinder.lookAt(point1);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+//			//calculate cylinder angle
+//			var x1 = parseFloat(atom.xcoordinate);
+//			var x2 = parseFloat(atom2.xcoordinate);
+//			var y1 = parseFloat(atom.ycoordinate);
+//			var y2 = parseFloat(atom2.ycoordinate);
+//			var z1 = parseFloat(atom.zcoordinate);
+//			var z2 = parseFloat(atom2.zcoordinate);
+//			
+//			var angle1 = -Math.atan(Math.abs(y2-y1)/Math.abs(x2-x1));
+//			angle1 = angle1*180/Math.PI;
+//			
+//			var angle2 = -Math.atan(Math.abs(z2-z1)/Math.abs(x2-x1));
+//			angle2 = angle2*180/Math.PI;
+//			
+//			var angle3 = -Math.atan((Math.abs(z2-z1)/Math.abs(y2-y1));
+//			angle3 = angle3*180/Math.PI;
+//			
+			
+	//		angle = 180*180/Math.PI;
+			
+	//	cylinder.rotation.x = angle;
+		//	cylinder.rotation.y = angle;
+	//		cylinder.rotation.z = angle;
+	
+	
+	
+	
+			var HALF_PI = Math.PI/2;
+			var orientation = new THREE.Matrix4();
+			var offsetRotation = new THREE.Matrix4();
+			var offsetPosition = new THREE.Matrix4();
+			orientation.lookAt(point1,point2,new THREE.Vector3(0,1,0));
+			offsetRotation.makeRotationX(HALF_PI);
+			orientation.multiply(offsetRotation);
+			cylinder.applyMatrix(orientation);
+	
+	
+	
+			cylinder.position.set(midx,midy,midz);
+			
+			
+			sceneObjects.push(cylinder);
+			scene.add(cylinder); 
+			
+
+			
+		}
+		
+		}
+		
+	//	console.log(i);
+		}
+		}
+	
+	}
+	
+	function addAminoacidsToScene(aminoacids, scene){
+	
+		clearScene(scene);
+	
+		//choose sphere diameter and color for each type of atom
+		for (i = 0; i < aminoacids.length; i++) { 
+		
+		var aminoacid = aminoacids[i];
+		
+		if(resTypes.indexOf(aminoacid.aminoname) != -1){
+		
+		
+		var atomRadius = 2;
+		var atomColor = 0xFF00CC;
+	
+		
+		if(aminoacid.aminoname == 'GLY'){
+			atomColor = 'aqua';
+			}
+		if(aminoacid.aminoname == 'ALA'){
+			atomColor = 'blue';
+			}
+		if(aminoacid.aminoname == 'VAL'){
+			atomColor = 'blueviolet';
+			}	
+		if(aminoacid.aminoname == 'LEU'){
+			atomColor = 'cadetblue';
+			}	
+		if(aminoacid.aminoname == 'ILE'){
+			atomColor = 'chartreuse';
+			}	
+		if(aminoacid.aminoname == 'PHE'){
+			atomColor = 'chocolate';
+			}	
+		if(aminoacid.aminoname == 'PRO'){
+			atomColor = 'crimson';
+			}		
+		if(aminoacid.aminoname == 'SER'){
+			atomColor = 'cornflowerblue';
+			}		
+		if(aminoacid.aminoname == 'THR'){
+			atomColor = 'darkorange';
+			}		
+		if(aminoacid.aminoname == 'TYR'){
+			atomColor = 'darkmagenta';
+			}		
+		if(aminoacid.aminoname == 'CYS'){
+			atomColor = 'darkred';
+			}		
+		if(aminoacid.aminoname == 'MET'){
+			atomColor = 'green';
+			}		
+		if(aminoacid.aminoname == 'LYS'){
+			atomColor = 'lawngreen';
+			}
+		if(aminoacid.aminoname == 'ARG'){
+			atomColor = 'red';
+			}	
+		if(aminoacid.aminoname == 'HIS'){
+			atomColor = 'palegreen';
+			}
+		if(aminoacid.aminoname == 'TRP'){
+			atomColor = 'lightslategray';
+			}			
+		if(aminoacid.aminoname == 'ASP'){
+			atomColor = 'yellow';
+			}	
+		if(aminoacid.aminoname == 'GLU'){
+			atomColor = 'yellowgreen';
+			}
+		if(aminoacid.aminoname == 'ASN'){
+			atomColor = 'white';
+			}
+		if(aminoacid.aminoname == 'GLN'){
+			atomColor = 'sienna';
+			}
+
+	
+	//	console.log(aminoacid.aminoname);
+		 // create a sphere
+        var sphereGeometry = new THREE.SphereGeometry(atomRadius, 12, 12);
+        var sphereMaterial = new THREE.MeshLambertMaterial({color: atomColor});
+        var sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+        sphere.position.set(aminoacid.xcoordinate,aminoacid.ycoordinate,aminoacid.zcoordinate);
+		
+		
+	//	sphere.addEventListener("mousedown", function updateCamera() {
+	//			console.log('click');
+	//			camera.position.set(atom.xcoordinate+5,atom.ycoordinate+5,atom.zcoordinate+5);    } );
+		
+		// add the sphere to the scene
+		
+		sceneObjects.push(sphere);
+        scene.add(sphere); 
+		
+	//	console.log(i);
+		}
+		
+		}
+	}
+	
+	
+	
+	function clearScene() {
+	
+		for( var i = sceneObjects.length - 1; i >= 0; i--) {
+		//	console.log('remove');
+			obj = sceneObjects[i];
+			scene.remove(obj);
+			
+		}
+		
+	}
+	
+	
+	function clickCheckBox(value,checked) {
+	
+		console.log(value);
+		console.log(checked);
+		
+		if(!checked){
+			var index = resTypes.indexOf(value);
+			console.log(index);
+			resTypes.splice(index, 1);
+		}
+		else{
+			resTypes.push(value);
+		}
+		
+		
+		if(draw == "atoms"){
+			addAtomsToScene(atoms, scene);
+		}
+		
+		if(draw == "residues"){
+			addAminoacidsToScene(aminoacids, scene);
+		}
+		
+	}
+	
+	
+	
+	// add mouseListener
+	function onDocumentMouseDown( event ) {
+	
+	console.log("click event");
+
+    event.preventDefault();
+
+    mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
+    mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
+
+    raycaster.setFromCamera( mouse, camera );
+
+    var intersects = raycaster.intersectObjects( atomObjects ); 
+
+    if ( intersects.length > 0 ) {
+	
+//		console.log(intersects[0].object.position);
+//	//	camera.lookAt(intersects[0].object.position);
+//	//	renderer.render( scene, camera );       
+//		controls.target.set( intersects[0].object.position.x, intersects[0].object.position.y, intersects[0].object.position.z );
+//		controls.update();
+
+    }
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	  
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	 
+	<script>
+	
+		var width = 500;
+		var height = 500;
+		var padding = 50;
+		
+	
+	
+		d3.csv("mydata.csv", function(data) {
+			
+				var map = data.map(function(d) {  return parceInt(d.age);  })
+				
+				
+				var histogram = d3.layout.histogram()
+						.bins(7)
+						(map);
+						
+						
+				var y = d3.scale.linear()	
+						.domain([0,d3.max(histogram.map( function(i) { return i.length; }  ))])
+						.range([0,height]);
+						
+						
+				var x = d3.scale.linear()	
+						.domain([0,d3.max(map)])
+						.range([0,width]);			
+			
+				
+				var xAxis = d3.svg.scale()
+								.scale(x)
+								.orient("bottom");
+
+
+
+				
+				var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",width)
+					.attr("height",height + padding)
+					.append("g")
+						.attr("transform", "translate(10,0)");	
+					
+					
+				var group = canvas.append("g")	
+							.attr("transform", "translate(0,"+ height +")")
+							.call(xAxis);
+							
+				
+					
+					
+				var bars = canvas.selectAll(".bar")
+						.data(histogram)
+						.enter()
+						.apppend("g")
+							.attr("class","node")
+							.attr("transform", function (d) { return "translate("+d.y+","+d.x+")"}  )	
+					
+				bars.append("rect")
+					.attr("x", function(d) { return d.x; })
+					.attr("y", function(d) { return 500 - d.y; })	
+					.attr("width", function(d) { return d.dx; })	
+					.attr("height", function(d) { return d.y; })
+					.attr("fill", "steelblue");
+					
+				bars.append("text")	
+					.attr("x", function(d) { return x(d.x); })
+					.attr("y", function(d) { return 500 - y(d.y); })
+					.attr("dy","20px")
+					.attr("dx",function (d) { return x(d.x)/2; })
+					.attr("fill", "#fff")
+					.attr("text-anchow", "middle")
+					.text(function (d) { return d.y; });
+		});
+	
+	
+	
+		
+	 </script>
+	 
+	 
+	 </body>
+</html>

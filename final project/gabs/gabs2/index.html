@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebGL Earth</title>
+	<style>
+		body { margin: 0; overflow: hidden; background-color: #000; }
+		.tm  { position: absolute; top: 10px; right: 10px; }
+		.webgl-error { font: 15px/30px monospace; text-align: center; color: #fff; margin: 50px; }
+		.webgl-error a { color: #fff; }
+	
+	/*#legend {*/
+				/*position: absolute;*/
+				/*bottom:10px;*/
+				/*right:10px;*/
+				/*width: 202px;*/
+				/*height: 199px;*/
+				/*padding: 5px;*/
+				/*font-family: Monospace;*/
+				/*font-size: 13px;*/
+				/*font-weight: bold;*/
+				/*text-align: left;*/
+				/*z-index: 1;*/
+				/*position: fixed;*/
+			/**/
+				/**/
+				/*-moz-user-select: -moz-none;*/
+				/*-khtml-user-select: none;*/
+				/*-webkit-user-select: none;*/
+				/*-o-user-select: none;*/
+				/*user-select: none;*/
+				/**/
+			/*}		*/
+				
+		#natmenu {
+				position: absolute;
+				right:0px;
+				top:10px;
+				width: 100px;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				font-weight: bold;
+				text-align: left;
+				z-index: 1;
+				position: fixed;
+			
+				
+				-moz-user-select: -moz-none;
+				-khtml-user-select: none;
+				-webkit-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+				
+			}	
+			
+			
+		#yearSelect {
+			position: absolute;
+			left:0px;
+			bottom:70px;
+			width: 250px;
+			padding: 5px;
+			font-family: Monospace;
+			font-size: 13px;
+			font-weight: bold;
+			
+			text-align: left;
+			z-index: 1;
+			position: fixed;
+		
+			
+			-moz-user-select: -moz-none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			
+		}	
+			
+		#buttonAllYears {
+			position: absolute;
+			left:20px;
+			bottom:40px;
+			width: 250px;
+			padding: 5px;
+			font-family: Monospace;
+			font-size: 13px;
+			font-weight: bold;
+			
+			text-align: left;
+			z-index: 1;
+			position: fixed;
+		
+			
+			-moz-user-select: -moz-none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			
+		}	
+		
+		
+		
+			#buttonAnimate {
+			position: absolute;
+			left:20px;
+			bottom:10px;
+			width: 250px;
+			padding: 5px;
+			font-family: Monospace;
+			font-size: 13px;
+			font-weight: bold;
+			
+			text-align: left;
+			z-index: 1;
+			position: fixed;
+		
+			
+			-moz-user-select: -moz-none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+			
+		}
+			
+			
+			
+			
+			
+	.dutch{
+		 color:#FFA500
+	}
+	.british{
+		 color:#0000FF
+	}
+	.french{
+		 color:#008000
+	}
+	.spanish{
+		 color:#FF0000
+	}
+		
+    </style>
+</head>
+<body>
+	<div id="webgl"></div>
+	
+	 <div id="natmenu">
+			<div class="dutch">  <input type="checkbox" name="dutch" value="Dutch" onchange='clickCheckBox(this.value,this.checked);' checked >Dutch<br> </div>
+			<div class="british">  <input type="checkbox" name="british" value="British" onchange='clickCheckBox(this.value,this.checked);' checked >British<br> </div>
+			<div class="french">  <input type="checkbox" name="french" value="French" onchange='clickCheckBox(this.value,this.checked);' checked >French<br> </div>
+			<div class="spanish">  <input type="checkbox" name="spanish" value="Spanish" onchange='clickCheckBox(this.value,this.checked);' checked >Spanish<br> </div>
+	</div>
+	
+	
+	
+	   <div id="yearSelect"  class="radio" onclick="showMenu(event, this);"   onmouseover="showMenu(event, this);">
+			 <input class="knob" data-width="200" data-cursor=true data-fgColor="#FF0099" data-thickness=.3 value="1750" data-min="1750" data-max="1850" >
+		</div>
+		
+		<div id="buttonAllYears"  class="radio" onclick="showAllYears();" >
+			 <button type="button">All years</button>
+		</div>
+		
+		
+		
+		<div id="buttonAnimate"  class="radio" onclick="showAnimate();" >
+			 <button type="button">Animate</button>
+		</div>
+	
+	
+	 <body>
+      
+	
+	
+	
+	
+	
+	<!--<div id="legend">-->
+			<!--<img src="images/legend.jpg" alt="Legend" style="width:202px;height:199px;">-->
+	  <!--</div>-->
+	<script src="http://d3js.org/d3.v3.js"></script>
+	<script src="js/three.js"></script>
+	<script src="js/Detector.js"></script>		
+	<script src="js/TrackballControls.js"></script>		
+	<script src="js/earth.js"></script>  
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="dist/jquery.knob.min.js"></script>
+	<script src="js/sizeof.js"></script>
+
+	
+	<script>
+            $(function($) {
+
+                $(".knob").knob({
+                    change : function (value) {
+                        //console.log("change : " + value);
+                    },
+                    release : function (value) {
+                        //console.log(this.$.attr('value'));
+                        console.log("release : " + value);
+						filterByYear(value);
+						
+						
+                    },
+                    cancel : function () {
+                        console.log("cancel : ", this);
+                    },
+                    /*format : function (value) {
+                        return value + '%';
+                    },*/
+                    draw : function () {
+
+                        // "tron" case
+                        if(this.$.data('skin') == 'tron') {
+
+                            this.cursorExt = 0.3;
+
+                            var a = this.arc(this.cv)  // Arc
+                                , pa                   // Previous arc
+                                , r = 1;
+
+                            this.g.lineWidth = this.lineWidth;
+
+                            if (this.o.displayPrevious) {
+                                pa = this.arc(this.v);
+                                this.g.beginPath();
+                                this.g.strokeStyle = this.pColor;
+                                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                                this.g.stroke();
+                            }
+
+                            this.g.beginPath();
+                            this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                            this.g.stroke();
+
+                            this.g.lineWidth = 2;
+                            this.g.beginPath();
+                            this.g.strokeStyle = this.o.fgColor;
+                            this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                            this.g.stroke();
+
+                            return false;
+                        }
+                    }
+                });
+
+                // Example of infinite knob, iPod click wheel
+                var v, up=0,down=0,i=0
+                    ,$idir = $("div.idir")
+                    ,$ival = $("div.ival")
+                    ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+                    ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+                $("input.infinite").knob(
+                                    {
+                                    min : 0
+                                    , max : 20
+                                    , stopper : false
+                                    , change : function () {
+                                                    if(v > this.cv){
+                                                        if(up){
+                                                            decr();
+                                                            up=0;
+                                                        }else{up=1;down=0;}
+                                                    } else {
+                                                        if(v < this.cv){
+                                                            if(down){
+                                                                incr();
+                                                                down=0;
+                                                            }else{down=1;up=0;}
+                                                        }
+                                                    }
+                                                    v = this.cv;
+                                                }
+                                    });
+            });
+	
+	</script>
+	
+	
+</body>
+</html>

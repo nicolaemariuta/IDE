@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Assignment 5</title>
+      <style>
+         body {
+		  font: 11px sans-serif;
+           padding: 50px;
+           margin-right: 150px;
+           margin-left: 150px;
+         }
+         h1 {
+           margin-top: 0px;
+         }
+         p {
+           margin-top: 10px;
+           margin-bottom: 10px;
+         }
+
+.axis path,
+.axis line {
+  fill: none;
+   stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+ .axis text {
+            font-family: Lato;
+            font-size: 13px;
+        }
+.div:graph {
+position:relative
+}
+.dot {
+  stroke: #000;
+}
+.selected{
+  fill: #fff;
+}
+
+.brush .extent {
+  fill-opacity: .1;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.state {
+    stroke  : gray;
+    fill    : white;
+}
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+.graph2 {
+  fill: none;
+  
+}
+
+      .d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+      }
+      .graph2 path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+      }
+      .axis path, .axis line {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+      }
+      .datapoint:hover{
+  fill: steelblue;
+      }
+      .xlabel, .ylabel {
+        font-weight:bold;
+  font-size:20px;
+      }
+</style>
+   </head>
+   <body>
+      <h1 >
+         Assignment 5 
+      </h1>
+      <p>       Carp, Cristian-Gabriel, slp670</p>
+      <p>      Nicolae, Mariuta, rqt629</p>
+      <p>		Rudd, Lou Nørgaard, vkr358</p>
+ 
+	  <h2>Part One: 2RH1 molecule</h2>
+	  <p> For the visualisation of 2RH1 molecule we have two models: the first one is grouping all atoms of each residue and represent them as a sphere and the second model is actually displaying all of the atoms and their connections. There are 2 buttons in top-right corner of the page to switch between these 2 ways to visualise the protein molecule. It is also possible to rotate the camera and zoom to view different parts of the protein.  </p>
+	  <p> For the view that shows all atoms there are standard colours for each type of atom and there is a white connecting cylinder between atoms if their distance is shorter than 1.9. This visualisation allows to have a detailed view of the molecule and analyse the exact location and type for each atom from the protein. Unfortunately, this model has a lot of 3d shapes and even if we tried to optimize as much as we could, it sometimes runs slow and may become unstable.</p>
+	  <p> For the other model, there is a different colour for the representation of each type of residue. The spheres are located at the location corresponding to the average of the coordinates of all atoms in the residue. This visualisation allows to have a better view of the shape of protein and view its main components. This model also has the advantage of running smoother since there are lot fewer 3d shapes   at once and it allows to navigate easier through the structure of protein before switching to the detailed model. </p>
+	  <p> On top of these, there are selector buttons on the left side that allow the user to remove or add back the visualisation of atoms or residues that have a specific resid on both types of views for the molecule. This has the purpose to be able to allow user to view only some types of components from the molecule at once which might be useful for studying its structure.  </p>
+	  <p> The scene has two light sources that allows to give the geometric shapes a better 3d aspect while the colours of the components are still visible. This effect is not really useful but it makes the models to have a nicer aspect. We thought also about adding fog effects but those require even more computation power that will make the application even more unstable and we did not find those to be really useful.  </p>
+	  
+	  
+	  
+	  
+	  
+      <p> <a href="http://idediku.eu.pn/assignment5/2RH1.html"> 2RH1 molecule 3d model </a><br/></p>
+
+
+	<h2>Part Two: MR Image</h2>
+
+	<p> <a href="http://idediku.eu.pn/assignment5/camTest.html"> 3D MR image </a><br/></p>
+        <h2>Older Assignments</h2>
+      <p>
+         <a href="assignment1.html"> Assignment 1 (Gabriel and Nicolae)</a><br/>
+         <a href="http://ide.netne.net/"> Assignment 1 (Lou)</a><br/>
+		 <a href="http://idediku.eu.pn/"> Assignment 2</a><br/>
+		 <a href="http://idediku.eu.pn/assignment3.html"> Assignment 3</a><br/>
+		 <a href="http://idediku.eu.pn/assignment4/assignment4.html"> Assignment 4</a><br/>
+      </p>
+	  </body>
+</html>

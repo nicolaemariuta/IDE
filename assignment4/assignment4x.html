@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+
+  <head>
+		<title>Assignment 4</title>
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<style> body {
+				    margin-right: 150px;
+				    margin-left: 150px;
+				    margin-top: 50px;
+				    margin-bottom: 100px;
+				  }
+		        #map {
+				width:600px;
+				height:400px;
+				}
+
+				.axis path,
+				.axis line {
+					fill: none;
+					stroke: #121401;
+					stroke-width: 2px;
+					shape-rendering: crispEdges;
+				}
+				.point {
+					stroke: grey;
+					stroke-width: 3px;
+					opacity: 0;
+				}
+				.point:hover{
+					opacity: .5;
+				}
+				.body {
+				  font-family: 'Roboto Condensed', helvetica, arial;
+				  padding: 50;
+				}
+				.list-inline > li {
+				  padding-left: 0px;
+				}
+				.issue-text {
+				  pointer-events: none;
+				}
+				#timeline {
+				  stroke: black;
+				  opacity: .3;
+				  stroke-width: 20px;
+				}
+				circle {
+				  fill: black;
+				  fill-opacity: .7;
+				  stroke: white;
+				  stroke-width: 1px;
+				}
+				.other {
+				  opacity: .8;
+				  fill: #998877;
+				}
+				.story {
+				  opacity: .8;
+				  fill: yellow;
+				}
+				.decade-text {
+				  fill: gray;
+				  opacity: .8;
+				  font-size: 270px;
+				}
+				.decade {
+				  filter: url(#css_blur);
+				  opacity: .2;
+				}
+				.d40 {
+				  fill: #aabbcc;
+				}
+				.d50 {
+				  fill: #778899;
+				}
+				.d60 {
+				  fill: #445577;
+				}
+				.d70 {
+				  fill: #223344;
+				}
+				.d80 {
+				  fill: #aabbcc;
+				}
+				.d90 {
+				  fill: #778899;
+				}
+				.d20 {
+				  fill: #445577;
+				}
+				text {
+				  font: 10px sans-serif;
+				}
+				#wrapper {
+				  padding-left: 20px;
+				  padding-right: 325px;
+				  transition: all 0.4s ease 0s;
+				}
+
+				#sidebar-wrapper {
+				  margin-right: -325px;
+				  right: 325px;
+				  width: 325px;
+				  background: #000;
+				  position: fixed;
+				  height: 100%;
+				  overflow-y: auto;
+				  z-index: 1000;
+				  transition: all 0.4s ease 0s;
+				}
+
+				#page-content-wrapper {
+				  width: 100%;
+				}
+
+				.sidebar-nav {
+				  position: absolute;
+				  top: 0;
+				  width: 325px;
+				  list-style: none;
+				  margin: 0;
+				  padding: 0;
+				}
+
+				.sidebar-nav li {
+				  line-height: 40px;
+				  text-indent: 20px;
+				}
+
+				.sidebar-nav li a {
+				  color: #999999;
+				  display: block;
+				  text-decoration: none;
+				}
+
+				.sidebar-nav li a:hover {
+				  color: #fff;
+				  background: rgba(255,255,255,0.2);
+				  text-decoration: none;
+				}
+
+				.sidebar-nav li a:active,
+				.sidebar-nav li a:focus {
+				  text-decoration: none;
+				}
+
+				.sidebar-nav > .sidebar-brand {
+				  height: 65px;
+				  line-height: 60px;
+				  font-size: 18px;
+				}
+
+				.sidebar-nav > .sidebar-brand a {
+				  color: #999999;
+				}
+
+				.sidebar-nav > .sidebar-brand a:hover {
+				  color: #fff;
+				  background: none;
+				}
+
+				.content-header {
+				  height: 65px;
+				  line-height: 65px;
+				}
+
+				.content-header h1 {
+				  margin: 0;
+				  margin-right: 20px;
+				  line-height: 65px;
+				  display: inline-block;
+				}
+
+				#menu-toggle {
+				  display: none;
+				}
+
+				.inset {
+				  padding: 20px;
+				}
+
+				@media (max-width:767px) {
+				  #wrapper {
+				    padding-right: 0;
+				  }
+
+				  #sidebar-wrapper {
+				    right: 0;
+				  }
+
+				  #wrapper.active {
+				    position: relative;
+				    right: 325px;
+				  }
+
+				  #wrapper.active #sidebar-wrapper {
+				    right: 325px;
+				    width: 325px;
+				    transition: all 0.4s ease 0s;
+				  }
+
+				  #menu-toggle {
+				    display: inline-block;
+				  }
+
+				  .inset {
+				    padding: 15px;
+				  }
+				}
+		</style>
+		
+   </head>
+   <body>
+		<h1 >
+			Assignment 4
+		</h1>
+		<p>       Carp, Cristian-Gabriel, slp670</p>
+		<p>      Nicolae, Mariuta, rqt629</p>
+		<p>		Rudd, Lou , vkr358</p>
+		<h2>Older Assignments</h2>
+		<p>
+			<a href="assignment1.html"> Assignment 1 (Gabriel and Nicolae)</a><br/>
+			<a href="http://ide.netne.net/"> Assignment 1 (Lou)</a><br/>
+			<a href="http://idediku.eu.pn/"> Assignment 2</a><br/>
+			<a href="http://idediku.eu.pn/assignment3.html"> Assignment 3</a><br/>
+		</p>
+   
+   
+   
+   
+   
+    <h1>13 Years of Crime in San Francisco</h1>
+    <script src="/lib/d3.js"></script>
+    <script src="/lib/jquery.js"></script>
+    <script src="/lib/bootstrap.js"></script>
+   
+   <p>
+   	The raw data file hold close to 10.000 samples, out of 800.000 recorded incidents. The incidents are recorded from 2003 to 2015. Each record hold information of Dates, Category, Description, Day Of Week, Police District, Resolution, Address and Longitude Latitude coordinates.
+   </p>
+   <p>
+   	The dependencies of the crime category and the other classifiable parameters are examined by plotting the correlation in the following six stacked area graphs.    
+   </p>
+   <h2>Police Districts</h2>
+   <p>The total amount of crime vary significantly between the different police districts, indicating that the district might be an important factor when estimating the probability of crime categories. Looking at the individual crime categories, the is an overrepresentation of drug related crime in Tenderloin and theft in Southern and Northern districts. The districts are however of different size and population density and we can not conclude that on district is more subjected to crime than another based on this graph alone. 
+</p>
+   
+   <div id = "district" >
+	<script>
+	
+	loadPlot("/data/district.csv");
+	
+	
+	
+	function loadPlot(dataFile)
+	{
+	
+      var margin = {top: 20, right: 160, bottom: 30, left: 40},
+          width  = 900 - margin.left - margin.right,
+          height = 800  - margin.top  - margin.bottom;
+
+      var x = d3.scale.ordinal()
+          .rangeRoundBands([0, width], .1);
+
+      var y = d3.scale.linear()
+          .rangeRound([height, 0]);
+
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left");
+
+      var stack = d3.layout.stack()
+          .offset("zero")
+          .values(function (d) { return d.values; })
+          .x(function (d) { return x(d.label) + x.rangeBand() / 2; })
+          .y(function (d) { return d.value; });
+
+      var area = d3.svg.area()
+          .interpolate("cardinal")
+          .x(function (d) { return x(d.label) + x.rangeBand() / 2; })
+          .y0(function (d) { return y(d.y0); })
+          .y1(function (d) { return y(d.y0 + d.y); });
+
+      var color = d3.scale.ordinal()
+          .range(['#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d','#dadaeb','#bcbddc','#9e9ac8','#807dba','#6a51a3','#54278f','#3f007d','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c','#00441b','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b','#d9d9d9','#bdbdbd','#969696','#737373','#525252','#252525','#000000']);
+
+      var svg = d3.select("body").append("svg")
+          .attr("width",  width  + margin.left + margin.right)
+          .attr("height", height + margin.top  + margin.bottom)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		  
+
+      d3.csv(dataFile, function (error, data) {
+
+        var labelVar = 'Day';
+        var varNames = d3.keys(data[0])
+            .filter(function (key) { return key !== labelVar;});
+        color.domain(varNames);
+
+        var seriesArr = [], series = {};
+        varNames.forEach(function (name) {
+          series[name] = {name: name, values:[]};
+          seriesArr.push(series[name]);
+        });
+
+        data.forEach(function (d) {
+          varNames.map(function (name) {
+            series[name].values.push({name: name, label: d[labelVar], value: +d[name]});
+          });
+        });
+
+        x.domain(data.map(function (d) { return d.Day; }));
+
+        stack(seriesArr);
+
+        y.domain([0, d3.max(seriesArr, function (c) { 
+            return d3.max(c.values, function (d) { return d.y0 + d.y; });
+          })]);
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+          .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Number of Rounds");
+
+        var selection = svg.selectAll(".series")
+          .data(seriesArr)
+          .enter().append("g")
+            .attr("class", "series");
+
+        selection.append("path")
+          .attr("class", "streamPath")
+          .attr("d", function (d) { return area(d.values); })
+          .style("fill", function (d) { return color(d.name); })
+          .style("stroke", "grey");
+
+        var points = svg.selectAll(".seriesPoints")
+          .data(seriesArr)
+          .enter().append("g")
+            .attr("class", "seriesPoints");
+
+        points.selectAll(".point")
+          .data(function (d) { return d.values; })
+          .enter().append("circle")
+           .attr("class", "point")
+           .attr("cx", function (d) { return x(d.label) + x.rangeBand() / 2; })
+           .attr("cy", function (d) { return y(d.y0 + d.y); })
+           .attr("r", "10px")
+           .style("fill",function (d) { return color(d.name); })
+           .on("mouseover", function (d) { showPopover.call(this, d); })
+           .on("mouseout",  function (d) { removePopovers(); })
+		   
+	
+        var legend = svg.selectAll(".legend")
+            .data(varNames.slice().reverse())
+          .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function (d, i) { return "translate(55," + i * 20 + ")"; });
+
+        legend.append("rect")
+            .attr("x", width + 90)
+            .attr("width", 10)
+            .attr("height", 10)
+            .style("fill", color)
+            .style("stroke", "grey");
+
+        legend.append("text")
+            .attr("x", width + 87)
+            .attr("y", 6)
+            .attr("dy", ".35em")
+            .style("text-anchor", "end")
+            .text(function (d) { return d; });
+
+        function removePopovers () {
+          $('.popover').each(function() {
+            $(this).remove();
+          }); 
+        }
+
+        function showPopover (d) {
+          $(this).popover({
+            title: d.name,
+            placement: 'auto top',
+            container: 'body',
+            trigger: 'manual',
+            html : true,
+            content: function() { 
+              return "Day: " + d.label + 
+                     "<br/>Rounds: " + d3.format(",")(d.value ? d.value: d.y1 - d.y0); }
+          });
+          $(this).popover('show')
+        }
+
+      });
+	  }
+
+	</script>
+	
+	
+	</div>
+	<h2>Month</h2>
+      <p>The total amount of crime very over the month, but it appear that the individual categories of crime scale relatively keeping the proportions of the total amount of crime. The moth might influence the amount of crime, but is appear to be less significant when predicting the type of crime.  </p>
+	<div id = "month" >
+	<script>
+	loadPlot("/data/month.csv");
+	</script>
+	</div>
+	
+	<h2>Day of the Month</h2>
+	 <p>Not all month have the same amount of days, disregard values for dates larger than 28 as they are statistically ill defined. The crime rate vary from day to day, but there is no clear indication of tendencies towards starting or ending of month. The variation appear random and noisy.</p>
+	<div id = "monthDay" >
+	<script>
+	loadPlot("/data/monthDay.csv");
+	</script>
+	</div>
+
+	<h2>Time of the Day</h2>   
+	<p>The time of the day, display clear patterns, not only to the total amount of crime, but also to the category of crime. Fraud is most likely to appear around 12 o'clock, drug related crime will happen in the afternoon and theft is mostly happening around 18 hours.</p>
+	<div id = "time" >
+	<script>
+	loadPlot("/data/time.csv");
+	</script>
+	</div>
+	
+	<h2>Weekday</h2>
+	<p>The crimes are surprisingly evenly distributed among the days of the week. Only the less likely events such as the police recovering a vehicle are influenced by the day of the week. vehicle only appear to be recovered on Tuesdays. There are small divergences between Sunday and the remaining week, but compared to other parameters this divergence is insignificant.</p>
+	<div id = "weekDay" >
+	<script>
+	loadPlot("/data/weekDay.csv");
+	</script>
+	</div>
+	<h2>Year</h2>
+   	<p>Looking at the yearly distribution of crime, it appear that the data for 2015 is incomplete, the fact that we are still in 2015 underline this assumption :) Disregarding 2015, it appear that there has been an increase in crime since 2011, namely theft and drug abuse has gone up.</p>
+	<div id = "year" >
+	<script>
+	loadPlot("/data/year.csv");
+	</script>
+	</div>
+   <h2>Maps</h2>
+   <p>In the following maps of San Francisco, the police districts are shaded according to population density. The population of each district is displayed by hovering the curser over the district. </p>
+   <h2>Overview</h2>
+   <p>The first map, provide an overview of the concentration of crimes in police districts. It appear that Tenderloin has the largest concentration of crime. Looking at the area-graph of the district's, Southern and Northern has more crime incidents than Tenderloin, but as Tenderloin has a smaller area the crimes are closer together in this district.</p>
+   <div id="map1" style="width:800px; height:600px;">
+   <script>
+   cartodb.createVis('map1', 'https://nicolae-mariuta.cartodb.com/api/v2/viz/c00ed984-a0f5-11e5-857f-0ecd1babdde5/viz.json');
+   </script>
+   </div>
+	<h2>Hour of the Day</h2>
+	<p>Click any hour, to see the crimes committed at that time a day. Note that the night is quiet.</p>
+	<button type="button" onclick = "setHour(0)" >00</button>
+	<button type="button" onclick = "setHour(1)" >01</button>
+	<button type="button" onclick = "setHour(2)" >02</button>
+	<button type="button" onclick = "setHour(3)" >03</button>
+	<button type="button" onclick = "setHour(4)" >04</button>
+	<button type="button" onclick = "setHour(5)" >05</button>
+	<button type="button" onclick = "setHour(6)" >06</button>
+	<button type="button" onclick = "setHour(7)" >07</button>
+	<button type="button" onclick = "setHour(8)" >08</button>
+	<button type="button" onclick = "setHour(9)" >09</button>
+	<button type="button" onclick = "setHour(10)" >10</button>
+	<button type="button" onclick = "setHour(11)" >11</button>
+	<button type="button" onclick = "setHour(12)" >12</button>
+	<button type="button" onclick = "setHour(13)" >13</button>
+	<button type="button" onclick = "setHour(14)" >14</button>
+	<button type="button" onclick = "setHour(15)" >15</button>
+	<button type="button" onclick = "setHour(16)" >16</button>
+	<button type="button" onclick = "setHour(17)" >17</button>
+	<button type="button" onclick = "setHour(18)" >18</button>
+	<button type="button" onclick = "setHour(19)" >19</button>
+	<button type="button" onclick = "setHour(20)" >20</button>
+	<button type="button" onclick = "setHour(21)" >21</button>
+	<button type="button" onclick = "setHour(22)" >22</button>
+	<button type="button" onclick = "setHour(23)" >23</button>
+	
+	<p id = "toggleHours"> Hour: 00</p>
+	
+	<div id="map" style="width:800px; height:600px;">
+	<script>
+
+	var sublayer = null;
+
+
+
+	
+	var vis = cartodb.createVis('map', 'https://nicolae-mariuta.cartodb.com/api/v2/viz/0c06d04e-a100-11e5-8d77-0e3ff518bd15/viz.json')
+		  .done(function(vis, layers) {
+    // layer 0 is the base layer, layer 1 is cartodb layer
+    // when setInteraction is disabled featureOver is triggered
+    layers[1].setInteraction(true);
+    //layers[1].on('featureOver', function(e, latlng, pos, data, layerNumber) {
+    //  console.log(e, latlng, pos, data, layerNumber);
+    //
+	//});
+	 
+	sublayer = layers[1].getSubLayer(1);
+	
+ 
+
+    // you can get the native map to work with it
+    var map = vis.getNativeMap();
+
+    // now, perform any operations you need, e.g. assuming map is a L.Map object:
+    // map.setZoom(3);
+    // map.panTo([50.5, 30.5]);
+	});	
+	
+	var hours = ["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23"];
+	var count = 0;
+	
+	
+	function setHour(c) {
+		count = c;
+	}
+	
+	
+	
+	
+	window.setInterval(function() {
+		hour = hours[count%24];
+		count++;
+		document.getElementById("toggleHours").innerHTML = "Hour: " + hour;
+		sublayer.setSQL("SELECT * FROM   sf_crime where Extract(hour from sf_crime.dates) = '"+hour+"'");
+	
+		}, 2000);
+	
+	</script>
+	</div>
+	
+	
+	<h2>Category of Crime</h2>
+	<p>  Select any crime and see where in the city it has been committed. Note that drug related crime is centered around Tenderloin and theft is overrepresented in both Tenderloin and Northern. It is quite interesting that vehicles are stolen in all the districts and very few of them are recovered.</p>
+	
+	<select onchange = "SelectChanged(this)">
+		<option value="allCrimes">ALL</option>
+		<option value="suicide">SUICIDE</option>
+		<option value="bribery">BRIBERY</option>
+		<option value="familyOffenses">FAMILY OFFENSES</option>
+		<option value="extortion">EXTORTION</option>
+		<option value="sexOffensesNonForcible">SEX OFFENSES NON FORCIBLE</option>
+		<option value="gambling">GAMBLING</option>
+		<option value="runaway">RUNAWAY</option>
+		<option value="embezzlement">EMBEZZLEMENT</option>
+		<option value="liquorLaws">LIQUOR LAWS</option>
+		<option value="arson">ARSON</option>
+		<option value="kidnapping">KIDNAPPING</option>
+		<option value="secondaryCodes">SECONDARY CODES</option>
+		<option value="badChecks">BAD CHECKS</option>
+		<option value="loitering">LOITERING</option>
+		<option value="drivingUnderInfluence">DRIVING UNDER THE INFLUENCE</option>
+		<option value="weaponLaws">WEAPON LAWS</option>
+		<option value="disorderlyConduct">DISORDERLY CONDUCT</option>
+		<option value="sexForcible">SEX OFFENSES FORCIBLE</option>
+		<option value="drunkenness">DRUNKENNESS</option>
+		<option value="robbery">ROBBERY</option>
+		<option value="recoveredVehicle">RECOVERED VEHICLE</option>
+		<option value="forgery">FORGERY\/COUNTERFEITING</option>
+		<option value="fraud">FRAUD</option>
+		<option value="stolenProperty">STOLEN PROPERTY</option>
+		<option value="trespass">TRESPASS</option>
+		<option value="missingPerson">MISSING PERSON</option>
+		<option value="vandalism">VANDALISM</option>
+		<option value="suspicious">SUSPICIOUS OCC</option>
+		<option value="drugNarcotic">DRUG\/NARCOTIC</option>
+		<option value="noncriminal">NON-CRIMINAL</option>
+		<option value="warrants">WARRANTS</option>
+		<option value="assault">ASSAULT</option>
+		<option value="vehicleTheft">VEHICLE THEFT</option>
+		<option value="larcenyTheft">LARCENY\/THEFT</option>
+		<option value="otherOffenses">OTHER OFFENSES</option>
+		<option value="burglary">BURGLARY</option>
+	</select>
+	
+	
+	
+	<div id="map2" style="width:800px; height:600px;">
+	<script>
+// get the viz.json url from the CartoDB Editor
+// - click on visualize
+// - create new visualization
+// - make visualization public
+// - click on publish
+// - go to API tab
+
+	var sublayer = null;
+
+
+	var vis2 = cartodb.createVis('map2', 'https://nicolae-mariuta.cartodb.com/api/v2/viz/fc920582-a101-11e5-991c-0e31c9be1b51/viz.json')
+		  .done(function(vis2, layers) {
+    // layer 0 is the base layer, layer 1 is cartodb layer
+    // when setInteraction is disabled featureOver is triggered
+    layers[1].setInteraction(true);
+    //layers[1].on('featureOver', function(e, latlng, pos, data, layerNumber) {
+    //  console.log(e, latlng, pos, data, layerNumber);
+    //
+	//});
+	 
+	sublayer2 = layers[1].getSubLayer(1);
+	
+ 
+
+    // you can get the native map to work with it
+    var map2 = vis2.getNativeMap();
+
+    // now, perform any operations you need, e.g. assuming map is a L.Map object:
+    // map.setZoom(3);
+    // map.panTo([50.5, 30.5]);
+	});	
+	
+	
+	
+	function SelectChanged(option)  {  
+    if (option.value == "allCrimes")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime");
+        }
+		
+	if (option.value == "suicide")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'SUICIDE'");
+        }
+
+	if (option.value == "bribery")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'BRIBERY'");
+        }
+		
+	if (option.value == "familyOffenses")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'FAMILY OFFENSES'");
+        }
+		
+	if (option.value == "extortion")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'EXTORTION'");
+        }
+		
+	if (option.value == "sexOffensesNonForcible")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'SEX OFFENSES NON FORCIBLE'");
+        }
+	if (option.value == "gambling")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'GAMBLING'");
+        }
+	if (option.value == "runaway")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'RUNAWAY'");
+        }
+	if (option.value == "embezzlement")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'EMBEZZLEMENT'");
+        }
+	if (option.value == "liquorLaws")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'LIQUOR LAWS'");
+        }	
+	if (option.value == "arson")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'ARSON'");
+        }	
+	if (option.value == "kidnapping")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'KIDNAPPING'");
+        }	
+		if (option.value == "secondaryCodes")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'SECONDARY CODES'");
+        }
+	if (option.value == "badChecks")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'BAD CHECKS'");
+        }	
+	if (option.value == "loitering")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'LOITERING'");
+        }	
+	if (option.value == "drivingUnderInfluence")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'DRIVING UNDER THE INFLUENCE'");
+        }	
+	if (option.value == "weaponLaws")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'WEAPON LAWS'");
+        }
+	if (option.value == "disorderlyConduct")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'DISORDERLY CONDUCT'");
+        }	
+	if (option.value == "sexForcible")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'SEX OFFENSES FORCIBLE'");
+        }	
+	if (option.value == "drunkenness")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'DRUNKENNESS'");
+        }	
+		
+	if (option.value == "robbery")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'ROBBERY'");
+        }	
+	if (option.value == "recoveredVehicle")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'RECOVERED VEHICLE'");
+        }	
+	if (option.value == "forgery")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'FORGERY\/COUNTERFEITING'");
+        }
+	if (option.value == "fraud")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'FRAUD'");
+        }	
+	if (option.value == "stolenProperty")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'STOLEN PROPERTY'");
+        }	
+	if (option.value == "trespass")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'TRESPASS'");
+        }
+	if (option.value == "missingPerson")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'MISSING PERSON'");
+        }	
+	if (option.value == "vandalism")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'VANDALISM'");
+        }	
+	if (option.value == "suspicious")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'SUSPICIOUS OCC'");
+        }
+	if (option.value == "drugNarcotic")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'DRUG\/NARCOTIC'");
+        }	
+	if (option.value == "noncriminal")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'NON-CRIMINAL'");
+        }	
+	if (option.value == "warrants")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'WARRANTS'");
+        }
+	if (option.value == "assault")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'ASSAULT'");
+        }	
+	if (option.value == "vehicleTheft")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'VEHICLE THEFT'");
+        }	
+	if (option.value == "larcenyTheft")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'LARCENY\/THEFT'");
+        }
+	if (option.value == "otherOffenses")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'OTHER OFFENSES'");
+        }	
+	if (option.value == "burglary")  {
+		sublayer2.setSQL("SELECT * FROM sf_crime where sf_crime.category = 'BURGLARY'");
+        }	
+	
+     
+		}
+	</script>
+	</div>
+
+	<p>Reff:</p>
+	<p>The maps where generated with <a href="https://cartodb.com/">https://cartodb.com/</a> and the area-graphs where inspired by: <a href="http://www.delimited.io/blog/2014/3/3/creating-multi-series-charts-in-d3-lines-bars-area-and-streamgraphs">www.delimited.io</a></p>
+		 
+	</body>
+</html>

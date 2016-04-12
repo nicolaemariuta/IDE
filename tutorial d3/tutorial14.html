@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	 
+	<script>
+
+		var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",760)
+					.attr("height",700);
+	
+		d3.json("map.geojson", function(data) {
+		
+			var group = canvas.selectAll("g")
+				.data(data.features)
+				.enter()
+				.append("g")
+				
+			// d3 has different types of projections
+			var projection = d3.geo.mercator().scale(7300).translate([0,1980]);
+			var path = d3.geo.path().projection(projection)
+		
+			var areas = group.append("path")
+				.attr("d", path)
+				.attr("class","area")
+				.attr("fill","steelblue")
+				
+			group.append("text")
+				.attr("x", function(d) { return path.centroid(d)[0]; })
+				.attr("y", function(d) { return path.centroid(d)[1]; })
+				.attr("text-anchor", "middle")
+				.text(function (d) { return d.properties.LNMAMN; });		
+			
+				
+		
+		
+		});
+	
+	
+	
+		
+	 </script>
+	 
+	 
+	 </body>
+</html>

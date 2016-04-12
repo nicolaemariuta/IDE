@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	 
+	<script>
+	
+		var data = [20, 40, 50, 60];
+	
+		data.shift();
+		data.sort(d3.descending);
+							
+		d3.min(data);
+		d3.max(data);
+		d3.extent(data);
+		d3.sum(data);
+		d3.mean(data);
+		d3.median(data);
+		d3.shuffle(data);
+	 
+	 </script>
+	 
+	 
+	 </body>
+</html>

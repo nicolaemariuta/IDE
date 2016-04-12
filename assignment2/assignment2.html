@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+	rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;   
+      }
+       
+  
+#tooltip {
+  position: absolute;
+  /*width: 200px;*/
+  height: auto;
+  padding: 2px;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 11px;
+/*  line-height: 20px;*/
+}
+      .chart {
+      background: #fff;
+      margin: 5px;
+      }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
+      text.axis-workweek {
+        fill: #000;
+      }
+
+      text.axis-worktime {
+        fill: #000;
+      }
+        .axis path {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-family: Lato;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+ <h1 id="test">
+         <p id="title"> Assignment 2 </p>
+      </h1>
+      <p>       Carp Cristian Gabriel, slp670</p>
+      <p>      Nicolae Mariuta, rqt629</p>
+	  <p>		Rudd, Lou Nørgaard, vkr358</p>
+	  
+	  <h2> <u>Older Assignments</u></h2>
+	  <h3> <a href="assignment1.html"> Assignment 1<a><h3>
+	  <h3> <a href="http://ide.netne.net/"> Assignment 1(Lou)<a><h3>
+      <h2 > D3 visualizations  (point 1)</h2>
+	  <p> This was built from the ground up and it was really bothersome to do </p>
+    <div class="container">
+
+        <div class="jumbotron">
+
+            <svg id="visualisation" width="1000" height="500"></svg>
+            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script>
+                //http://code.tutsplus.com/tutorials/building-a-multi-line-chart-using-d3js--cms-22935
+                function InitChart() {
+                    // Sibiu 1918 blank   1991-1994 missing data
+                    //YEAR,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,D-J-F,M-A-M,J-J-A,S-O-N,metANN
+                    d3.csv("Sibiu.csv", function(e,d) {
+                        var dataset = d;
+
+                        var vis = d3.select("#visualisation"),
+                            WIDTH = 1000,
+                            HEIGHT = 500,
+                            MARGINS = {
+                                top: 20,
+                                right: 20,
+                                bottom: 20,
+                                left: 50},
+                            //.domain([d3.min(dataset, function(d) { return d[1]; }), d3.max(dataset, function(d) { return d[1]; })])
+                            xScale = d3.scale.linear()
+                            .range([MARGINS.left, WIDTH - MARGINS.right])
+                            .domain([d3.min(dataset, function(d){ return +d.YEAR }) , d3.max(dataset, function(d){ return +d.YEAR })]),
+
+                            yScale = d3.scale.linear()
+                            .range([HEIGHT - MARGINS.top, MARGINS.bottom])
+                            .domain([d3.min(dataset, function(d){ return +d.JAN }) , d3.max(dataset, function(d){ return +d.AUG })]),
+
+                            
+                            xAxis = d3.svg.axis()
+                            .scale(xScale),
+                            yAxis = d3.svg.axis()
+                            .scale(yScale)
+                            .orient("left");
+                    
+                    vis.append("svg:g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
+                        .call(xAxis);
+                    vis.append("svg:g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + (MARGINS.left) + ",0)")
+                        .call(yAxis);
+
+                    var lineGen0 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.mean([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC]));
+                        })
+                        .interpolate("monotone");
+
+                    var lineGen1 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.max([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC]));
+                        })
+                        .interpolate("monotone");
+                    
+                    var lineGen2 = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(+d.YEAR);
+                        })
+                        .y(function(d) {
+                            return yScale(d3.min([+d.JAN,+d.FEB,+d.MAR,+d.APR,+d.MAY,+d.JUN,+d.JUL,+d.AUG,+d.SEP,+d.OCT,+d.NOV,+d.DEC])); 
+                        })
+                        .interpolate("monotone");
+                    
+                    vis.append('svg:path')
+                        .attr('d', lineGen0(dataset))
+                        .attr('stroke', 'purple')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    vis.append('svg:path')
+                        .attr('d', lineGen1(dataset))
+                        .attr('stroke', 'red')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+                    vis.append('svg:path')
+                        .attr('d', lineGen2(dataset))
+                        .attr('stroke', 'blue')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none');
+
+                    })
+                }
+
+                InitChart();
+
+
+            </script>
+        </div>
+    </div>
+
+	
+	<h3><a href="assig2point1Vis2.html"> External Copy Paste and Swearing from different source</a></h3>
+	<p> This was creating using <a href="http://bl.ocks.org/tjdecke/5558084">Day / Hour Heatmap </a>,
+	<a href="https://www.crowdanalytix.com/communityBlog/10-steps-to-create-calendar-view-heatmap-in-d3-js">10 
+	Steps to create calendar view heatmap in d3.js</a>,
+	<a href="http://bl.ocks.org/mbostock/3202354">Heatmap (2D Histogram, CSV)</a>,
+	and mainly <a href="http://bl.ocks.org/tjdecke/5558084">Day / Hour Heatmap</a> as sources of inspiration.
+	Also with a bit of luck we managed to add the interactivity(hover text) using 
+	<a href="http://jsbin.com/vaninik/edit?html,output">the code </a>provided by 
+	<a href="rfonseca@di.ku.dk">Fonseca, Rasmus</a> from the class on tuesday, 24th november
+	</p>
+</body>
+
+</html>

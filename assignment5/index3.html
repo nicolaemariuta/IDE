@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My three.js webgl - geometries</title>
+        <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+	  <script src="http://d3js.org/d3.v3.js"></script>
+      <script src="js/build/three.min.js"></script>
+	  <script src="js/OrbitControls.js"></script>
+    <script>
+      var container
+      var camera, scene, renderer;
+	  var atoms;
+	  var atomObjects = [];
+	  var change = 0;
+	  
+	  //used for click event 
+	  var raycaster = new THREE.Raycaster();
+	  var mouse = new THREE.Vector2();
+	  
+	  
+
+      function init() {
+
+        container = document.createElement( 'div' );
+        document.body.appendChild( container );
+
+        // create a scene, that will hold all our elements such as objects, cameras and lights.
+        scene = new THREE.Scene();
+		var WIDTH = window.innerWidth,
+          HEIGHT = window.innerHeight;
+		
+        // create and setup a renderer
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setClearColor(new THREE.Color(0x202020 , 1.0));
+        renderer.setSize( window.innerWidth, window.innerHeight );
+	
+		//select the atoms I want to display
+		var atomsCategory = [];
+		for (i = 0; i < atoms.length; i++) { 
+			atom = atoms[i];
+			atomsCategory.push(atom);
+		}
+		
+		
+		
+
+			// Create a camera, zoom it out from the model a bit, and add it to the scene.
+			camera = new THREE.PerspectiveCamera(45, WIDTH / HEIGHT, 0.1, 20000);
+			
+			
+			//camera in middle of atoms
+			var sumx = 0;
+			var sumy = 0;
+			var sumz = 0;
+			
+			
+			for (i = 0; i < atomsCategory.length; i++){
+				atom = atomsCategory[i];
+				sumx = sumx + parseFloat(atom.xcoordinate);
+				sumy = sumy + parseFloat(atom.ycoordinate);
+				sumz = sumz + parseFloat(atom.zcoordinate);
+			}
+		
+			sumx = sumx/atomsCategory.length;
+			sumy = sumy/atomsCategory.length;
+			sumz = sumz/atomsCategory.length;
+
+			
+			
+			
+			
+			camera.position.set(sumx,sumy,sumz);
+			scene.add(camera);
+		
+			// Create an event listener that resizes the renderer with the browser window.
+			window.addEventListener('resize', function() {
+			var WIDTH = window.innerWidth,
+				HEIGHT = window.innerHeight;
+			renderer.setSize(WIDTH, HEIGHT);
+			camera.aspect = WIDTH / HEIGHT;
+			camera.updateProjectionMatrix();
+			});
+		
+			
+	  // setup a light source     
+        var spotLight = new THREE.AmbientLight( 0xffffff);
+          scene.add( spotLight );
+
+        
+		
+		
+		
+		//function to draw the atoms
+		addMoleculeToScene(atomsCategory, scene);
+		
+
+			
+		
+
+        // render scene
+        camera.lookAt( sumx,sumy ,sumz);
+        renderer.render( scene, camera );       
+        container.appendChild( renderer.domElement );
+		
+		
+		
+		
+		
+      // Add OrbitControls so that we can pan around with the mouse.
+      controls = new THREE.OrbitControls(camera, renderer.domElement);
+	  
+	 
+	//  camera.lookAt( atomObjects[70].position);
+	  
+		//controls.target.set( new THREE.Vector3(atomObjects[5].position));
+	  
+		//event listeners
+		document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+	
+		
+      }
+	  
+	  
+	  
+	  
+	  
+      window.onload = loadData;  
+
+		
+	function loadData(){
+		
+		//use d3 to load atoms as objects from the file
+		 d3.csv("atoms.csv", function(e,d) {
+			atoms = d;
+			init();
+			animate();
+		});	
+		
+		}
+
+
+	  // Renders the scene and updates the render as needed.
+    function animate() {
+
+      // Read more about requestAnimationFrame at http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+      requestAnimationFrame(animate);
+      
+      // Render the scene.
+		
+//	  if(change == 0)
+//	  {
+//		camera.lookAt( atomObjects[50].position);
+//		change = 1;
+//	  
+//	  }
+	  
+	  renderer.render(scene, camera);
+      controls.update();
+	  
+	}
+	
+	function addMoleculeToScene(atoms, scene){
+	
+	
+		//choose sphere diameter and color for each type of atom
+		for (i = 0; i < atoms.length; i++) { 
+		
+		var atom = atoms[i];
+		
+		var atomRadius = 1;
+		var atomColor = 0xFF00CC;
+		var sizeScale = 0.001;
+		
+		
+		
+		
+		if(atom.element == 'N'){
+			atomRadius = 65*sizeScale;
+			atomColor = 'blue';
+			}
+		if(atom.element == 'C'){
+			atomRadius = 70*sizeScale;
+			atomColor = 'gray';
+			}
+		if(atom.element == 'O'){
+			atomRadius =60*sizeScale;
+			atomColor = 'red';
+			}
+		if(atom.element == 'S'){
+			atomRadius = 100*sizeScale;
+			atomColor = 'yellow';
+			}
+		if(atom.element == 'H'){
+			atomRadius = 25*sizeScale;
+			atomColor = 'white';
+			}
+			
+			
+			
+		if(atomColor == 0xFF00CC)	
+		{
+			console.log(atom);
+		}
+		
+		
+		 // create a sphere
+        var sphereGeometry = new THREE.SphereGeometry(atomRadius, 9, 6);
+        var sphereMaterial = new THREE.MeshLambertMaterial({color: atomColor});
+        var sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+        sphere.position.set(atom.xcoordinate,atom.ycoordinate,atom.zcoordinate);
+		
+		
+	//	sphere.addEventListener("mousedown", function updateCamera() {
+	//			console.log('click');
+	//			camera.position.set(atom.xcoordinate+5,atom.ycoordinate+5,atom.zcoordinate+5);    } );
+		
+		// add the sphere to the scene
+		
+		atomObjects.push(sphere);
+        scene.add(sphere); 
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		//create connections to nearby atoms
+		for (j = i; j < atoms.length; j++){
+		atom2 = atoms[j];
+		
+		distance = (atom.xcoordinate-atom2.xcoordinate)*(atom.xcoordinate-atom2.xcoordinate) + (atom.ycoordinate-atom2.ycoordinate)*(atom.ycoordinate-atom2.ycoordinate) + (atom.zcoordinate-atom2.zcoordinate)*(atom.zcoordinate-atom2.zcoordinate)
+		distance = Math.sqrt(distance);
+		
+		
+		
+		if(distance < 1.90){
+		
+			var point1 = new THREE.Vector3(atom.xcoordinate,atom.ycoordinate,atom.zcoordinate);
+			var point2 = new THREE.Vector3(atom2.xcoordinate,atom2.ycoordinate,atom2.zcoordinate);
+			
+			
+			console.log('connection');
+			
+			//calculate cylinder position
+			var cylinderGeometry = new THREE.CylinderGeometry(0.005, 0.005, distance, 5);
+			var cylinderMaterial = new THREE.MeshBasicMaterial({color: '#ffffff'});
+			var cylinder = new THREE.Mesh(cylinderGeometry, cylinderMaterial);
+			
+			
+			
+			var midx = parseFloat(atom.xcoordinate) + parseFloat(atom2.xcoordinate);
+			var midy = parseFloat(atom.ycoordinate) + parseFloat(atom2.ycoordinate);
+			var midz = parseFloat(atom.zcoordinate) + parseFloat(atom2.zcoordinate); 
+			
+			midx = midx/2;
+			midy = midy/2;
+			midz = midz/2;
+			
+			
+			var center = new THREE.Vector3(midx,midy,midz);
+	
+			
+		
+	//		//calculate cylinder angle
+	//		//	var focalPoint = new THREE.Vector3(cylinder.position.x+atom.xcoordinate,cylinder.position.y+atom.ycoordinate,cylinder.position.z+atom.zcoordinate);
+	//		//all that remains is setting the up vector (if needed) and use lookAt
+	//		//	cylinder.up = new THREE.Vector3(midx,midy,midz);//Z axis up
+	//		//	cylinder.lookAt(focalPoint); 
+	//	
+	//					//create a point to lookAt
+	//		var focalPoint = new THREE.Vector3(
+	//			point2.x,
+	//			point2.y,
+	//			point2.z
+	//		);
+	//	
+	//		
+	//		cylinder.up = new THREE.Vector3(1,0,0);
+	//		cylinder.lookAt(point1);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+//			//calculate cylinder angle
+//			var x1 = parseFloat(atom.xcoordinate);
+//			var x2 = parseFloat(atom2.xcoordinate);
+//			var y1 = parseFloat(atom.ycoordinate);
+//			var y2 = parseFloat(atom2.ycoordinate);
+//			var z1 = parseFloat(atom.zcoordinate);
+//			var z2 = parseFloat(atom2.zcoordinate);
+//			
+//			var angle1 = -Math.atan(Math.abs(y2-y1)/Math.abs(x2-x1));
+//			angle1 = angle1*180/Math.PI;
+//			
+//			var angle2 = -Math.atan(Math.abs(z2-z1)/Math.abs(x2-x1));
+//			angle2 = angle2*180/Math.PI;
+//			
+//			var angle3 = -Math.atan((Math.abs(z2-z1)/Math.abs(y2-y1));
+//			angle3 = angle3*180/Math.PI;
+//			
+			
+	//		angle = 180*180/Math.PI;
+			
+	//	cylinder.rotation.x = angle;
+		//	cylinder.rotation.y = angle;
+	//		cylinder.rotation.z = angle;
+	
+	
+			var HALF_PI = Math.PI/2;
+			var orientation = new THREE.Matrix4();
+			var offsetRotation = new THREE.Matrix4();
+			var offsetPosition = new THREE.Matrix4();
+			orientation.lookAt(point1,point2,new THREE.Vector3(0,1,0));
+			offsetRotation.makeRotationX(HALF_PI);
+			orientation.multiply(offsetRotation);
+			cylinder.applyMatrix(orientation);
+	
+			cylinder.position.set(midx,midy,midz);
+			
+			scene.add(cylinder); 
+			
+
+			
+		}
+		
+		}
+		
+		console.log(i);
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	// add mouseListener
+	function onDocumentMouseDown( event ) {
+	
+	console.log("click event");
+
+    event.preventDefault();
+
+    mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
+    mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
+
+    raycaster.setFromCamera( mouse, camera );
+
+    var intersects = raycaster.intersectObjects( atomObjects ); 
+
+    if ( intersects.length > 0 ) {
+	
+//		console.log(intersects[0].object.position);
+//	//	camera.lookAt(intersects[0].object.position);
+//	//	renderer.render( scene, camera );       
+//		controls.target.set( intersects[0].object.position.x, intersects[0].object.position.y, intersects[0].object.position.z );
+//		controls.update();
+
+    }
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	  
+    </script>
+  </body>
+</html>

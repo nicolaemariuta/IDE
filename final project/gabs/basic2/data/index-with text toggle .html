@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship Voyage</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+
+        .tm {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .webgl-error {
+            font: 15px/30px monospace;
+            text-align: center;
+            color: #fff;
+            margin: 50px;
+        }
+
+        .webgl-error a {
+            color: #fff;
+        }
+
+        #natmenu {
+            position: absolute;
+            right: 0px;
+            top: 10px;
+            width: 100px;
+            padding: 5px;
+            font-family:'RopaSans';
+            font-size: 20px;
+            font-weight: bold;
+            text-align: left;
+            z-index: 1;
+            position: fixed;
+
+            -moz-user-select: -moz-none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+
+        }
+
+        .dutch {
+            color: #FFA500
+        }
+
+        .british {
+            color: #0000FF
+        }
+
+        .french {
+            color: #008000
+        }
+
+        .spanish {
+            color: #FF0000
+        }
+
+    #hudHeader {
+    position:               absolute;
+/*    width:                    95%; */
+    left:                   30px;
+    top:                    20px;
+    color:                  #ffffff;
+    font-family:            'RopaSans';
+}
+#hudHeader h1 {
+    font-size:              32px;
+    font-family:            'RopaSans';
+    margin:                 0 0 0px 0;
+    display:                block;
+    float:                  left;
+}
+#hudHeader h1 .subtitle {
+    font-size: 14px;
+    color: #ddd;
+    
+}
+.overlayCountries {
+    z-index: 10001; /* selected country has z-index:10000*/
+}
+#infobox {
+    position:               absolute;
+/*    width:                    95%; */
+    left:                   150px;
+    top:                    150px;
+    color:                  #ffffff;
+    font-family:            'RopaSans';
+    font-size: 16px;
+    display:none;
+    background: rgba(0,0,0,0.4);
+    margin:                 0 0 0px 0;
+    color: #ddd;
+}
+#infobox .subtitle {
+    margin-top: 10px;
+    margin-right: 300px;
+    
+}
+
+    </style>
+</head>
+<bodyonLoad="resettoggle()">
+        <!-- All other hud can go here-->
+        <div id="hudHeader" class="overlayCountries noPointer">
+            <h1 class="noPointer">Ship Voyage
+                <div class="subtitle">Inspired by: <a href="http://armsglobe.chromeexperiments.com/">Arms globe.</a></div>
+                <div class="subtitle">Ship voyages of the British, Spanish, French and Dutch empires, from 1750 to 1850. </div>
+                <div class="subtitle">Distinct voyages where derived from shiplogs, found att:</div>
+                <div class="subtitle"><a href="https://www.kaggle.com">kaggle.com</a></div>
+                <div class="subtitle"><a onclick="toggle_visibility('infobox');">Click here to view or hidde informations.</a></div>
+            </h1>
+        </div>
+
+        <div id="infobox" class="overlayCountries noPointer">
+                <h2>Navigation</h2>
+                <div class="subtitle">
+                    Navigate the globe, with mouse controle.
+                </div>
+                <div class="subtitle">
+                    Select a year to display with the radio buttom below or start the animation to se the years pass.
+                </div>
+                <div class="subtitle">
+                    Select dispayed nationalities in the checkbox in the upper right corner.
+                </div>
+                <h2>Content</h2>
+                <div class="subtitle">
+                    Each colored line repecent a ship route, the color represent the nationality of the ship making the journy and the amount of movement on the line represent the popularity of the route and the direction of the voyages. Moste routes are used in both directions, but some routs are onedirectional.
+                </div>
+        </div>
+ 
+<div id="natmenu">
+    <div class="british"><input type="checkbox" name="british" value="British"
+                                onchange='clickCheckBox(this.value,this.checked);' checked>British<br></div>
+    <div class="spanish"><input type="checkbox" name="spanish" value="Spanish"
+                                onchange='clickCheckBox(this.value,this.checked);' checked>Spanish<br></div>
+    <div class="french"><input type="checkbox" name="french" value="French"
+                               onchange='clickCheckBox(this.value,this.checked);' checked>French<br></div>
+    <div class="dutch"><input type="checkbox" name="dutch" value="Dutch"
+                              onchange='clickCheckBox(this.value,this.checked);' checked>Dutch<br></div>
+</div>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/PathControls.js"></script>
+<script src="js/earth.js"></script>
+
+</body>
+<script type="text/javascript">
+<!--
+function resettoggle() {
+var e = document.getElementById('infobox');
+e.style.display = 'none';
+}
+
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'none')
+e.style.display = 'block';
+else
+e.style.display = 'none';
+}
+//-->
+</script>
+</html>

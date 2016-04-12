@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<title>D3 tutorial</title>
+   </head>
+   
+   
+     <body>
+	<script>
+	
+		var width = 500;
+		var height = 500;
+		var padding = 50;
+	
+	
+	
+	
+	
+
+		d3.csv("crimeSF2.csv", function(data) {
+		
+				var mapDays = data.map(function (d) { return parseInt(d.Hour);});
+				console.log(mapDays);
+			
+			
+			
+				var histogram = d3.layout.histogram()
+					.bins(24)
+					(mapDays);
+			
+				var y = d3.scale.linear()	
+					.domain([0,d3.max(histogram.map( function(i) { return i.length; }  ))])
+					.range([0,height]);
+						
+				
+						
+				var x = d3.scale.linear()	
+					.domain([0,d3.max(mapDays)])
+					.range([0,width]);			
+			
+
+				
+				var xAxis = d3.svg.axis()
+					.scale(x)
+					.orient("bottom");
+
+				var canvas = d3.select("body")
+					.append("svg")
+					.attr("width",width)
+					.attr("height",height + padding)
+					.append("g")
+						.attr("transform", "translate(10,0)");	
+					
+					
+				var group = canvas.append("g")	
+							.attr("transform", "translate(0,"+ height +")")
+							.call(xAxis);
+							
+				var bars = canvas.selectAll(".bar")
+						.data(histogram)
+						.enter()
+						.append("g");
+
+						//	.attr("class","node")
+						//	.attr("transform", function (d) { return "translate("+d.y+","+d.x+")"}  )						
+					
+				bars.append("rect")
+					.attr("x", function(d) { return d.x; })
+					.attr("y", function(d) { return 500 - d.y; })	
+					.attr("width", function(d) { return d.dx; })	
+					.attr("height", function(d) { return d.y; })
+					.attr("fill", "steelblue");
+		
+		});
+	
+	
+		
+	 </script>
+	 
+	 <script>
+
+var causes = ["wounds", "other", "disease"];
+
+var parseDate = d3.time.format("%m/%Y").parse;
+
+var margin = {top: 20, right: 50, bottom: 30, left: 20},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width]);
+
+var y = d3.scale.linear()
+    .rangeRound([height, 0]);
+
+var z = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.time.format("%b"));
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("right");
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.tsv("crimea.tsv", type, function(error, crimea) {
+  if (error) throw error;
+
+  var layers = d3.layout.stack()(causes.map(function(c) {
+    return crimea.map(function(d) {
+      return {x: d.date, y: d[c]};
+    });
+  }));
+
+  x.domain(layers[0].map(function(d) { return d.x; }));
+  y.domain([0, d3.max(layers[layers.length - 1], function(d) { return d.y0 + d.y; })]).nice();
+
+  var layer = svg.selectAll(".layer")
+      .data(layers)
+    .enter().append("g")
+      .attr("class", "layer")
+      .style("fill", function(d, i) { return z(i); });
+
+  layer.selectAll("rect")
+      .data(function(d) { return d; })
+    .enter().append("rect")
+      .attr("x", function(d) { return x(d.x); })
+      .attr("y", function(d) { return y(d.y + d.y0); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y + d.y0); })
+      .attr("width", x.rangeBand() - 1);
+
+  svg.append("g")
+      .attr("class", "axis axis--x")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "axis axis--y")
+      .attr("transform", "translate(" + width + ",0)")
+      .call(yAxis);
+});
+
+function type(d) {
+  d.date = parseDate(d.date);
+  causes.forEach(function(c) { d[c] = +d[c]; });
+  return d;
+}
+
+</script>
+	 
+	 
+	 
+	 
+	 <!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 </body>
+</html>
